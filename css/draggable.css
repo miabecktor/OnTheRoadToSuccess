@@ -1,0 +1,240 @@
+.draggable {
+      width: 90px;
+      height: 90px;
+      padding: 0.5em;
+      float: left;
+      margin: 0 10px 10px 0;
+      background: none; /* older browsers */
+      background: none; /* newer browsers */
+      padding: 5px;
+      cursor: move;
+      visibility: visible;
+      --dropshadow: 5px 5px 5px gray;
+      --border-radius: 5px;
+      --border: double red;
+  }
+
+
+  .sidebar{
+    background: rgb(230, 230, 230);
+    position: fixed;
+    width: 250px;
+    height: 4000px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: cursive;
+    z-index: 100;
+    cursor: move;
+  }
+
+
+
+  #draggable{
+      cursor: n-resize;
+      margin-bottom:20px;
+      border-radius: var(--border-radius);
+      border: var(--border);
+  }
+
+  #draggable1{
+    background: none;
+    border-radius: var(--border-radius);
+    border: var(--border);
+  }
+
+  #draggable2{
+    background: none;
+    width: 0px;
+    border-radius: var(--border-radius);
+    border: var(--border);
+  }
+
+
+  #myVideo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index:1;
+  }
+
+#myVideo:hover{
+    width:270px;
+    height:480px;
+  }
+
+  #myVideo2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index:1;
+  }
+
+#myVideo2:hover{
+    width:270px;
+    height:480px;
+  }
+
+
+  #google1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  #google2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  #samtale{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-family: monospace;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    cursor: move;
+    overflow-y: scroll;
+    resize: none;
+    z-index: 10;
+  }
+
+  #samtale:hover{
+      width:400px;
+      height:700px;
+      border-radius: var(--border-radius);
+      border: var(--border);
+    }
+
+  #myVideo2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index:1;
+  }
+
+  #swirly{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 0;
+  }
+
+  #ithelps{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 6;
+  }
+
+  #mapping{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 2;
+  }
+
+  #spørgsmål6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 2;
+  }
+
+  #spørgsmål2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 5;
+  }
+
+  #spørgsmål7{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 1;
+  }
+
+  #snurreVideo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 1;
+  }
+
+  #spørgsmål{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    cursor: move;
+    overflow-y: scroll;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+    z-index: 9;
+  }
+  }
+
+  body,
+  html {
+    padding: 0;
+    margin: 0;
+    margin-left: 25%;
+  }
+
+  body {
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 4000px;
+    height:4000px;
+  }

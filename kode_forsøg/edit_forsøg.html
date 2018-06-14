@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script type="text/javascript">
+	function saveEdits() {
+
+	var editElem = document.getElementById("edit");
+
+	var userVersion = editElem.innerHTML;
+
+	localStorage.userEdits = userVersion;
+
+	document.getElementById("update").innerHTML="Edits saved!";
+	}
+
+	function checkEdits(){
+
+		if(localStorage.userEdits!=null)
+		document.getElementById("edit").innerHTML = localStorage.userEdits;
+	}
+
+</script>
+</head>
+<body onload="checkEdits()">
+	<div id="edit" contenteditable="true">
+		Mia
+		Og i forhold til, hvad der er til rådighed? 
+		Tine
+		Og der kan også være, hvis man nu skulle være meget meget uartig, en slags forkælelse. I forhold til hvad det vil sige, som som.. Men jeg synes ikke det er generelt, men der kan godt være nogle lommer eller eksempler på at der er nogen, der tænker ej nej nej, det jeg skal kun lave det her lille stykke herhenne af. Der er meget andet. Og så kan man jo, så er der jo også nogen der går ud og underviser. Jeppe Pendrum, der tog afgang her for et par år siden nu, på viskom, han laver, han er freelancer, og har også sin virksomhed, men så underviser han også. Tingene kan jo skrues sammen på mange måder. 
+		Mia
+		Man kan lave lidt ved siden af hinanden også. Og det er selvfølgelig også vigtigt at huske, at der ikke er nogen der udelukker det andet. 
+		Tine
+		Nej ikke nødvendigvis. Og det kan også være man starter et sted og så er man der, og så ender man herover og tænker, her bliver jeg et stykke tid for her er fedt. Det spiller det her. 
+		Mia 
+		Jaer, ja.. Du siger mange gode ting. 
+		Tine
+		Det var godt. 
+		Mia
+		Øhm.. Jeg havde bare en, et par sidste ting. Øhmm.. det var sådan mere, måske mere i forhold til designbranchen. Jeg tænker sådan, når man som designer. Om du tror det er vigtigt at man har en eller anden bestemt, sådan.. om der er nogle krav til ens personlighed, at man er sådan meget selvsikker eller åh.. eller at man er karakteristisk for at man ligesom kan stråle igennem og blive anerkendt. Altså at man har en eller anden særlig.. Er det nogen du sådan oplever.. 
+		Tine
+		Altså vi kan jo godt, tror jeg, blive enige om at vi lever jo i en verden hvor man indimellem skal råbe meget højt for overhovedet blive hørt. Øh, og det er jo klart at hvis du skal ud og søge et arbejde, så skal du jo, du skal jo være i stand til at og sælge dig selv så meget over på den anden side af bordet at vedkomne eller de mennekser du sidder til samtale med ansætter dig. Men når det er sagt, så vil jeg sige at selvsikkerhed og selvstændighed er jo to ting som ikke udelukker hinanden og når du skal ud og arbejde, så skal du kunne agere selvstændigt, indenfor de der rammer du får udstukket. Og det vil sige, der, der vil jeg så parre selvsikkerheden med nysgerrighed, øhm.. hvad skal vi sige.. kvalitetssans, timing og forståelse af hvad det er for en opgave du er blevet sat til at løse. Og ikke nødvendigvis at holde på din egen ret, hvis du kan forstå hvad jeg mener. 
+		Mia
+		ja.. jeg tror det er fordi jeg tænker meget over, sådan, altså de sådan grafiske designere , de store, anerkendte grafisk designere, de er som regel meget.. men de er måske også bare noget man bliver anerkendt, ligesom får den her udståling af at man er mega selvsikker, og den her lidt specielle karakter, som gør at man er noget særlig. 
+		Tine
+		Nogen har den der.. Og nogen har også rigtig meget tendens til som en eller tarzan, og slå sig på brystet og råbe jeg er den største, elefant i buret. Og det bliver man jo ikke en bedre designer af. Og nogen gange.. Og så er der nogen der råber højere, end hvad de egentlig er berrettiget til, kan man sige det på den måde.. 
+		Mia
+		Ja, ja.. Det er også, for at nå til toppen, er det vel også mange forskellige ting der spiller ind. Som held og.. 
+		Tine
+		Jo, og timing. Sans for at ramme. Held er jo altså ikke helt ueffen… 
+		Mia
+		Altså at man møde de rigtige mennekser .. 
+		Tine 
+		På det rigtige tidspunkt. Men også at du er lydhør overfor de muligheder der dukker op. 
+		Mia
+		Ja.
+		Tine
+		Øhm.. og ikke afviser dem på forhånd. 
+		Mia
+		Jaer. Så mere åben egentlig. 
+		Tine
+		Ja, nysgerrig. 
+		Mia
+		Nysgerrig. jaer. Nå men som det sidste, øhm.. Bare hvis.. nu har du jo sagt mange gode ting, men hvis du ligesom skulle pointere et godt råd, som jeg kunne tage med videre, men den sådan, det sted jeg er lige nu, hvad kunne det så være? 
+		Tine
+		Jeg tror jeg vil sige til dig at jeg synes at det er meget meget værdifuldt og være nysgerrig på hvad det er livet, det der grafiker liv, byder på af muligheder, og gå ud og prøv dem af. Du skal ikke være bange. For at fejle eller ikke at slå til, eller et eller andet, fordi det er alt sammen erfaringer som du kan bruge til noget på et tidspunkt.
+	</div>
+
+
+
+</body>
+</html>
+
+<input type="button" value="save my edits" onclick="saveEdits()"/>
+
+<div id="update"> - Edit the text and click to save for next time</div>
