@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link href="css/resume.min.css" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
@@ -11,7 +10,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/roadtosuccess.css" rel="stylesheet">
+  <link href="css/roadtosuccess_7JUNI.css" rel="stylesheet">
 
   <title>jQuery UI Draggable - Default functionality</title>
   <link rel="stylesheet" href="css/jquery-ui.css">
@@ -21,696 +20,1728 @@
 </head>
 
 <body>
-  <div class="sidebar">
+  <div class="buttons">
     <!-- <img id="gif" class="sidebar-item" src="img/ontheroadtosuccess_2.gif"></img> -->
 
-    <a href="#" class="sidebar-item w3-button">
-      <button onclick="hiddenfunction()">
-      catch your dreams</button> </a>
+    <a href="#" class="button1">
+      <button onclick="resetPos()">
+      RESET</button> </a>
 
-    <a href="#" class="sidebar-item w3-button">
-      <button onclick="hiddenfunction()">
-      wisdom is knowing </button></a>
+    <!-- <a href="#" class="button1">
+      <img id="DESIGNER" src="img/DESIGNER.gif" onclick="randPos()">
+      </img> </a>
 
-    <a href="#" class="sidebar-item w3-button">
-      <button onclick="hiddenfunction()">
-      road to success </button></a>
+    <button href="#" class="button1">
+      <img id="OPPORTUNITIES" src="img/OPPORTUNITIES.gif">
+    </img> </button> -->
 
-    <a href="#" class="sidebar-item w3-button">
-      <button onclick="hiddenfunction()">
+    <a id=#samtalemedtine href="#samtaleTine1"> test </a>
+
+    <!-- <button>Toggle</button> -->
+
+    <!-- onclick="moveElements('job')" -->
+
+    <!-- <a href="#" class="sidebar-item w3-button">
+      <button onclick="hiddenfunction('samtale')">
       sense your surroundings</button></a>
 
     <a href="#" class="sidebar-item w3-button">
-      <button onclick="hiddenfunction()">
+      <button onclick="hiddenfunction('samtale')">
       don't lose your fire</button></a>
 
     <a href="#" class="sidebar-item w3-button">
-      <button onclick="hiddenfunction()">
+      <button onclick="hiddenfunction('samtale')">
       make hard work look easy</button></a>
 
     <a href="#" class="sidebar-item w3-button">
-      <button onclick="hiddenfunction()">
-      dive where the water is deep</button></a>
-  </div>
+      <button onclick="hiddenfunction('samtale')">
+      dive where the water is deep</button></a> -->
+      
+  <!-- VIDEO-->
+      <div id="draggable1" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/20.april.1.mp4" type="video/mp4">
+          </video>
+      </div>
 
-  <div id="draggable1" class="draggable">
-      <video autoplay muted loop class="myVideo">
-      <source src="img/20.april.1.mp4" type="video/mp4">
-      </video>
-  </div>
+      <div id="draggable2" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/15.maj.mp4" type="video/mp4">
+          </video>
+      </div>
 
-  <div id="draggable2" class="draggable">
-    <textarea id="spørgsmål" rows="4" cols="50" readonly>
-        Hvad er din oplevelse af den danske designbranche på nuværende tidspunkt? Er der noget bestemt vi, som nye designere skal være særlig opmærksomme på?
-        Hvad kan vi forvente, når vi skal ud på arbejdsmarkedet, og finde et job inden for designbranchen?
-        Når man skal ud og søge job, med den uddannelse vi får her på visuel kommunikation, hvor kan man så søge henne? hvor bred er viften?
-        Har du en fornemmelse af, om der er en bestemt del af designbranchen, som de studerende her på visuel kommunikation ville foretrække at arbejde i?
-        Eller er der en tydelig diskurs, for hvad de studerende i hvert fald ikke vil bruge deres tid på?
-        Tror du måske, at vi er for mange med for høje forventninger eller for specifikke krav til vores fremtidige jobs? I forhold til hvilke jobs der er til rådighed.
-        Har du nogle tal på hvor mange er ledige, med en bachelor eller kandidat i visuel kommunikation?
-        Har du ellers nogle eksempler på hvad andre afgængere laver nu?
-        Kan du nævne de væsentligeste kompetencer vi burde gå herfra med?
-        Ser du, at vi optjener nogle kompetencer med denne uddannelse, som vi måske ikke er klar over, eller som vi tager for givet. Men som faktisk er væsentlige at have med på CV’et eller gøre brug af når vi skal ud og finde job?
-        Ser du, at der efterspørges andre kompetencer, fra arbejdsgivere, som vi måske ikke optjener ved denne uddannelse?
-        I hvor høj grad skal man vende sig til at kunne gå på kompromis med ens egen stil og meninger, når man skal ud og designe for andre?
-        Ser du, at branchen stiller nogle krav til ens personlighed for, at man kan stråle igennem?
-        Er det vigtigt, at man som person altid er selvsikker og karakteristisk for at blive anerkendt?
-        Tror du, det er noget man bare er, eller kan man godt blive det?
-        Hvor meget af det at være designer er talent og hvor meget er bare hårdt arbejde?
-        Oplever du, at designere med design eller arkitektur i rødderne klarer sig bedre og har mere succes?
-        Hvad ville du give af råd til de nyuddannede designere, som ikke ved hvad de skal tage sig til eller som føler sig usikre på deres muligheder og hvilken retning de skal gå?
-    </textarea>
-  </div>
+      <div id="draggable3" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/22.maj.mp4" type="video/mp4">
+          </video>
+      </div>
 
-  <!-- <div id="draggable3" class="draggable">
-    <img id="google1" src="img/google1.png">
-    </img>
-  </div> -->
+      <div id="draggable4" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/2.maj.mp4" type="video/mp4">
+          </video>
+      </div>
 
-  <div id="draggable4" class="draggable">
-    <img id="google2" src="img/google2.png">
-    </img>
-  </div>
+      <div id="draggable5" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/9.april.mp4" type="video/mp4">
+          </video>
+      </div>
 
+      <div id="draggable6" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/11.april.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable7" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/9.april.2.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable8" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/10. april.3.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable9" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/16.maj.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable10" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/30.maj.1.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable11" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/30.maj.2.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable12" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/18.april.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <!-- TEXTAREA -->
+
+      <div id="draggable13" class="draggable"> <a ondblclick="dbclick1()">
+        <contenteditable="true" id="samtaleTine1" class="samtale" rows="8" cols="70" readonly>
+          <strong>TINE KJØLSEN<br>PART 1</strong>
+          <br>
+          <br>
+          <span>tine</span><br>
+          Det er jo, man kan sige i den analyse og de tanker du gør dig, i forhold til hvad du nu vil, altså den usikkerhed eller den, altså du bevæger dig lidt rundt på en platform her.<br>
+          <span>mia</span><br>
+          Præcis.<br>
+          <span>tine</span><br>
+          Der tænker jeg jo, at der er rigtig meget godt og hente i at måske, bruge og kigge på den type opgave du har lavet. Organisere den i, lidt lige som en opslagstavle, at du ligesom tematiserer det. Og bygger din, altså hvis du nu tænker at bygge en website op, lidt ligesom et portfolio, digital portfolio, hvad er det for nogle.. måske tendenser som viser sig, når du lægger tingene op. Som du måske ikke kan få øje på, når du bare går rundt og tænker dig om. Det var min første tanke.<br>
+          <span>mia</span><br>
+          Det var også, et eller andet sted, det jeg håber jeg kan få ud af det, fordi det er jo også, når man så arbejder med det, så tænker man endnu mere over det.. Man kan ikke nødvendigvis få svarene samlet. Men jeg håber måske, at når jeg skal sætte mig ned og lave det, at det på en eller anden måde går op for mig, eller jaer, jeg ved det ikke helt. Det er sådan, det er også lidt en del af sådan et forvirrende projekt.<br>
+          <span>tine</span><br>
+          Ja,ja.<br>
+          <span>mia</span><br>
+          Øhm.. men ja, jeg ville egentlig gerne, sådan høre dig lidt mere sådan specifikt, om sån designbranchen, nu til dags, om du kan fortælle, bare sådan generelt, hvad man måske kan forvente, eller hvad man skal være opmærksom på, når man skal ud og finde et job.<br>
+          <span>tine</span><br>
+          Altså helt generelt?<br>
+          <span>mia</span><br>
+          Ja, helt generelt.<br>
+          <span>tine</span><br>
+          På tværs af det hele, vil jeg sige at man skal være rigtig dygtig til noget og så skal man have rigtig godt styr på sine, hvad skal man sige, samarbejdskompetencer, fordi øhm, selvom i arbejder meget gruppearbejde her på stedet, så vil man når man kommer ud på en arbejdsplads som designer skulle forholde sig til nogle præmisser, der bliver opgaverne  meget bundet, altså både tidsmæssigt, med at man måske får 24 timer til at aflevere et eller andet, men også nogle rammer, for hvad det er man skal løse. Så jeg tænker at det er rigtig vigtigt, at man er rigtig dygtig, men også at man er i stand til at samarbejde. Og fagligt dygtig, tænker jeg. Ikke sådan, at man skal være super specialist, men som grafiker, skal man jo kunne arbejde med typografi, skrift og layout. Altså om jeg så må sige, enten til digital eller analoge formater. Afhængig af hvad det er for en arbejdsplads man havner på.<br>
+          <span>mia</span><br>
+          Og det er vel allesammen nogle kompetencer, det er meningen vi ligesom skal få her.<br>
+          <span>tine</span><br>
+          Ja, det vil jeg mene. Vi prøver i hvert fald på at..<br>
+          <span>mia</span><br>
+          Er der nogen kompetencer, som du tror, vi på en eller anden måde, ja optjener her på den her uddannelse, som vi måske ikke rigtig selv er klar over, eller som vi tager for givet, når vi skal ud på arbejdsmarkedet? Altså at man måske et eller andet sted, kommer til at undersælge sig selv, eller tænke, sådan: ej det, der job kan jeg ikke, fordi jeg kommer herfra, jeg kan kun tegne eller sån.<br>
+          <span>tine</span><br>
+          Ikke, altså umiddelbart vil jeg sige, at det er ikke noget der er indlejret i selve uddannelsen. Men jeg kan opleve, i de generationer vi har i øjeblikket en stor usikkerhed overfor livet. Altså det faglige, professionelle liv efter uddannelsen. Og.. Det kan godt være at jeg selv havde det sådan for mange år siden, men jeg kan ikke rigtig huske det mere. Og måske er det sådan at det er en præmis, at når man er færdig med sin uddannelse og man står der og man skal ud og have sit første arbejde eller sit andet eller tredje arbejde, at man er, usikker på om man skal slå til og hvad man vil med det og om det sjovt  og spændende og udfordrende osv. Og der tænker jeg bare, at man er nød til at springe ud i det. Og det arbejder vi med, i stigende grad, at også at arbejde med at i kan præsentere, og pitche og alt mulig andet. Og så er det også en præmis, at når man kommer ud på arbejdsmarkedet, at man på en eller anden måde alligevel starter forfra. Ikke forfra forfra, men forfra med at, finde sig selv i et professionelt arbejdsliv.<br>
+          <span>mia</span><br>
+          Jaer. Føler du sådan, at man måske skal give slip nogle ting, af det man ligesom har her ude fra og at man er meget sådan, altså det er meget ens eget arbejde og opgaver og tanker. Man skal ligesom være bedre til at..<br>
+          <span>tine</span><br>
+          Ja, ja, ja, ja, jaer. Fordi du, du vil stå i det der, du har brugt meget tid på dig selv her ik. I 5 år. Og når du kommer der ud på arbejdsmarkedet, kommer du bruge tid på at arbejde sammen med nogle andre mennekser og i for sig også rette ind efter nogle andres krav ik. Og det, eller de præmisser for en eller anden opgave løsning.<br>
+          <span>mia</span><br>
+          Så man kommer til, at gå på kompromis.<br>
+          <span>tine</span><br>
+          Netop. det skal man jo lære at være i. og kunne ha. ja.<br>
+          <span>mia</span><br>
+          Jaer.. Tror du at, altså sådan med jobmuligheder, det sådan lidt sådan en ting, som jeg, altså jeg kender selvfølgelig til de klassiske, art director, illustrator, de der ting, som man jo tænker man kan blive, men forestiller mig bare, at der sikkert også er en meget bredere vifte der ude, som vi slet ikke, egentlig er klar over.<br>
+          <span>tine</span><br>
+          Der er mange andre. Man kan være grafisk facilitator. Altså det er jo noget af det nye. Kan man sige, at der mange steder hvor, i den offentlige sektor for eksempel. Hvor man har folk der faciliterer projektprocesser eller afklaringer af løsninger inden for et eller andet felt. Ved at så at sige at tegne løsningerne frem, mens folk arbejder. Det er jo noget en grafiker ville kunne lave. Der er også mange steder, og det er særligt i måske den offentlige sektor, hvor du kan arbejde som konceptudvikler. Det er ikke sikkert at du selv, den der eksekverer koncepterne, men du vil udvikle koncepter for, hvad skal vi sige, ny skiltning til bycykler, eller hvad fanden ved jeg, for Københavns kommune.<br>
+          <span>mia</span><br>
+          Så det er mere sådan idegenerering?<br>
+          <span>tine</span><br>
+          Ja, ja. Eller konceptudvikling, hvor du altså arbejder, ideen godt langt frem, men ikke nødvendigvis eksekverer den.<br>
+          <span>mia</span><br>
+          Nej.. det er i hvert fald bare nogle ting jeg også har tænkt over, fordi at jeg sådan tænker meget over mine muligheder og hvad jeg kan blive. Jeg tænker bare tit, der må være noget mere. Og det finder man jo også ud af.<br>
+          <span>tine</span><br>
+          Jaer, for du er jo ikke ligesom færdig.<br>
+          <span>mia</span><br>
+          Nej, nej.<br>
+          <span>tine</span><br>
+          Fyldt ud, så at sige. Når du går ud herfra.<br>
+          <span>mia</span><br>
+          Nej, det er rigtigt. Nej, på nuværende tidspunkt er jeg også sådan, nu tager jeg et års pause for ligesom at se, øhm hvilken retning jeg synes jeg skal gå og så..<br>
+        </contenteditable>
+      </div>
+
+      <div id="draggable14" class="draggable"> <a ondblclick="dbclick1()">
+        <contenteditable="true" id="samtale" class="samtale" rows="8" cols="70" readonly>
+          <strong>TINE KJØLSEN<br>PART 2</strong>
+          <br>
+          <br>
+          <span>tine</span><br>
+          Så du tager, et års studie pause og arbejder?<br>
+          <span>mia</span><br>
+          Øhmm.. jeg har ikke helt fundet ud af det endnu..<br>
+          <span>tine</span><br>
+          Jaer, altså jeg synes det ville være super godt, hvis du fik dig et studiejob og jeg spammer jer med studiejobs i øjeblikket. Og praktikpladser. Det er bare med at hapse nogle af dem. Fordi det der med, og have et studiejob eller, og eller have praktik er jo et virkelig vigtigt element i din uddannelse, i forhold til at afklare hvad du vil.<br>
+          <span>mia</span><br>
+          Jaer, jamen det, jeg tror også bare jeg skal prøve nogle ting af, se hvad der fungerer øhmm.. ja. hvad havde jeg ellers. mmm… (stilhed..) Jo så var der noget i forhold til om, vi snakkede om kompetencer før, men har du en fornemmelse af, at der er nogle arbejdsgivere derude, som mangler nogle kompetencer fra os, eller savner noget vi måske burde kunne, eller som måske ville gavne os, hvis vi også havde det med i baggagen.<br>
+          <span>tine</span><br>
+          Altså, det bliver jeg nok nødt til, at sige ja til. Men det er jo fordi, at der jo kun så og så mange timer i døgnet og i virkeligheden hvis man kigger på hvordan uddannelsen har flyttet sig igennem de sidste 20 år. Så har i jo meget mindre tegning i dag, end man havde for 20 år siden. Og det at kunne tegne, altså ikke bare tegne det man ser, men også at kunne tegne det man forestiller sig til en koncept udvikling eller ide skitse udvikling. Det er noget som i ikke alle sammen kan helt på det niveau, som jeg i og for sig godt kunne tænke mig at i kunne. Men det ville kræve at i enten var hardcore på tegneuddannelsen i et eller to år inden i kom her. Hele tiden, som i hver da, 24/7 ik? Eller at vi havde en helt anden prioritering i jeres undervisning. Og det er den der, balance gang, som altid vil være til stede på en uddannelse institution i forhold til hvad vi vurderer markedet udbeder sig. Hos jer.<br>
+          <span>mia</span><br>
+          Hos os.<br>
+          <span>tine</span><br>
+          Og hvad vi mener i skal kunne. Altså det er jo sådan en forhandling kan du sige, der foregår over tid hvor ting flytter sig, nogle parametre.<br>
+          <span>mia</span><br>
+          Nu har vi jo brugt ret meget tid på også, at komme mere ind i business strategy. Også og sådan, det må jo næsten også være noget som de sådan efterspørger.<br>
+          <span>tine</span><br>
+          Det gør de også. Men de, de siger jo vores, når vi mødes med vores aftagere panel og dialogpaneler. Så er der jo groft sagt, den ene halvdel, der sidder og siger at de skal kraftædme kunne tegne og de skal kunne tegne så de kan ideudvikle osv. Og den anden halvdel siger, jamen de skal jo kunne sælge deres idéer, altså. Så det er hele tiden sådan  en forhandling. Og i så er en slags prøvekaniner.<br>
+          <span>mia</span><br>
+          Haha.. Ja.. Er der sådan.. øhmm. Er der nogle tydelig diskurs for hvad folk ender med at lave, efter de er færdig på kandidaten er det meget selvstændige folk bliver, eller er det meget bredt det hele, har du nogen sådan ide om det?<br>
+          <span>tine</span><br>
+          Jeg vil sige at der er en stor procentdel der går ud og bliver ansat. På større eller mindre bureauer. Og ofte er de jo allerede i gang, kan man sige ansættelsesmæssigt, inden de bliver færdige. Sådan med studiejobs.<br>
+          <span>mia</span><br>
+          Så de fortsætter..<br>
+          <span>tine</span><br>
+          Ja på en måde ikke. Og det er også en skide god måde at komme ind på arbejdsmarkedet. Øhmm. Så er der, jeg vil sige, en tendens til at folk skifter. I er jo en generation, der er meget mere troløse, end den generation jeg selv kommer fra, hvor man traditionelt har længere ansættelsesforhold. Nu om dage, der er man måske i et par år, og så skifter man, efter et halvt eller 2 år, så skifter man arbejdsplads. Man pendler på en måde, eller flyder rundt på arbejdsmarkedet.<br>
+          <span>mia</span><br>
+          Men så det er, det er mest på private bureauer og sådan lidt mere kunstneriske steder eller er det også..<br>
+          <span>tine</span><br>
+          Det kan være meget kunstneriske steder, det kan være mere hard core business orienteret steder, det kan være store og små tegnestuer, det kan også være arkitekt tegnestuer, det kan også være offentlige arbejdpladser, ministerier, organisationer, interesseorganisationer, vi kan snakke om alzheimer foreningen, mellemfolkeligsamvirke eller et eller andet i den retning. Og så er der, jeg vil tro måske i hvert fald en tredjedel der går ud og enten starter deres egen virksomhed op eller starter op i en gruppe. Vi har også lavet nogle designbureauer her i tidernes løb.<br>
+          <span>mia</span><br>
+          Som er starter op her på skolen?<br>
+          <span>tine</span><br>
+          Som er startet op her ja.<br>
+          <span>mia</span><br>
+          Nåh. det er meget interessant.<br>
+          <span>tine</span><br>
+          Dem er der nogle stykker af.<br>
+          <span>mia</span><br>
+          Altså hvor skolen ligesom har været indenover eller er det bare sådan eleverne selv?<br>
+          <span>tine</span><br>
+          Baum und Pferdgarden er født på den her skole. Hvad hedder de.. de der type, de hedder e-types er født her på stedet. Osv. Sådan kan vi blive ved..<br>
+          <span>mia</span><br>
+          Så det kommer også bare lidt hen af vejen..<br>
+          <span>tine</span><br>
+          Så der er flere steder det går hen. Altså man kan jo også blive ansat, på eksperimentariet for eksempel, i deres grafiske afdeling eller national museets kommunikationsafdeling eller.. der er mange muligheder.<br>
+          <span>mia</span><br>
+          Der er mange muligheder.<br>
+          <span>tine</span><br>
+          Men jeg anbefaler jer at gå ud og få et arbejde, rigtig meget.<br>
+          <span>mia</span><br>
+          Og det bare, altså jeg tror også..<br>
+          <span>tine</span><br>
+          Studierelevant arbejde.<br>
+          <span>mia</span><br>
+          Og jeg ved ikke, om det er bare mig, eller om det er sådan en generel ting at man er sådan ahh, jeg ved ikke lige om jeg gider at arbejde indenfor det offentlige.. er det bare bedre at kaste sig ud i et eller andet? Så længe det er studierelevant? Selvom man lige tænker, ej det er ikke kunstnerisk nok for mig, eller..<br>
+          <span>tine</span><br>
+          Ja, fordi man kan ligesom sige, det du kan jo komme med, dine fordømme kan jo blive udfordret. Du kan jo komme til at sidde der og tænke: hold kæft hvor er det spændende det her. Hvor er det sjovt at lave noget der er får betydning for så mange flere mennekser, end lige netop dem der køber den, den er pakke et eller andet ik?<br>
+          <span>mia</span><br>
+          Jaer, jaer.<br>
+        </contenteditable>
+      </div>
+
+      <div id="draggable15" class="draggable"> <a ondblclick="dbclick1()">
+        <contenteditable="true" id="samtale" class="samtale" rows="8" cols="70" readonly>
+          <strong>TINE KJØLSEN<br>PART 3</strong>
+          <br>
+          <br>
+          <span>tine</span><br>
+          Og så kan man sige. Den der erfaring, arbejdserfaring er jo vigtig også både i forhold til hvad der er fagligt spændende, men også for dig at vende dig til at sige agtig.<br>
+          <span>mia</span><br>
+          Føler du, at det er en ting, at elever måske har lidt for høje sådan forventinger til, eller hvad kan man sige for specifikke krav til deres fremtidige jobs.<br>
+          <span>tine</span><br>
+          Ja, ja.<br>
+          <span>mia</span><br>
+          Og i forhold til, hvad der er til rådighed?<br>
+          <span>tine</span><br>
+          Ja. Og der kan også være, hvis man nu skulle være meget meget uartig, en slags forkælelse. I forhold til hvad det vil sige, som som.. Men jeg synes ikke det er generelt, men der kan godt være nogle lommer eller eksempler på at der er nogen, der tænker ej nej nej, det jeg skal kun lave det her lille stykke herhenne af. Der er meget andet. Og så kan man jo, så er der jo også nogen der går ud og underviser. Jeppe Pendrum, der tog afgang her for et par år siden nu, på viskom, han laver, han er freelancer, og har også sin virksomhed, men så underviser han også. Tingene kan jo skrues sammen på mange måder.<br>
+          <span>mia</span><br>
+          Man kan lave lidt ved siden af hinanden også. Og det er selvfølgelig også vigtigt at huske, at der ikke er nogen der udelukker det andet.<br>
+          <span>tine</span><br>
+          Nej ikke nødvendigvis. Og det kan også være man starter et sted og så er man der, og så ender man herover og tænker, her bliver jeg et stykke tid for her er fedt. Det spiller det her.<br>
+          <span>mia</span><br>
+          Jaer, ja.. Du siger mange gode ting.<br>
+          <span>tine</span><br>
+          Det var godt.<br>
+          <span>mia</span><br>
+          Øhm.. Jeg havde bare en, et par sidste ting. Øhmm.. det var sådan mere, måske mere i forhold til designbranchen. Jeg tænker sådan, når man som designer. Om du tror det er vigtigt at man har en eller anden bestemt, sådan.. om der er nogle krav til ens personlighed, at man er sådan meget selvsikker eller åh.. eller at man er karakteristisk for at man ligesom kan stråle igennem og blive anerkendt. Altså at man har en eller anden særlig.. Er det nogen du sådan oplever..<br>
+          <span>tine</span><br>
+          Altså vi kan jo godt, tror jeg, blive enige om at vi lever jo i en verden hvor man indimellem skal råbe meget højt for overhovedet blive hørt. Øh, og det er jo klart at hvis du skal ud og søge et arbejde, så skal du jo, du skal jo være i stand til at og sælge dig selv så meget over på den anden side af bordet at vedkomne eller de mennekser du sidder til samtale med ansætter dig. Men når det er sagt, så vil jeg sige at selvsikkerhed og selvstændighed er jo to ting som ikke udelukker hinanden og når du skal ud og arbejde, så skal du kunne agere selvstændigt, indenfor de der rammer du får udstukket. Og det vil sige, der, der vil jeg så parre selvsikkerheden med nysgerrighed, øhm.. hvad skal vi sige.. kvalitetssans, timing og forståelse af hvad det er for en opgave du er blevet sat til at løse. Og ikke nødvendigvis at holde på din egen ret, hvis du kan forstå hvad jeg mener.<br>
+          <span>mia</span><br>
+          ja.. jeg tror det er fordi jeg tænker meget over, sådan, altså de sådan grafiske designere , de store, anerkendte grafisk designere, de er som regel meget.. men de er måske også bare noget man bliver anerkendt, ligesom får den her udståling af at man er mega selvsikker, og den her lidt specielle karakter, som gør at man er noget særlig.<br>
+          <span>tine</span><br>
+          Nogen har den der.. Og nogen har også rigtig meget tendens til som en eller tarzan, og slå sig på brystet og råbe jeg er den største, elefant i buret. Og det bliver man jo ikke en bedre designer af. Og nogen gange.. Og så er der nogen der råber højere, end hvad de egentlig er berrettiget til, kan man sige det på den måde..<br>
+          <span>mia</span><br>
+          Ja, ja.. Det er også, for at nå til toppen, er det vel også mange forskellige ting der spiller ind. Som held og..<br>
+          <span>tine</span><br>
+          Jo, og timing. Sans for at ramme. Held er jo altså ikke helt ueffen..<br>
+          <span>mia</span><br>
+          Altså at man møder de rigtige mennekser..<br>
+          <span>tine</span><br>
+          På det rigtige tidspunkt. Men også at du er lydhør overfor de muligheder der dukker op.<br>
+          <span>mia</span><br>
+          Ja.<br>
+          <span>tine</span><br>
+          Øhm.. og ikke afviser dem på forhånd.<br>
+          <span>mia</span><br>
+          Jaer. Så mere åben egentlig.<br>
+          <span>tine</span><br>
+          Ja, nysgerrig.<br>
+          <span>mia</span><br>
+          Nysgerrig. jaer. Nå men som det sidste, øhm.. Bare hvis.. nu har du jo sagt mange gode ting, men hvis du ligesom skulle pointere et godt råd, som jeg kunne tage med videre, men den sådan, det sted jeg er lige nu, hvad kunne det så være?<br>
+          <span>tine</span><br>
+          Jeg tror jeg vil sige til dig at jeg synes at det er meget meget værdifuldt og være nysgerrig på hvad det er livet, det der grafiker liv, byder på af muligheder, og gå ud og prøv dem af. Du skal ikke være bange. For at fejle eller ikke at slå til, eller et eller andet, fordi det er alt sammen erfaringer som du kan bruge til noget på et tidspunkt.<br>
+        </contenteditable>
+      </div>
+
+      <div id="draggable16" class="draggable"> <a ondblclick="dbclick4()">
+        <contenteditable="true" id="samtale" class="samtale" rows="4" cols="50" readonly>
+          <strong>ELIAS WERNER<br>PART 1</strong>
+          <br>
+          <br>
+          <span>mia</span><br>
+          Øhm.. altså det er lidt i forlængelse med det spørgesskema jeg også havde lavet..<br>
+          <span>elias</span><br>
+          Jaer.<br>
+          <span>mia</span><br>
+          Hvor jeg også spørger lidt ind til sån, ja designbranchen generelt, det er jo så mest i København ik.<br>
+          <span>elias</span><br>
+          Jo.<br>
+          <span>mia</span><br>
+          Øhm.. hvad man sån kan forvente og også mere hvilke muligheder man har med den uddannelse som vi får her.<br>
+          <span>elias</span><br>
+          Ja.<br>
+          <span>mia</span><br>
+          Øhm.. fordi, jeg ved ik. Jeg har lidt sån, det er sån en meget generelt ting at folk måske  er lidt mere sån, eller har nogle specifikke rammer for om de vil være: illustrator, art directors, eller, åh.. hvad hedder det.. lave type og der er de her sån meget specielle retninger..<br>
+          <span>elias</span><br>
+          Kasser.<br>
+          <span>mia</span><br>
+          Præcis, men at jeg også bare forestiller mig, eller jeg ved, at der må findes flere muligheder. Øhmm..<br>
+          <span>elias</span><br>
+          Jaer.<br>
+          <span>mia</span><br>
+          Og hvad de muligheder er? ..<br>
+          <span>elias</span><br>
+          Ja, det er selvfølgelig.. Det er et godt spørgsmål. Men jeg tror i virkeligheden. Altså ideelt set tænker jeg, det vi gerne vil med den bachelor uddannelse er, hvad hedder det, er ligesom at få trukket jer rundt til nogle forskellige aspekter af hvad man kan komme til at arbejde med indenfor visuelt design primært ik.<br>
+          <span>mia</span><br>
+          Jo.<br>
+          <span>elias</span><br>
+          Så der stadig er den faglighed med. Jeg tror det ene svar jeg svar jeg skrev, var det der med, hvad det vigtigeste som designer, det er jo vigtigt, alt det der med at netværke og kunne præsentere sig så, det er jo også vigtigt, som designer ik. Og skal man ligesom få ting igennem, at kunne forstå sine kunder, der har et mere kommercielt sigt og forstå hvem de er. For hvis de ikke er med ideen, så kommer det bare ikke nogen steder hen vel. Øh. Så det er bare det vi også prøver med designmetoder, at man får forskellige måder at tale med folk på og forskellige måder at forstå forskellige kunder ik.. Øh, og med det.. bare lige for at komme tilbage til spørgsmålet så, hvad hedder det, så ideelt set er det jo virkeligheden at den her bachelor gerne skulle forbedrede jer til at: Okay, der er forskellige retninger man kan gå. Man kan skabe værdi på en kunstnerisk måde eller hvordan skaber jeg værdi ik? Eller hvordan kan jeg gå ud og stille spørgsmål på en kunstnerisk måde til noget kommercielt og hjælpe folk med det. Øhm. Men den er jo ikke tænkt sådan, at i ligesom skal blive en bestemt profil. Tværtimod at det gerne skulle give jer nogle forskellige retninger, som i så selv studerer videre og sætter sammen på en måde, som i synes er interessant og relevant.. at beskæftige jer med. Øhm.. Og og så altså et helt overordnet kort svar er jo så, hvis i kan gøre det, så er der et job til jer.<br>
+          <span>mia</span><br>
+          Mhmm.<br>
+          <span>elias</span><br>
+          For så har du… Hvis du ligesom ved at du er relevant for andre. Så spørger du så selvfølgelig, hvad synes de så er relevant ude på bureauerne? Hvad er det for nogle typer er der der ik. Og der tror jeg, jeg svarede i det sidste spørgsmål, altså det jeg ser, og det er jo bare sådan, det er at du skal være god til noget. Det nytter ikke noget.. altså jeg synes der er nogle træk herude, fra nogle steder i ledelsen for at man ligesom skal kunne lidt af hvert og det er også rigtig nok på en måde, at du, hvad det nu hedder, det er også, det er heller ikke sundt at være sådan helt indsporet kun på en ting..<br>
+          <span>mia</span><br>
+          Nej..<br>
+          <span>elias</span><br>
+          Men men, det er godt at være god, rigtig god til noget, og så måske være sådan lidt bred, bred i sit udsyn. Øhm.. Fordi altsåå, altså det det tit, det er jo tit, med mindre man sidder som en-mands-pers..eller altså hvad hedder det, så får du nogle roller, altså såå i de der set-up. At du fx den der er god til at lave lay-outet eller den der god til at få det op på web altså ikke. Det betyder ikke at man ikke kan løfte begge ting, men fx hvis man nu er god til noget digitalt eller hvis du nu er god til strategi, så er det måske ikke dig der laver web, fordi der er nogen der bedre til at implementere det, til de der sammensætninger ik. Men det betyder jo ikke at du ikke skal vide noget om det, men men men, hvis man kun er halvbagt på alle områder, så er det bare ikke sådan.. i hvert fald når jeg ser rundt, så er det ikke lækkert.. fordi hvorfor, vi har en der er bedre til web, hvorfor skulle du så lave web.<br>
+          <span>mia</span><br>
+          Jaer.<br>
+          <span>elias</span><br>
+          Vi har en der er bedre til at sætte ting op, hvorfor skulle du gøre det, vi har en der er bedre til at illustrere, hvorfor skulle det så være dig, der laver illustrationer.. forstå mig ret ikk.<br>
+          <span>mia</span><br>
+          Jaja.<br>
+          <span>elias</span><br>
+          Så hvad det nu hedder, så det er lidt det.. Jeg tror stadig på den der, at man er rigtig god til noget..<br>
+          <span>mia</span><br>
+          Så de der kasser er stadig vigtige et eller andet sted? Eller sån..<br>
+          <span>elias</span><br>
+          Ja, det er de jo, for man kan jo tænke på altså, der er jo, der er jo.. det synes jeg, de er væsentlig i forhold til, at det ville være naturlig at man et eller andet sted.. det kan jo godt være du er heldig kommer et eller andet sted hen hvor man laver tingene på en anden måde.. men det er hvertfald ikke den virkelighed jeg oplever.<br>
+          <span>mia</span><br>
+          Nej..<br>
+          <span>elias</span><br>
+          Men det kommer jo selvfølgelig også an på hvilken virkelighed man skaber. Vil du ud og ansættes, eller vil du selv ud og lave noget. Fordi du synes.. Det er jo også.. man kan sige det er jo også det, det handler om.. eller, vil du især gerne være på det strategiske plan eller vil du.. hvad, hvad er det du gerne vil ud og gøre. Det er i virkeligheden også gerne det der skulle hjælpe dig med denne uddannelse er, at sige: jamen hvad vil jeg med det her? I stedet for hvad vil andre med mig? Øhm.. Ideelt set og det er gerne den, kan man sige i forhold til mere tekniske grafiske uddannelser, hvor man bare bliver uddannet til blive ansat..<br>
+          <span>mia</span><br>
+          Jaja..<br>
+          <span>elias</span><br>
+          Altså skulle det være meget holdbart, skulle du jo på sigt, gerne være den der ender med at ansætte andre..<br>
+          <span>mia</span><br>
+          (Latter)<br>
+          <span>elias</span><br>
+          Altså forstår du hvad jeg mener..<br>
+          <span>mia</span><br>
+          Jaja.<br>
+          Altså at få sat en eller anden.. Men det er jo selvfølgelig en meget vild ambition når folk der lige er kommet ud af en skole og det er jo selvfølgelig ikke sådan det fungerer.. Men det er i hvert fald gerne det mindset man skulle komme ud med.. Øh..<br>
+          <span>mia</span><br>
+          Men hvad så hvis man, ikke sådan rigtig føler sig indenfor en kasse. Er det noget der sån kommer med tiden eller skal man helst vide det..<br>
+          <span>elias</span><br>
+          Andre skal nok finde ud af at sætte dig i dem så.. Altså jeg kom også, jeg kom ud fra arkitektskolen med primært at jeg gerne ville lave noget skriftdesign, men jeg også på meget sådan wayfinding og visuelt identiteter og sådan noget ik.. Og så arbejde jeg på Kontrapunkt, hvor jeg faktisk primært arbejdede, altså jeg sad også og lavede identiteter og sådan noget, men primært var det skrift. Og så bliver man langsomt malet op i det hjørne. Så det man laver.. det bliver jo meget defineret. En ting er hvad du laver her på skolen, noget andet er, du bliver rigtig meget defineret af hvilke kunder du får nå du kommer ud i den anden ende. Det er det der kommer til at tegne det. Fordi når: “du har lavet det for den, kan du ikke også lave noget lignende for os, ala” Det er sådanne tinge der griber om sig tit ik..<br>
+          Mia<br>
+          Så man planlægger det ikke altid selv.<br>
+          <span>elias</span><br>
+          Nej, nej, man kan jo sige, det er jo meget tilfældigt, man kan jo også sige det der med. Hvor du bliver ansat.. Jamen altså har de overhovedet brug for nogen, også bliver du måske ansat et andet sted, hvor det måske ikke er det du havde forventet, men så.. så kommer du til at lave den type opgave, og det er så den type opgave der kommer i dit portefolio, så er det, det du ligesom har at vise frem. Altså forstå mig ret, det er sådan en veksling mellem.. man kan selvfølgelig godt opsøge det og man kan også godt sige nej til ting, men det er spørgsmålet hvor kontrolerende vil du være i forhold til det. Så du bliver jo meget  formet af også af hvad for nogle kunder du får..<br>
+          <span>mia</span><br>
+          Men så er det også noget, det måske først skal komme, når man er ude og søge jobs eller sån.. fordi det er i hvert fald sådan jeg har det lige nu, at jeg ikke ved hvilken kasse jeg hører til og så ved jeg måske ikke rigtig hvilken retning jeg skal gå eller hvilke jobs jeg skal søge eller også så, hvem vil have mig, fordi jeg ikke selv ved hvad jeg kan tilbyde..<br>
+          <span>elias</span><br>
+          Jamen, det er det.<br>
+          <span>mia</span><br>
+          Ehm.. men men ja. det ved jeg ikke, om det bare handler om, at man kaste sig ud i et eller andet og se om..<br>
+          <span>elias</span><br>
+          Jeg synes det er en blanding ik.. lidt altså.. både at man har nogle interesser og så også må se hvad der kommer, men altså du skal selvfølgelig.. det er jo meget individuelt kan man sige af afvejning. eller hvis man bare nu kigger på.. jeg synes jo at kontrapunkt er enormt dårligt, både fordi de jo er fanget i at de har lavet nogle store opgaver, som fx Danske Bank og sådan noget.. i hvert fald den gang jeg sad derinde, jeg sad derinde 10 år efter, så var det tit at kunden spurgte, nå men kan vi ikke bare få noget der ligner Danske Bank agtigt ik..<br>
+          <span>mia</span><br>
+          (Latter)<br>
+          <span>elias</span><br>
+          Så altså folk bliver fanget i deres successer. Altså at ligesom så, er det, det kunderne spørger om: kan vi ikke få noget derhen af ik. Øhm.. hvor fx, modsat se sådan nogle som hvass og hannibal, de har meget deres egen stil, det er ligesom det de sælger.<br>
+          <span>mia</span><br>
+          Jaer.<br>
+          <span>elias</span><br>
+          Det sælger så en stil, øh.. også og det er jo to forskellige måder at gøre det på. hvad kan man sige, hvor kontrapunkt er mere : løb efter kunden og deres ønsker, mens de næsten bare sælger en stil: vi laver det her, og det synes nogen er fedt og så køber de det. Øh.. så det er to forskellige måder, hvor man bliver fanget i en stil eller et ønske. Og så kan man være meget mere.. Altså det det det, det er jo en meget individuelt afregning, når man kommer ud, hvor meget vil man bare facilitere andre, synes det er fedt.<br>
+          <span>mia</span><br>
+          Jaer.<br>
+          <span>elias</span><br>
+          Det er fint nu laver jeg noget helt andet her, fordi det er det de gerne vil have. Eller hvor meget.. altså jeg synes, jeg laver ret meget blandet ting, men jeg har hele tiden sådan noget med, der er ting jeg ikke gør. Jeg arbejder ikke gratis og hvis der ikke er en ordentlig pris for tingene, så gider jeg ikke at gøre det.<br>
+          <span>mia</span><br>
+          Mh.mh.<br>
+          <span>elias</span><br>
+          Og jeg gider ikke at gøre ting, som jeg synes er helt håbløst æstetisk. Altså hvis de kommer med en eller anden skitse, og det ser dårligt ud, jeg vil ligesom gerne sikre at kvaliteten er ok. og hvis det ikke kan det, så gør jeg det ikke… eller kun hvis der er mange penge i det.. (latter) forstå mig ret.<br>
+          <span>mia</span><br>
+          (Latter)<br>
+          <span>elias</span><br>
+          Men, men det er ikke sådan at jeg har et udtryk andet end at jeg har sådan set, at jeg prøver så vidt muligt gøre tingene, altså gøre verden lidt gladere og se på. Altså jeg hader den der helt stramme, du ved sådan ehh. hvor design bliver sådan en spændetrøje man lægger ned over ting ik. Men så så, der kan man have sin egen personlige ting, og så synes man det er rigtig dejligt når man ligesom har fået noget med i det. andre gange så får man ikke så meget med..så er det bare en opgave ik..<br>
+          <span>mia</span><br>
+          Jaer. Så, man som designer danner ligesom også sine egen sån regelsæt for hvad, hvilke ting.. man sån..<br>
+        </contenteditable>
+      </div>
+
+      <div id="draggable17" class="draggable"> <a ondblclick="dbclick4()">
+        <contenteditable="true" id="samtale" class="samtale" rows="4" cols="50" readonly>
+          <strong>ELIAS WERNER<br>PART 2</strong>
+          <br>
+          <br>
+          <span>elias</span><br>
+          Ja, hvad man vil ik og ligesom være med til. og det kan man selvfølgelig sige der, det er jo, øhmm. folk har det forskelligt med det.<br>
+          <span>mia</span><br>
+          Ja.<br>
+          <span>elias</span><br>
+          Altså nu er jeg måske også i en anden situation fordi jeg også har tre unger, så du ved tid er virkelig virkelig noget der bare er presset ik. men når jeg får sådan, altså der er tit dem der siger: “ej men kan du ikke bare tage det halve i timen? og så er det til gengæld rigtig mange timer.” Men altså hvis jeg ligesom kan lave det samme på den halve tid, hvorfor fanden skulle jeg så sidde og lave det her.. altså, du ved forstå mig ret.<br>
+          <span>mia</span><br>
+          (Latter)Mhm.<br>
+          <span>elias</span><br>
+          Altså det er jo ligesom, så vil jeg hellere måske være sammen med mine unger, med mindre jeg virkelig er presset på pengepungen ik.<br>
+          <span>mia</span><br>
+          Ja.<br>
+          <span>elias</span><br>
+          Så det er sådan.. jeg er jo ikke interesseret i at arbejde meget, jeg er interesseret i at tjene meget, altså (Latter) forstå mig ret.<br>
+          <span>mia</span><br>
+          (Latter) jaja.<br>
+          <span>elias</span><br>
+          Men det kan jo også være sådan en afregning, som hvis man er ny og man gerne vil ud og gøre sig.. altså for mig, jeg reklamerer ikke for mig selv, jeg taler kun ud fra min egen, og folk har jo forskellige måder at gøre det på ik. jeg reklamerer ikke så meget for mig selv. jeg tænker at det bedste jeg kan gøre er bare at gøre mine opgaver, gøre dem så folk er så glade, gøre det på tid og gøre det ordentlig ik. Og levere en god løsning og hvis kvaliteten er høj, så skal de nok fortælle det videre til andre og sådan noget ik. Så ligesom give en god oplevelse på den måde. Øhm.. og der kan en god oplevelse godt være det der med, også at have en vis integritet, og være sådan: det kan godt være det, men det bliver ikke godt, altså prøv lige at høre efter hvad jeg siger her, og prøve at insistere på fagligheden.<br>
+          <span>mia</span><br>
+          Jaer.<br>
+          <span>elias</span><br>
+          Øhm.. og så.<br>
+          <span>mia</span><br>
+          Det er vel også noget der kommer med erfaring, at man bygger de her ligesom rammer for hvad man vil og hvad man ikke vil og..<br>
+          Elias<br>
+          Det er jo det. Der er så mange ting, og du skal heller ikke være blind for.. altså bare det der med, at jeg har arbejdet på kontrapunkt, det er noget jeg bruger stadigvæk når jeg sådan skriver ting rundt, fordi det sådan, okay, på de er store bureauer ik, der er rigtig mange kunder derude, det kommer jo også an på, hvilke kunder, men der er rigtig mange kunder, de har ikke en skid forstand på design, altså det de vælger efter, de køber kendte mærker eller de store bureauer fordi det er der alle andre køber og så er man ligesom homesafe ik. i forhold til en eller ledelse, der nå okay: jeg købte det her bureau, de plejer jo altid og levere og se hvor mange priser de har vundet også sådan noget ik. Det er sådan det rigtig meget fungerer fra kundensside. Har de vundet priser? bum bum bum ik. Så hvis man ligesom kan få det der, ligesom autoritetsstempel, som fx at have været ansat på et bureau eller sådan noget ik.<br>
+          <span>mia</span><br>
+          Jaer.<br>
+          <span>elias</span><br>
+          Det kan bare.. det det kan måske også bruges sådan lidt strategisk. Så så så, hvis man ligesom tænker på den måde: okay de her skal have tillid til at den opgave bliver løst, hvis de kigger på mit portefolio, så ved de ikke.. de kan simpelthen ikke se forskel på godt eller dårligt, men de kan se jeg har været ansat der og det er nok godt. altså du ved, sådan kan man jo..<br>
+          <span>mia</span><br>
+          Ej, men det er meget interessant.<br>
+          <span>elias</span><br>
+          Ja, så det er nogen gange det der med, hvad der kvalificerer en, er nogen gange. Et helt andet sådan ret absurd eksempel på hvad der sådan kan kvalificere. Det var min svigerfar han er partner i et landskabssarkitekt firma, hvor han har siddet i, der har han siddet i det der, hvad hedder det, kvalificeringsudvalg, hvor der ligesom skulle kvalificeres hvilke folk der skulle inviteres med til pitchen, øhm, og ligesom vurdere i det. Og du ved når sådan noget kommer ud, altså så har de tit sådan noget udvalgsmateriale på nogle større opgaver, og så siger man: nå.. nå ja, men øhm kreativløsning det tæller 30%, øhmm økonomi tæller 20%, referencer, altså hvor mange har man løst lignende opgaver før, tæller måske også 20% og så er der et eller andet, andet du ik. Altså, et eller andet, sådan nogle skaler som de sidder måler på, og så bare krydser af. Og der havde de så siddet med en eller anden, hvor der var to forskellige kadidater, hvor den ene havde et større projekt ala lignende, hvor det var et sygehus, med alt mulig spændende, og den anden havde lavet to parkeringspladser, og det var den anden der vandt, fordi de havde havde to projekter i et. Og det er bare sådan lidt, prøv at se omfanget at den her opgave, det er jo meget meget større, det her er jo bare to parkeringspladser også sådan ik. Men nej der er to og det er bare helt bureaukratisk, den der måde det bliver valgt på ik. Og det er bare for at sige, at det nogen gange på kunden side, er der bare, der, folk de tænker slet ikke.. altså vores succesparametre er jo det vi ligesom kan se som kvalitet i ting er ikke det samme. de kører efter nogle helt andre regneark ik.<br>
+          <span>mia</span><br>
+          Jaer..<br>
+          <span>elias</span><br>
+          Og det er også..<br>
+          <span>mia</span><br>
+          Meget overfladisk.<br>
+          <span>elias</span><br>
+          Ja, og det er jo ligesom, det det vi ligesom gerne vil ind i, eller i hvert fald så i bare er klar over, at sådan er det.. nogen steder og der er selvfølgelig også andre kunder, som kulturkunder, som måske er sådan nogle som er.. men de kan så svære at rykke på andre steder, de vil bare alle sammen være op på (?) eller sådan noget ik. Det er jo ligesom grundlæggende, så så, så.. men i hvert fald ligesom at forstå at at, hvad vi tænker kvalitet ofte, hvordan vi er skolet, hvordan vi ser også selv, det er ikke nødvendigvis sådan andre ser os. Jeg tror også der sådan en meget stor forforståelse af, at designere bare er sådan nogle der sidder og laver form. Så alt det andet strategiske og indtægtsmæssige, som vi også prøver at lære herude, det ligger hos nogle andre, inden vi overhovedet bliver koblet på, ofte på en opgave ik..<br>
+          <span>mia</span><br>
+          Mhm..<br>
+          <span>elias</span><br>
+          Øhm. så.<br>
+          <span>mia</span><br>
+          Men det er alligevel noget de gerne vil have, at man kan eller ligesom..<br>
+          <span>elias</span><br>
+          Jojo.<br>
+          <span>mia</span><br>
+          Har en idé om.<br>
+          <span>elias</span><br>
+          Og det er jo også det.. det er jo også lidt svært at sige, hvad med ude på bureauerne. Fordi det kommer også an på hvor stort bureauet er. Hvor brede opgaver du kommer til at lave, og bare arbejdskulturen ik. Var du med hos 15nul8? i New York?<br>
+          <span>mia</span><br>
+          Ehm.. hvem af dem, var det ?<br>
+          <span>elias</span><br>
+          Det var det danske bureau. I New York.<br>
+          <span>mia</span><br>
+          Nej, jeg var hos Hello Monday.<br>
+          <span>elias</span><br>
+          Nej, undskyld, det var Hello Monday, ja selvfølgelig. På Hello Monday, jaja.
+          Der havde de jo sådan, en meget meget flad struktur.<br>
+          <span>mia</span><br>
+          Ja.<br>
+          <span>elias</span><br>
+          I deres måde og arbejde på. Og det er ikke det samme. Altså hos kontrapunkt, der var det meget det strategiske arbejde, det var ikke så meget designere. Jeg fik i hvert fald ikke det indtryk og det har jeg stadig, når jeg taler med folk. Det strategiske arbejde lå i høj grad hos nogen projektledere. Som inden er ude og tale med kunden og så kommer de tilbage deres gennemtyggede feedback til designerne og sådan noget ik. Der var det meget mere sådan lavdelt.<br>
+          <span>mia</span><br>
+          Det har en helt sådan fødekæde det skal igennem.<br>
+          <span>elias</span><br>
+          Jaer, og der skal du virkelig kæmpe for ligesom at sandsynliggøre at du kan lave strategi og sådan noget. Hvis det er er det man gerne vil ik. Det er ikke for at sige, det ikke er noget der er relevant derude, det er jo mega relevant, også hvis du som mindre person ik.<br>
+          <span>mia</span><br>
+          Men der vil de måske have nogen, med en anden uddannelse end den vi får her.<br>
+          <span>elias</span><br>
+          Ja, men det er det.. Nej ikke nødvendigvis, jeg tror bare du skal sandsynliggøre at du kan det. Øhm. at du kan tale med dem ik. Og jeg ved ikke.. jeg kan ikke rigtig finde ud af, for der ligger også en helt masse strategiske ting på de der fællesfag. Jeg kan ikke finde ud af, hvor meget man egentlig bliver i stand til at tale med CBSere og sådan noget, på de fag eller hvad der ligesom ligger der ik. Men det er jo ligesom, dem fra CBS de har et lingo og vi har et andet. Og det er jo og få det til at mødes og sådan noget ik. Og med den forforståelse der er af designere: det kan godt være du siger du kan strategi, men du sidder bare og leger med legoklodser.<br>
+          <span>mia</span><br>
+          (Latter)<br>
+          <span>elias</span><br>
+          Så er det jo bare svært at bryde igennem ik.. og ligesom at få ændret den opfattelse.<br>
+          <span>mia</span><br>
+          Jaer..<br>
+          <span>elias</span><br>
+          Men det er også meget. Det er mega forskelligt, altså det er sådan noget. Jeg synes det er forskelligt fra opgave til opgave med hvad du ligesom. Det er meget tit man skal kæmpe. Jeg sidder lige med en opgave, det har været så utrolig sindssygt. Det er nok også det mest vanvittige.. det har taget et helt år og forhandle kontrakten. Det har virkelig bare trukket tænder ud.<br>
+          <span>mia</span><br>
+          Shit.<br>
+          <span>elias</span><br>
+          Det er kommunen, hvor jeg laver noget wayfinding og skiltning til også sådan noget ik. Og skrift til deres skilte. Men det har taget et år. Altså, og så kommer der sådan noget, på grund af måden man bygger udbud op på, og hvor store budgetterne er. Så har der også været nogle andre aktører der har været inde og lave nogle workshops og sådan noget. Hvor de ligesom har prøvet at tage en rolle hvor det egentlig var dem der lavede konceptet, og så var det bare mig der sad og satte form på og sådan noget ik. Så man skal bare hele tiden slås og du skal slås mega meget, for ligesom at få afgrænset og fortalt hvad din rolle er og hvad du kan ik.<br>
+          <span>mia</span><br>
+          Jaer.<br>
+          <span>elias</span><br>
+          Det, hvad hedder det, skal man bare være indstillet på. Øh.. men så er der også andre, jeg kan love dig for, hvad du ik.. nu kommer det måske lidt ved siden af det, men man skal bare være opmærksom på hele tiden, man skal ikke være paranoid, man skal hele tiden være opmærksom på alle mulige ting.. altså da jeg lavede DR’s logo, øh.. der hvad det hedder, der fik jeg bare sådan en brief. Dels skulle jeg bare rette lidt op på det gamle de havde. Ligesom lave en strammere version, af det. Og så ville de bare gerne se mit byd på et strammere DR. Øhm.. og så lavede jeg med en masse variationer, og sagde sådan; okay, helt ultimativt så skulle i bare have sådan en monolinijer, hvor der stod DR. Den skulle være helt renset for værdi, fordi DR ligesom skal kunne rumme det hele , den skal ligesom ikke have nogen kulturel slagside på nogen måde eller sån.. I virkeligheden skulle de slet ikke have et logo. Fordi folk er tvunget til at.. altså du får bøder, hvis du ikke betaler for DR.<br>
+          <span>mia</span><br>
+          (Latter)<br>
+          <span>elias</span><br>
+          Altså hvorfor skal du have et logo? ik. Forstå mig ret. Så hvad det hedder, øh.. Og det synes jeg var rigtig fedt. Der pressede jeg ligesom længere ud end de ligesom.. og så tog man sådan en slider tilbage indtil man ligesom havde, okay hvor er der ligesom stadig noget af DNA’et fra det gamle og som stadig sån så vidt muligt renset og sådan noget ik. Og det var også en måde at være meget strategisk på, og ligesom hvad er det egentlig i kommunikerer overhovedet med jeres logo. Og begynde ligesom at arbejde med form på den måde. Og det er jo ikke sån, det er jo ikke den dybe tallerken, men det er jo bare ligesom; er i overhovedet klar over hvilke signaler i gerne vil sende.. og have den diskussion med dem..øhm.<br>
+          <span>mia</span><br>
+          Jaer, så det var måske også lidt en rolle du tog på dig selv..<br>
+        </contenteditable>
+      </div>
+
+      <div id="draggable18" class="draggable"> <a ondblclick="dbclick4()">
+        <contenteditable="true" id="samtale" class="samtale" rows="4" cols="50" readonly>
+          <strong>ELIAS WERNER<br>PART 3</strong>
+          <br>
+          <br>
+          <span>elias</span><br>
+          Ja,ja,ja. Præcis<br>
+          <span>mia</span><br>
+          For det var ikke noget de sån bad dig om nødvendigvis.<br>
+          <span>elias</span><br>
+          Nej, de bad mig ikke.. og så kommer det også bare af opgaven at man tager den rolle.. og siger; prøv lige at se jer selv hvem er i og sådan noget, hvad er det egentlig i skal signalere ik.<br>
+          <span>mia</span><br>
+          Nej, jaer, så man skal heller ikke være bang..<br>
+          <span>elias</span><br>
+          Du skal ikke være bange, og du skal ligesom, hvis du ligsom synes; okay det kan godt være de har bedt mig om at lave den her form, men det sejler jo det her, og de.. hvad det hedder, der er sådan et udtryk der hedder, at putte læbestift på en gorilla ik..<br>
+          <span>mia</span><br>
+          (Latter)<br>
+          <span>elias</span><br>
+          og hvad det du hedder.. jeg sidder bare og sminke noget, som bare overhovedet ikke hænger sammen. eller fortæller den forkerte historie fordi deres historie er forkert.. eller sådan det passer ikke med det de gør eller hvad det er. så kan man jo godt prøve at undersøge. eller prøve af, at udfordre det.<br>
+          <span>mia</span><br>
+          Tage lidt mere ansvar..<br>
+          <span>elias</span><br>
+          Ja, nemlig. Altså ja, det er det andet jeg vil sige. Det er også med den uddannelse i får her.. det lyder så luftigt, at sige at i virkeligheden skal komme ud.. men det er meget vigtigt at i kommer ud og ligesom.. uden at være arrogante, men også ligesom.. der er ikke nogen der forærer noget. man skal ligesom selv ud og og, gøre det ik. og skabe det. uden at lyder sån helt, altså det lyder måske lidt deprimerende, men det er bare for at sige.. man kan ikke bare læne sig tilbage og tro at folk bare synes man er dejlig. altså hvad det nu hedder, at det bare kommer til en.. man bliver nødt til at selv at skabe det på en eller anden måde og skabe det.. det er jo meget forskelligt.. der er jo nogen der bare elsker bare at sidde på bureauer og arbejde 50 timer og sådan ik. det gør jeg overhovedet ikke, jeg prøver at skabe noget hvor jeg måske, bare giver så meget kvalitet for pengene, at jeg kan arbejde mindre. og så have tid til andre ting. øh.. og det er jo forskelligt, hvad det er for et arbejdsliv og hvad man egentlig gerne vil med verdenen og sådan noget ik. og hvis, hvis det sådan helt grundlæggende hvis du ligesom skal tænke over det, skal du tænke: okay, design det er et værktøj, hvor god er jeg til det værktøj, nogle værktøjer er måske bedre end andre.. og hvad vil jeg med det værktøj når jeg kommer ud på den anden side.. så så, så har jeg det lidt sådan, så skal de nok gå, altså hvad det nu hedder.. på den måde er jeg ikke så bange for, at i ikke, at i ikke kommer derhen hvor i gerne vil. man skal bare være bevidst om det.<br>
+          <span>mia</span><br>
+          Jaer.<br>
+          <span>elias</span><br>
+          For eller er der nogen andre, der definerer dig og maler dig op i et hjørne og sætter dig derhen ik. Øh.. og det, det er ikke nemt. men altså bare.. jeg er heller ikke sådan.. jeg tænker ikke at med det uddannelse i har her, så er i ikke ladt i stikken, men i er ligesom overladt til jer selv øhmm.. på den måde er det, er det jer selv der på en måde skal skabe det bagefter ik.<br>
+          <span>mia</span><br>
+          Det føler jeg.. det er i hvert fald også det.. jeg føler, det er det der godt kan virke lidt frustrerende øhm..<br>
+          <span>elias</span><br>
+          Man kan se det som en mulighed..<br>
+          <span>mia</span><br>
+          Jaer<br>
+          <span>elias</span><br>
+          Du har mulighed for at gøre det du vil, og ik være frustreret over ikke få stukket en retning ud.<br>
+          <span>mia</span><br>
+          Præcis..<br>
+          <span>elias</span><br>
+          Det tror jeg. Jeg havde det på samme måde, da jeg studerende på arkitektskolen. Og der var jeg efter, altså min, der havde vi allerede et stop efter 2. år eller hvis man dumpede skulle man gå et år om..<br>
+          <span>mia</span><br>
+          Var det herude du gik?<br>
+          <span>elias</span><br>
+          Ja, men på arkitektskolen.<br>
+          <span>mia</span><br>
+          Ja.<br>
+          <span>elias</span><br>
+          Øhmm.. og jeg var simpelthen så frustreret, jeg vidste slet ikke, kunne ikke finde ud af, hvad fanden det gik ud. Øh.. jeg tror jeg tabte mig sådan 7 kilo, eller sådan noget på et halvt år. bare sådan helt stresset, jeg har kun spist bananer og kaffe eller et eller andet ik..<br>
+          <span>mia</span><br>
+          Åh gud..<br>
+          <span>elias</span><br>
+          Var sådan helt ude og skide. Og så gik det op for mig, sådan lige før jeg afleverede, at sådan: det handler jo bare om, hva fanden, jeg kan jo gøre med det hvad jeg vil.. og så ligesom hvad er det så jeg vil. og så skiftede jeg over på en anden afdeling, og sådan noget. det var en enorm befrielse. synes jeg. åhh.. og så studerende det, og så blive dygtig til det ik.<br>
+          <span>mia</span><br>
+          Mhmm.<br>
+          <span>elias</span><br>
+          Og det er jo lidt her, så længe du kan det og kan argumentere for hvorfor du gør som du gør - så inden for skolens rammer ik. når du så møder en virkelighed, så kan det godt være de siger: ja det er rigtig fint, men det har vi slet ikke råd til. Vi vil gerne have du gør det her. så kan man jo så sige ja eller nej ik.<br>
+          <span>mia</span><br>
+          Så vil der selvfølgelig være mere man skal gå på kompromis med.<br>
+          <span>elias</span><br>
+          Helt sikkert. Man kommer helt sikkert til at sluge nogle kameler ik. og det er jo forskelligt fra person til person hvad man synes der er kameler, der skal sluges ik.<br>
+          <span>mia</span><br>
+          Jo.<br>
+          <span>elias</span><br>
+          Øhm..<br>
+          <span>mia</span><br>
+          Men også altså.. jamen også hvor høje krav man også har, til det man gerne vil eller sån..<br>
+          <span>elias</span><br>
+          Jaer.. men jeg tænker hvis du, altså nu ved jeg ikke lige hvad der lige præcis interesser dig. Men det var en mega fed opgave, du havde fx på 5. semester der ik. Med ligesom at gå ind og arbejde med en eller anden form for kampagne. Og hvis det ligesom er det. eller anden form for servicedesign. eller sådan noget aktivistisk design. så er der helt sikkert et marked for det. derude. og så kan man så tænke: okay, hvordan kan jeg så bruge det, på eller anden måde hvor du også kan tjene penge og skabe værdig for folk. det kunne fx være og lave workshops med kommuner, hvad fanden ved jeg. eller hvad det nu kunne være eller ligesom sætte sådan nogle ting i stand ik.. fordi det er nok der, i del den fasen det ligger, hvor mman kan sige det er en form for undersøgelse eller.. og så hvis du så synes, ej det er jo også irriterende kun at lave undersøgelser, og så er der nogle andre ligger form på senere. Men så må du ligesom bare skabe, den niche hvor du siger, jamen jeg laver både det hvor jeg går ind og arbejder aktivistisk i starten og så sætter noget form på det, og får det.. og “jeg kan levere hele pakken!” ik?<br>
+          <span>mia</span><br>
+          Jaer (latter)<br>
+          <span>elias</span><br>
+          jeg kan både lave strategi og sådan.. ik. det skal du bare ud og overbevise folk om ik. men jeg tænker, det er jo, hvad det hedder, på en måde, det er ikke sværere, og jeg ved godt, at det samtidig er skide svært ik.. men bare og finde ud af hvad er det man gerne vil og så få sandsynliggjort overfor andre at det kan give dem noget godt, kan gøre noget godt for dem ik.<br>
+          <span>mia</span><br>
+          Helt sikkert. Ja jeg tror også.. jeg synes det er vildt svært, det der med, at man også har forstillet sig, at man måske ville nogen ting og man måske ville i en lidt kunstnerisk retning og man måske finder ud af: okay, måske er det ikke det jeg er god til.. eller hvad er jeg så god til og ligesom og pointere det. for sig selv også bare ik. øhm..<br>
+          <span>elias</span><br>
+          Og det er jo tit.. man er jo ikke kun interesseret i en ting vel.<br>
+          <span>mia</span><br>
+          Nej, præcis..<br>
+          <span>elias</span><br>
+          Men hvad er det man bliver god til.. altså jeg vil sige jeg er heller ikke særlig god til web. jeg synes det er pisse interessant, men jeg var ikke særlig god til at programmere, selvom jeg synes det er rigtig fedt og sådan. men det er bare sådan, man kan ikke være god til det hele.<br>
+          <span>mia</span><br>
+          Nej..<br>
+          <span>elias</span><br>
+          Men.. det er også tit. det der med, hvis du skal ud og sælge ting.. jeg ved godt var jeg synes der er.. og skrifttyper er heller ikke sådan noget der er nemt at sælge..fordi det jo sådan.. eller det er både og. det er normalt, man kan næsten sige hvad som helst til folk, fordi de fleste ikke har forstand på det. men omvendt er det sådan: hvorfor skal vi bruge penge på det? på en skrift agtig ik?<br>
+          <span>mia</span><br>
+          Jaer..<br>
+          <span>elias</span><br>
+          Øhm.. men så kan man nogen gange bruge, okay æstetisk og historie fortællende argumenter, som man måske selv synes er de vigtige ligesom ik. det er bare ikke altid det fungerer. så kan man altid komme tilbage til. okay prøv at se her. en specialtegnet skrift vil koste.. det koster måske 300000 tusinde at få lavet det eller sådan noget ik.. men hvis i.. hvor meget bruger i på licenser på jeres webfonts? og så sidder de og kigger.. hvis det er sådan nogle store kunder, de bruger måske 1 million om året, de næste 2-3 år eller sådan noget ik. det tæller jo på kliks og sådan noget ik.<br>
+          <span>mia</span><br>
+          WOWW.. (latter)<br>
+          <span>elias</span><br>
+          Og så kan de pludselig godt se, okay det sgu måske en meget god ide at have deres egen. så skal man skal bare tale til pengepungen ik. så så, så nogen gang bliver man nødt til at bruge nogle argumenter, som de kan forstå.. i forhold til dem, som man selv synes er de vigtigeste..<br>
+          <span>mia</span><br>
+          Jo, helt sikkert..<br>
+          <span>elias</span><br>
+          Eh.. jeg sidder med en anden opgave lige nu her. og det var faktisk, hvor der var bare en af de skrifttyper de brugte ik, de bruger flere, hvor de var oppe på over 1 million henover et bar år eller sådan noget ik.<br>
+          <span>mia</span><br>
+          Wow.. det er vildt.<br>
+          <span>elias</span><br>
+          Jaer. så det vil sige, så er det jo skide billigt.. hvis man kigger på hvor mange penge de så ikke sparer ik.<br>
+          <span>mia</span><br>
+          Jo. men det er jo så også lige og vide, at man kan hive i den, hive i den skuffe og sige..<br>
+          <span>elias</span><br>
+          Ja, og det er jo det. Det er sådan noget man finder ud af. Jeg har heller ikke vist alt fra starten. og hvor man lægger sin løn henne og er sådan noget der har taget langt tid at få styr på det ik. så det er skide svært. det er meget mere, at man finder ud af tingene undervejs ik. øhm.. og jeg har bestemt heller ikke alle svar for hvad man ligesom kan gøre. der er helt sikker nicher derude, som jeg slet ikke har indsigt i, hvordan det fungerer og sådan ik. men i de bureauer jeg kigger på, og dem jeg kender rundt omkring, der vil jeg bare sige, altså der handler det både om at kunne præsentere og ligesom være professionel, men det handler også om at være dygtig, altså sådan helt.. og det er jo egentlig meget befriende. altså.. (latter) og så er der jo alt mulig.. det tror jeg også jeg skrev. så prøver jeg så vidt muligt at holde mig fri af alt branchefnidderet og.. det gider jeg ikke rigtig være en del af.. altså hvem går og laver hvad. det prøver jeg faktisk at hold mig lidt fri af. eller bare sådan.. så laver jeg bare det jeg godt kan lide ik. <br>
+          <span>mia</span><br>
+          Så man kan ligesom godt holde sig lidt på siddelinjen også.. og stadig..<br>
+          <span>elias</span><br>
+          Ja, det synes jeg. men det jo måske. man kan godt sige, du får jo ikke. selvfølgelig hvis man.. jeg arbejder jo meget som underleverandør for bureauer. hvor jeg får nogle opgaver igennem andre grafiker der. men i virkeligheden. du skal jo kende en masse cbs’er for at få opgaver ik.<br>
+          <span>mia</span><br>
+          (Latter)<br>
+          <span>elias</span><br>
+          Så de ved ik, ej der er sgu en der kan tegne logoer. eller hvad det nu kunne være ik.<br>
+          <span>mia</span><br>
+          (Latter) Åh.. jeg skulle have holdt kontakten, med dem jeg gik sammen med på CBS.<br>
+          <span>elias</span><br>
+          Ja, præcis. (Latter) Det kan godt være det er for sent.. Du kan bare lige dukke op til to fredagsbarer.<br>
+          <span>mia</span><br>
+          (Latter) Jaer.. Nå, men jeg ved ikke hvordan du står til med tid. Men jeg føler i hvert fald, at du har sagt nogle gode ting.<br>
+          <span>elias</span><br>
+          Jaer, jeg tror måske jeg må til at smutte derudaf.<br>
+          <span>mia</span><br>
+          Men det var mega fedt Elias, tusinde tak.<br>
+          <span>elias</span><br>
+          Jaer, det var godt. Så må du må bare sige til hvis der lige er noget andet, du tænker..<br>
+        </contenteditable>
+      </div>
+
+      <!-- <div id="draggable19" class="draggable">
+        <contenteditable="true" id="spørgsmål" class="samtale" rows="4" cols="50" readonly>
+            Hvad er din oplevelse af den danske designbranche på nuværende tidspunkt? Er der noget bestemt vi, som nye designere skal være særlig opmærksomme på?
+            Hvad kan vi forvente, når vi skal ud på arbejdsmarkedet, og finde et job inden for designbranchen?
+            Når man skal ud og søge job, med den uddannelse vi får her på visuel kommunikation, hvor kan man så søge henne? hvor bred er viften?
+            Har du en fornemmelse af, om der er en bestemt del af designbranchen, som de studerende her på visuel kommunikation ville foretrække at arbejde i?
+            Eller er der en tydelig diskurs, for hvad de studerende i hvert fald ikke vil bruge deres tid på?
+            Tror du måske, at vi er for mange med for høje forventninger eller for specifikke krav til vores fremtidige jobs? I forhold til hvilke jobs der er til rådighed.
+            Har du nogle tal på hvor mange er ledige, med en bachelor eller kandidat i visuel kommunikation?
+            Har du ellers nogle eksempler på hvad andre afgængere laver nu?
+            Kan du nævne de væsentligeste kompetencer vi burde gå herfra med?
+            Ser du, at vi optjener nogle kompetencer med denne uddannelse, som vi måske ikke er klar over, eller som vi tager for givet. Men som faktisk er væsentlige at have med på CV’et eller gøre brug af når vi skal ud og finde job?
+            Ser du, at der efterspørges andre kompetencer, fra arbejdsgivere, som vi måske ikke optjener ved denne uddannelse?
+            I hvor høj grad skal man vende sig til at kunne gå på kompromis med ens egen stil og meninger, når man skal ud og designe for andre?
+            Ser du, at branchen stiller nogle krav til ens personlighed for, at man kan stråle igennem?
+            Er det vigtigt, at man som person altid er selvsikker og karakteristisk for at blive anerkendt?
+            Tror du, det er noget man bare er, eller kan man godt blive det?
+            Hvor meget af det at være designer er talent og hvor meget er bare hårdt arbejde?
+            Oplever du, at designere med design eller arkitektur i rødderne klarer sig bedre og har mere succes?
+            Hvad ville du give af råd til de nyuddannede designere, som ikke ved hvad de skal tage sig til eller som føler sig usikre på deres muligheder og hvilken retning de skal gå?
+        </contenteditable>
+      </div> -->
+
+      <div id="draggable104" class="draggable"> <a ondblclick="dbclick4()">
+        <contenteditable="true" id="samtale" class="samtale" rows="4" cols="50" readonly>
+          <strong>JOSEFIN ASKFELT<br>PART 1</strong>
+          <br>
+          <br>
+          <span>josefin</span><br>
+          Jeg havde visuel på min overbygning..<br>
+          <span>mia</span><br>
+          Jaer, men og du kunne godt bare skifte over?<br>
+          <span>josefin</span><br>
+          Øhmm. Nej. Altså.. Det kan man ikke længere. Men den gang, altså det her skole struktur laver de jo om på hele tiden. Man kan ikke tage noget for givet. Øhm, men da jeg startede, så var det sådan at man valgte, man læste modulsystemer. Så man valgte ligesom en linje, men så kunne man vælge projekter, som man synes passede..<br>
+          <span>mia</span><br>
+          Til en?<br>
+          <span>josefin</span><br>
+          Jaer. Men det der så skete var, at de fleste var jo sådan lidt nysgerrige på alt mulig. Så de blev ligesom ikke rigtig gode til noget, men lidt af hvert.<br>
+          <span>mia</span><br>
+          Lidt af hvert, jaer.<br>
+          <span>josefin</span><br>
+          Øhm.. Og jeg gik mest tekstil, men så valgte jeg også i stedet for vævning fx. så valgte jeg illustration og noget fra visuel. Så jeg havde allerede der, mikset det lidt op. Og sen, men jeg tog ligesom tekstil, eller bachelor i tekstil og det er jeg mega glad for. Men.. og sen så havde jeg faktisk et møde med Tine, som du også skulle snakke med.<br>
+          <span>mia</span><br>
+          Ja, jeg snakkede med hende i går.
+          <span>josefin</span><br>
+          Ja? Jeg var sådan.. Jeg tror gerne jeg vil søge, eller jeg vil gerne læse visuel, som min overbygning og det tror jeg var sådan lidt.. eller jeg tror de synes det var lidt underligt. Fordi enten så var tekstil i mod beklædning eller rum. Men jeg synes tekstil og visuel.. eller grafisk design, det matcher.<br>
+          <span>mia</span><br>
+          Det passer også ret godt sammen.<br>
+          <span>josefin</span><br>
+          Passer total godt sammen. Altså hele den måde som det er opbygget på, med pixler og væv, som er ligesom en varp, som går ligesom en, som pixler også og strik og altså.. alt. Og det her med tryk ligesom. Som nok var det jeg gjorde mest.. <br>
+          <span>mia</span><br>
+          Jaer.. <br>
+          <span>josefin</span><br>
+          Men hun sagde i hvert fald, at hun synes jeg skulle læse en sådan kursus, grundkursus, bare sådan, så jeg havde styr på typografi og sådan noget og det var egentlig ret godt. For så læste jeg det, et halvt år i malmø, på högskolan der. Samtidig med at jeg læste et halvtårs filosofi i Lund.<br>
+          <span>mia</span><br>
+          Så du havde ligesom et studieår i mellem din bachelor og.. <br>
+          <span>josefin</span><br>
+          Ja.. Jeg havde to år, faktisk.. <br>
+          <span>mia</span><br>
+          Okay, skulle du så søge ind igen? <br>
+          <span>josefin</span><br>
+          Nej.. Nej nej, fordi man får lov til at have to år. Det tror jeg også I får.<br>
+          <span>mia</span><br>
+          Nå.. Jeg har fået ideen at, om at man faktisk kun har et år man kan holde fri. Altså at man har to muligheder for at søge ind, og det er lige når man er blevet færdig med sin bachelor og så har man et år hvor man kan holde fri, så skal man søge ind igen for ligesom   at få lov. Men jeg ved ikke.. Jeg har aldrig rigtig været sikker på de der regler.<br>
+          <span>josefin</span><br>
+          Men tjek op på det fordi jeg husker i hvert fald sådan at det var 2 max, da jeg blev færdig. Og blev jo færdig for halvandet, snart to år siden. Så det er ikke overdrevet lang tid siden. Kan man sige. <br>
+          <span>mia</span><br>
+          Nej nej.. <br>
+          <span>josefin</span><br>
+          Men.. øhm.. ja. Men så læste jeg det og så skrev jeg bare, eller jeg søgte, og så havde jeg bare min plads, så var der ikke mere ved det. Men jeg ved, at der er en pige, en virkelig sød pige der hedder Charlotte, som ligesom ville gøre det samme som jeg gjorde. Men det får hun ikke lov til. <br>
+          <span>mia</span><br>
+          Nå.. okay. Altså nu eller hvad? ja de er nok blevet lidt..<br>
+          <span>josefin</span><br>
+          Så hun har valgt rum. Men faktisk. Altså det fungerer sygt godt for mig, med visuel. Altsåå.. og nu arbejder jeg jo med grafisk design. <br>
+          <span>mia</span><br>
+          Og det er kun det du laver nu?<br>
+          <span>josefin</span><br>
+          Mmm.. ikke helt altså. Eller jo, det er det næsten. Men der hvor jeg er, altså der laver vi også tekstile produkter. <br>
+          <span>mia</span><br>
+          Jaer.. så du kan ligesom med der. Så der ved du lige lidt mere, end hvad nogle af de andre gør. <br>
+          <span>josefin</span><br>
+          Jamen det gør jeg nemlig. Altså hele den print proces, med tekstil så jeg en sådan ret stor selvtillid og også fordi jeg har lavet de der ting.<br>
+          <span>mia</span><br>
+          Det er jo vildt fedt. <br>
+          <span>josefin</span><br>
+          Mere end, om at sende til off-set. Men der har jeg jo så lært der. Så nu er jeg også godt til nu. Så det er perfekt. For alle dem jeg kender, som er tekstil designere, de er.. ja.. der findes jo ikke rigtig nogen jobs.. <br>
+          <span>mia</span><br>
+          Nej.. det er i hvert fald meget svært. <br>
+          <span>josefin</span><br>
+          Altså.. og mit hjerte brænder virkelig for tekstil stadig.. Men også for grafisk design. <br>
+          <span>mia</span><br>
+          Men det er jo kombination af det, som gør det. <br>
+          <span>josefin</span><br>
+          Ja.. præcis. For mig er det ligesom kombinationen. <br>
+          <span>mia</span><br>
+          Jaer. Det er jo ret fedt at du har muligheden for at gøre det. <br>
+          <span>josefin</span><br>
+          Ja.<br>
+          <span>mia</span><br>
+          Tror du det var..<br>
+          <span>josefin</span><br>
+          Happy accident. <br>
+          <span>mia</span><br>
+          Jaer. Haha. Tror du det, også noget af det der gjorde, at du også fik det job der hos All The Way To Paris?<br>
+          <span>josefin</span><br>
+          Ja, det tror jeg faktisk. <br>
+          <span>mia</span><br>
+          Jaer. Hvor længe har du været der nu?<br>
+          <span>josefin</span><br>
+          1 år. Nej.. længere faktisk. Altså jeg startede der i praktik. <br>
+          <span>mia</span><br>
+          Du startede der i praktik. Efter du var færdig eller imens du var på skolen? <br>
+          <span>josefin</span><br>
+          Nej, efter jeg var færdig. For jeg tror efter jeg blev færdig så.. vidste jeg ikke hvad jeg ville, overhovedet. Eller sådan.<br>
+          <span>mia</span><br>
+          Havde du så noget tid, hvor du bare ikke rigtig lavede noget eller.. <br>
+          <span>josefin</span><br>
+          Jaja, selvfølgelig.. <br>
+          <span>mia</span><br>
+          Men så søgte du så, praktik hos All The Way To Paris, eller søgte du flere steder? <br>
+          <span>josefin</span><br>
+          Jo.. Nej det gjorde jeg faktisk ret så snart efter. For jeg tænkte sådan at den, det studie ville jeg gerne tilhøre. Men altså, jeg søgte ikke særlig meget. For designscenen i Danmark, den er bare stadig meget lille altså. Og jeg gider ikke stockholm altså. Og mig og min kæreste vi er ligesom lige flyttet ind i en lejlighed, så jeg ville gerne prøve ligesom at bygge noget meget reelt op i København, altså, men også sådan prøve, altså kan man have et virkeligt liv, altså udenfor skolen, her. <br>
+          <span>mia</span><br>
+          Kan man hvad?<br>
+          <span>josefin</span><br>
+          Have et virkeligt liv. <br>
+          <span>mia</span><br>
+          (Latter) Kan det lade sig gøre?<br>
+          <span>josefin</span><br>
+          Jaa. (Latter) <br>
+          <span>mia</span><br>
+          Jaa, men det kan jeg da godt forstå. Det er ikke noget man ligefrem forventer, måske. <br>
+          <span>josefin</span><br>
+          Man er jo klar over, at man har valgt en uddannelse, som ikke rigtig giver jobs, og bliver den der skal skabe det. Selv. <br>
+          <span>mia</span><br>
+          Præcis, man har i hvert fald, også når man går i skole, et billede af, at det nærmest bliver umuligt.. <br>
+          <span>josefin</span><br>
+          Ja, men det er det lidt også. Altså.. Både ja og nej.. <br>
+          <span>mia</span><br>
+          Men du søgte ikke så meget forskelligt? <br>
+          <span>josefin</span><br>
+          Nej, så søgte jeg dem. Og så lavede jeg lidt små projekter og lavede lidt for mig selv, men der gik kun et halvt år, og så kom jeg til interview der. Men det handler jo også om at matche ind. For der var en praktikant som stoppede fordi han skulle studere videre.<br>
+          <span>mia</span><br>
+          Så det er timing også. <br>
+          <span>josefin</span><br>
+          Ja, og der havde jeg ligesom sendt flere gange og jeg havde brugt en kontakt jeg kendte, som kendte dem. Så der var ligesom et godt indgangspunkt. Men jeg vidste nærmest også med det samme, efter vi havde haft den interview der, at jeg passede godt ind. <br>
+          <span>mia</span><br>
+          Og hvor længe var du så i praktik? Før du fik..<br>
+          <span>josefin</span><br>
+          Mmm jamen jeg tror man kan være der.. Vi trak den ud 2 x 2 måneder, så det vil sige 4.. <br>
+          <span>mia</span><br>
+          Der var du i praktik, og så fik du tilbudt et job. <br>
+          <span>josefin</span><br>
+          Ja, så fik jeg løntilskudsjob, som men, hvor min kontrakt ligesom var fastansat. <br>
+          <span>mia</span><br>
+          Hvad vil det sige?<br>
+          <span>josefin</span><br>
+          At, løntilskud, så betaler A-kassen halvdelen af lønnen, men jeg får fuld løn, eller man får fuld løn. I 3 måneder. Men altså på min kontrakt stod der at jeg var fast ansat.<br>
+          <span>mia</span><br>
+          Okay, men er det stadig sådan?<br>
+          <span>josefin</span><br>
+          Nej, det er gået over nu. Nu må de betale hele min løn. <br>
+          <span>mia</span><br>
+          Okay, hvad hedder din stilling. Eller sådan. <br>
+          <span>josefin</span><br>
+          Øhm.. jeg tror at det hedder Junior Designer. <br>
+          <span>mia</span><br>
+          Det er da meget sejt. <br>
+          <span>josefin</span><br>
+          Ja.. men det er ikke noget man.. jeg skriver bare designer.<br>
+          <span>mia</span><br>
+          Ja okay.<br>
+          <span>josefin</span><br>
+          (Latter) <br><br>
+          <span>mia</span><br>
+          Men så der er alligevel lige sådan en rang imellem, altså der er nogen der er senior designer ikke? <br>
+          <span>josefin</span><br>
+          Ja altså inden for hele den der grafiske verden så er der jo, så kan man vel have været på et sted min 3 år før man kan blive senior designer, og så er det ligesom dem der skal italesætte det sådan: nu vil vi gerne give dig denne.. <br>
+          <span>mia</span><br>
+          Titel.. <br>
+          <span>josefin</span><br>
+          Men det er også meget sådan, en “lade-som-om-verden” fordi Tanja og Petra, de har jo selv gået på skolen for 15, 20 år siden. Jeg ved det ikke. Og de har jo aldrig været ansat hos nogen andre. De har altid været selvkørende. <br>
+          <span>mia</span><br>
+          Jaja. <br>
+          <span>josefin</span><br>
+          Såå. Det altså, hvem er det der siger, at de har lov til at uddelegere titler. Så det er lidt fake. Men fx hos Kontapunkt og E-types der er det nok meget vigtigt, at man ved hvem der er junior og senior og developer, brand manager, og projektleder osv. Altså.. <br>
+          <span>mia</span><br>
+          Jaer, der er sådan lidt mere reelle titler man har. <br>
+          <span>josefin</span><br>
+          Hvilket også er lidt sådan.. men man har jo brug for en struktur. Og de er jo kæmpe store, de der bureauer. Vi er 8 personer.<br>
+          <span>mia</span><br>
+          I er kun 8?<br>
+        </contenteditable>
+      </div>
+
+      <div id="draggable105" class="draggable"> <a ondblclick="dbclick4()">
+        <contenteditable="true" id="samtale" class="samtale" rows="4" cols="50" readonly>
+          <strong>JOSEFIN ASKFELT<br>PART 2</strong>
+          <br>
+          <br>
+          <span>josefin</span><br>
+          Mhm.. <br>
+          <span>mia</span><br>
+          Nå det er ikke så  mange. <br>
+          <span>josefin</span><br>
+          Nej det er meget hyggeligt. Plus at.. det er meget fedt, for så må man gøre alt. <br>
+          <span>mia</span><br>
+          Man er med til alt og sådan.. <br>
+          <span>josefin</span><br>
+          Man er ikke kun rentegner, altså.. udruller. En der ruller ud.<br>
+          <span>mia</span><br>
+          Altså hvad vil det sige? <br>
+          <span>josefin</span><br>
+          Jamen, så er det nogen anden, der allerede har fundet på konceptet, snakket med kunden.. <br>
+          <span>mia</span><br>
+          Så skal man bare tegne det. <br>
+          <span>josefin</span><br>
+          Så skal du bare rentegne det ligesom. Så det er det der det fede, jeg lærer ligesom, fra start til afslut. <br>
+          <span>mia</span><br>
+          Føler du, forventer de at man kan lidt af det hele.. <br>
+          <span>josefin</span><br>
+          Jaja, selvfølgelig skal du kunne det. Altså.. men mest er det sådan. Vi har fx Mahu, hun er fra Japan, og hun har gået på RCA, men hun er, hun har læst rumdesign. Altså hun er ikke arkitekt, men rum.. ligesom produkt.. og hun, hun er ikke så god til typografi. <br>
+          <span>mia</span><br>
+          Altså hvad vil det sige. Hun er ikke så godt til lay-out eller? <br>
+          <span>josefin</span><br>
+          Ja, og ligesom på en måde, tror jeg hun bruger illustrator mere end hun bruger in-design, men hun har jo lært sygt meget, altså. Og for dem handler det også om et generelt æstetik udtryk, altså og hvis man.. <br>
+          <span>mia</span><br>
+          Passer ind. <br>
+          <span>josefin</span><br>
+          Ja, altså, er der nogen tekniske ting, som man bare kan lære. <br>
+          <span>mia</span><br>
+          Så har de vel også mulighed for at lære en, altså lære det på den måde de gerne vil have man gør det på ikke?<br>
+          <span>josefin</span><br>
+          Øh.. <br>
+          <span>mia</span><br>
+          Eller hvad. det går de ikke så meget op i?<br>
+          <span>josefin</span><br>
+          Næ.. men mere sådan i et system. Ligesom. Det er også en meget god ting at lære, altså at gemme filer så andre kan arbejde videre på det. <br>
+          <span>mia</span><br>
+          Jaer. det er sådan noget man ikke tænker over når man arbejder på skolen. <br>
+          <span>josefin</span><br>
+          Nej, det gør man nemlig ikke. Altså men.. Puh. min computer der hjemme, den er sådan her: (fakter med hænderne som bokse, der skal forstås som et billede af noget der er systematiseret) <br>
+          <span>mia</span><br>
+          Er det rigtig? det lyder dejligt. <br>
+          <span>josefin</span><br>
+          Ja. Også min mail. <br>
+          <span>mia</span><br>
+          Ej, hvor er du god. Mit er så rodet… Og man prøver sådan lidt undervejs. Du ved ind i mapper, men der er stadig, der er ikke rigtig nogen struktur. Og så kalder man det sådan 12345. Eller Final, final2, final3<br>
+          <span>josefin</span><br>
+          Ja eller, Finalfinal, finalfinalfinal (Latter). <br>
+          <span>mia</span><br>
+          Og sådan kan det blive ved. Og bare sådan åh.. Og så tør man heller ikke at slette noget, for hvad nu hvis jeg skulle bruge det… Jaer.. Jeg kigger altså lige hurtig på denne her.. for jeg havde forbedret nogle spørgsmål til dig.. øhmm..<br>
+          <span>josefin</span><br>
+          Ja, nu har jeg bare snakket. <br>
+          <span>mia</span><br>
+          Ja, det er også så fint. Vi har også været inde på meget af det, jeg ville bare lige..
+          Øhm.. Nå ja, altså. Da du.. enten da du blev færdig med din bachelor eller undervejs i din kandidat, var du på noget tidspunkt, hos studievejlederen, eller søgte du råd hos nogen, om hvad dine muligheder var fremover, eller hvilken retning du kunne gå. <br>
+          <span>josefin</span><br>
+          Nej.. nej det tror jeg ikke. Altså så skulle det være, på det tidspunkt, da jeg holdt pause og spurgte Tine, sån: jeg tror gerne jeg vil det her. <br>
+          <span>mia</span><br>
+          Men det var kun Tine du snakkede med.. <br>
+          <span>josefin</span><br>
+          Ja.. <br>
+          <span>mia</span><br>
+          Og var det noget der fyldte meget, at du ikke vidste hvad du skulle. Eller tænkte du, det skal nok gå det hele.. eller, jeg ved ikke.  <br>
+          <span>josefin</span><br>
+          Jaja, men det må jo nok være, der hvor jeg ligesom, blev færdig med bacheloren, ligesom..<br>
+          <span>mia</span><br>
+          Ligesom mig.. <br>
+          <span>josefin</span><br>
+          Ja, men så lidt senere selvfølgelig, fordi jeg hele tiden tænkte at jeg skulle holde pause. Men det er klart at det fyldte, og så tror jeg, at jeg i sidste ende følte mig lidt doven, at jeg ikke søgte ind til en skole et andet sted. <br>
+          <span>mia</span><br>
+          Var det sådan et pres der var. Fordi at alle andre gjorde det? Eller var det bare sådan en..<br>
+          <span>josefin</span><br>
+          Næ.. det var alstå. nej. det tror jeg ik. nej. <br>
+          <span>mia</span><br>
+          Nej.. <br>
+          <span>josefin</span><br>
+          Det var, altså.. Jeg tror aldrig jeg har følt pres over hvad andre har gjort. <br>
+          <span>mia</span><br>
+          Nej okay.<br>
+          <span>josefin</span><br>
+          Og så, for mig gav det også mening, sådan, på et personligt plan, at komme tilbage til København igen. Fordi at jeg.. ligesom har set mig selv i fremtiden.. altså det er en by jeg gerne vil leve i. Og at det nok ville være fedt, og have et netværk her. <br>
+          <span>mia</span><br>
+          Jaer, helt klart. <br>
+          <span>josefin</span><br>
+          Og jeg havde allerede været på udveksling.. Men jeg gik med tankerne om, at da jeg startede, at jeg skulle tage på udveksling igen. Men så missede jeg ligesom det ene semester, hvor man ligesom fik lov til at gøre det. Så.. det var lidt skidt, men ja.. Og der var virkelig dårlig information om det og sådan.<br>
+          <span>mia</span><br>
+          Jaja.. der er jo så dårlig..<br>
+          <span>josefin</span><br>
+          Men, det var selvfølgelig, det var nok mest den tidsperiode, hvor jeg gik og tænkte sådan.. hvad skal jeg? Men jeg tror også at det var sådan pragmatisk ting, som gjorde at jeg også bare, når jeg ligesom fandt ud af, at jeg fik lov til at vælge den linje, som jeg gerne ville skifte over til..<br>
+          <span>mia</span><br>
+          Så føltes også rigtig ret hurtigt eller.. <br>
+          <span>josefin</span><br>
+          Ja.. føles okay. Eller ja.. Og fordi.. jeg havde kigget på hvad skulle det så være… London eller hvad skulle det.. det skulle nok være et land hvor det ligesom var engelsk-sproget, så at man ligesom kunne følge med. Fordi jeg havde været, jeg var på udveksling i Japan, og det var fedt at være i landet, men jeg kunne ikke følge med, så jeg kunne ikke bare, jeg kunne ikke vælge Frankrig.. altså. <br>
+          <span>mia</span><br>
+          Nejnej, nej jeg forstår.<br>
+          <span>josefin</span><br>
+          Men.. men også af den grund, at vi, altså at man ikke behøver at betale skoleafgifter, altså..<br>
+          <span>mia</span><br>
+          Jaer, det er selvfølgelig.. <br>
+          <span>josefin</span><br>
+          Rent praktisk ligesom. <br>
+          <span>mia</span><br>
+          Ja, ja, jaer.. Men du var så også glad for det, altså når du kom ind på visuel kommunikation? Du var glad for kandidaten?<br>
+          <span>josefin</span><br>
+          Ja, så synes jeg det var meget fedt. Det første halve år.. Sen.. så var det dårligt.(Latter) .. <br>
+          <span>mia</span><br>
+          Nå? (Latter) Hvad var dårligt? <br>
+          <span>josefin</span><br>
+          Øhm… de var ustrukturerede.. Vi blev lovet ting, som ikke blev til noget. Vi fik lov til at være med og formgive uddannelsen, men de ting som ligesom blev ønsket for.. Blev aldrig til noget. Så det var.. ja.. <br>
+          <span>mia</span><br>
+          Det var skuffende? <br>
+          <span>josefin</span><br>
+          Ja… det var faktisk virkelig dårligt. Øh.. der var kun nogle gode ting. Altså.. det første halve år var fint. og der kunne man virkelig se at de havde planlagt, de her fire lærere som var her, og jeg ville bare ønske at de havde holdt sig til den plan, som de havde lagt ind for det næste halve år også. Men det gik ligesom.. <br>
+          <span>mia</span><br>
+          Af kurs?.. <br>
+          <span>josefin</span><br>
+          Og det må man ligesom ligge skylden på institut..<br>
+          <span>mia</span><br>
+          Var noget sådan, du ville ønske du havde lært mere af her på kandidaten? noget som i skulle, noget specifikt du gerne ville have fokuseret mere på?<br>
+          <span>josefin</span><br>
+          Mhmm.. altså der var jo ligesom… Man kunne mærke at de som startede året efter os, de fik også lov til at have lidt programmering, og lidt mere sådan styrte kurser, som jeg synes kunne have været fedt. Men det er også fint at det var lidt frit, til sidst.. <br>
+          <span>mia</span><br>
+          Er det noget du savner nu? At det ikke er så frit? <br>
+          <span>josefin</span><br>
+          Øhm.. altså.. både ja og nej.. altså jeg tror jeg har det fint med at lave lidt flere styrte opgaver, for kunder. Der er nogle opgaver som er meget fine, det er ligesom, vi har nogle finde kunstner projekter også. Men de fleste, projekter, er kommercielle. Men så kan man jo lave ting ved siden af. Altså. Og jeg har, tror stadig at jeg går med en drøm om at, ligesom i fremtiden at jeg måske kan være.. kan have et eget studie, sammen med nogen.. Altså helst ikke alene..<br>
+          Nej.. Så du vil gerne ligesom også gerne bruge tid på at dyrke dine egne visioner, sådan som designer, og ligesom få lov til at selv at vælge opgaverne og..
+          <span>josefin</span><br>
+          Jaja, og definere opgaverne. Og så ved man jo på forhånd, at det kommer til at være opgaver som ikke giver penge.. og det er ligesom præmissen. og så kunne man fx lægge 3-2 dage om ugen på ting, der vil bringe penge ind. <br>
+          <span>mia</span><br>
+          Så det er din drøm..<br>
+          <span>josefin</span><br>
+          Altså, jeg har det sådan, alt behøver ikke at ske med det samme. <br>
+          <span>mia</span><br>
+          Nej.. det skal det jo heller ikke. Det er jo også bare.. man skal jo starte et sted og prøve nogle ting af. Det er jo fedt du er et sted lige nu, hvor du godt kan lide at være. <br>
+          <span>josefin</span><br>
+          Jaja, og jeg har også fået nogle meget gode ting ud af den her skole. På kandidaten, skal jeg også lige sige, at vi havde Rasmus Spanggaard. Har du haft ham?<br>
+          <span>mia</span><br>
+          Ja. Jeg tror vi havde ham på 1. år men kun i sådan noget.. noget lay-out tror jeg. <br>
+          <span>josefin</span><br>
+          Han hedder da Spanggaard. Rasmus Spanggaard.<br>
+          <span>mia</span><br>
+          Jo, jeg ved i hvert fald godt hvem du mener.<br>
+        </contenteditable>
+      </div>
+
+      <div id="draggable106" class="draggable"> <a ondblclick="dbclick4()">
+        <contenteditable="true" id="samtale" class="samtale" rows="4" cols="50" readonly>
+          <strong>JOSEFIN ASKFELT<br>PART 3</strong>
+          <br>
+          <br>
+          <span>josefin</span><br>
+          (Latter) Men.. han er sygt god! og han havde vi. Og så havde vi faktisk en læsegruppe sammen med ham, som var et kursus. Som han og Anette startede op, øhm og så havde jeg også ham til min afgang. Og han, altså, han var ligesom den der gjorde at det hele var det værd.<br>
+          <span>mia</span><br>
+          Nå, ej det er da meget fedt. Og han er her stadig?<br>
+          <span>josefin</span><br>
+          Jaer. <br>
+          <span>mia</span><br>
+          Mhm..<br>
+          <span>josefin</span><br>
+          Hvis du overvejer.. Jeg tænker også at dit projekt går lidt ud på at du selv skal finde ud af, hvad skal jeg gøre.
+          <span>mia</span><br>
+          Jaja.<br>
+          <span>josefin</span><br>
+          Ja.<br>
+          <span>mia</span><br>
+          Det er lidt der, det hele stammer fra. Fordi jeg bare slet ikke ved rigtig, hvad jeg vil bruge den her uddannelse til. Og jeg ved godt altså, jeg har jo stadig nogle år endnu hvor jeg kan studere...<br>
+          <span>josefin</span><br>
+          Jaja, altså du ville jo også kunne starte forfra på en måde. Altså sådan..<br>
+          <span>mia</span><br>
+          Jaer, det er rigtig. Men jeg ved sådan, jeg kan godt mærke at jeg godt kan lide sådan og arbejde med de her ting, jeg ved bare ikke helt hvordan eller i hvilken retning og sådan..<br>
+          <span>josefin</span><br>
+          Nej, men altså prøv og hør.. altså det behøver du jo heller ikke vide nu. Det er bare en bachelor.. <br>
+          <span>mia</span><br>
+          Jaer, i know.. <br>
+          <span>josefin</span><br>
+          Og du skal have en master. <br>
+          <span>mia</span><br>
+          Ja, det skal jeg. Det er også derfor jeg tænker at det ville være meget fedt, lige at tage et års pause og ligesom lidt som dig. At man ved ligesom sådan, okay hvis jeg tror det er den her retning jeg skal gå, så skal jeg nok måske lave en master i det her, eller sådan, i hvert fald bare være mere sikker i valget inden man tager det. <br>
+          <span>josefin</span><br>
+          Jaer. <br>
+          <span>mia</span><br>
+          Og det er vel også lidt det, der her projekt handler om. Og så fordi jeg tror, eller det er jo tydeligvis en ting som alle har det lidt på den måde, og nogen tænker mere over det end andre. Jeg tænker tydeligvis meget om det.. eller meget på det. Øhm.. men at også at det egentlig bare er ret interessant, sån.. og snakke om. Og sån.. (latter). På en eller anden måde. Ja. reflektere lidt mere over ens beslutninger eller i hvert fald sån, sætte spørgsmålstegn ved det. Jeg ved det ikke.. Det er også et meget forvirrende projekt. Det hele kører bare rundt.. <br>
+          <span>josefin</span><br>
+          Jeg tænker bare, at ville.. ej men nu får du jo også tekstmateriale. <br>
+          <span>mia</span><br>
+          Ja, det kommer til at være meget tekst. <br>
+          <span>mia</span><br>
+          Ja, præcis.. Øhm.. Men jeg føler vi har været sådan relativt meget inde på det meste..<br>
+          <span>josefin</span><br>
+          Altså jeg kan sige, at nu når jeg har ligesom, nu er jeg ude på den anden side.. <br>
+          <span>mia</span><br>
+          Jaer, det var også det jeg skulle til at spørge om, har du et final advice. (Latter) <br>
+          <span>josefin</span><br>
+          Ja.. (Latter) Ja, men altså, det virker næsten sådan at hvis man gerne vil søge ind til det studius(jobs) som findes i København, hvilket ikke er så mange, men hvis man gerne vil det, så synes de at det er lidt fedt at man har været et andet sted, end kun her. <br>
+          <span>mia</span><br>
+          Ja.<br>
+          <span>josefin</span><br>
+          Så, Yale er ligesom mega hypet grafisk skole lige nu.<br>
+          <span>mia</span><br>
+          Er det rigtig? <br>
+          <span>josefin</span><br>
+          Ja.<br>
+          <span>mia</span><br>
+          Eller selvfølgelig er det det, men jeg vidste ikke at det var sådan, altså.. <br>
+          <span>josefin</span><br>
+          Altså i New York ik. Altså.. men Danmark har ingen SU forbindelser der, så der kan du ikke få. <br>
+          <span>mia</span><br>
+          Og det er vel også bare svine dyrt.. <br>
+          <span>josefin</span><br>
+          Jaja, men så må man jo søge nogle legater eller et eller andet, hvis man gerne vil det. Men det også lidt sådan en presdice, det er sådan WOWW (Latter) Og er det sådan at RCA også bare er fedt ligesom.. <br>
+          <span>mia</span><br>
+          Ja okay. <br>
+          <span>josefin</span><br>
+          Men de har ligesom også interne problemer.. Okay og en anden ting, som man finder ud af er.. at alle skoler er fucked up. Jeg har ligesom brugt meget frustration og tid på bare at være sur over KADK.. (Latter) Men så forstå man bare at de fleste har deres.. Også bare er dårlige.. <br>
+          <span>mia</span><br>
+          Der er altid et eller andet. Det kan man nok ikke komme uden om. <br>
+          <span>josefin</span><br>
+          Og så også bare, at det er jo pisse svært at komme ind og så kommer man ind. Og så forstår man at man har haft alt for høje.. expectations. <br>
+          <span>mia</span><br>
+          Ja… ja virkelig. Altså sådan har også bare kunne mærke hvordan det sådan er kommet stille og rolig i løbet af årene, man er lige kommet ind og så er man bare helt vildt glad og man er sådan: det hele skal nok gå for nu er jeg kommet ind og sån se mig agtig ik.. <br>
+          <span>josefin</span><br>
+          Og så kommer næste skridt. <br>
+          <span>mia</span><br>
+          Jaer, så man er sådan lidt.. nå okay.. sån.. <br>
+          <span>josefin</span><br>
+          Var det bare det? <br>
+          <span>mia</span><br>
+          Var det bare det? Og sån, ja.. man sammenligner sig med andre og man er bare sådan lidt.. åh… (Latter) Og så kommer man til det her skridt og så er man sådan fuck, fuck, fuck, fuck (Latter)..<br>
+          <span>josefin</span><br>
+          Jaer.. <br>
+          <span>mia</span><br>
+          Altså sån, det er jo ligesom sådan.. <br><br>
+          <span>josefin</span><br>
+          Og nu er jeg ved næste skridt. Nu har jeg været ansat i et år og er sådan her: fuck er det bare det. (Latter) altså.. det er et virkelig et fedt studie(job) og jeg har også venner som skriver som skriver sådan: hey.. har i brug for nogen, eller kan man komme i praktik hos jer altså så bliver man sån: ja okay, det er nok ret godt at jeg er her. Men, det er sådan 9-17. Nej det er 9-18, altså det er du sådan, 8.30-8-18, altså det er virkelig overtidsarbejde, stress, ehhm, jeg bruger mere tid der, end jeg gør hjemme, altså.. pludselig er man inde i det der hamsterhjul og så skal man betale tilbage min.. altså ikke SU, men SSN, ligsom, øhmm.. det skal ligesom være.. hver 3. måned har jeg en regning. Husleje.. og så er man sådan: gud er det sådan at være voksen.. Så skal man virkelig ville det her, for jeg får ikke særlig høj løn der. Altså de tjener ikke så mange penge.. Fordi de også har nogle fede opgaver. Jeg laver fx en børnebog med Jeppe Hein og Silke Hein, alså.. og det er mega fedt. Men det er jo en opgave som ikke rigtig betaler, altså.. Jeg kan jo godt forstå at de ikke har råd til at betale højere løn, altså.. Men.. Men jeg er bare sådan.. der er så meget arbejde og jeg får ikke særlig mange penge, og jeg har de her feriepenge, altså.. <br>
+          <span>mia</span><br>
+          Så savner man at være studerende..<br>
+          <span>josefin</span><br>
+          Ja.. pludselig. Øh.. Og samtidig ikke.. Jeg er ret færdig med.. I hvert fald med det her liv (fagter med armere ud i rummet). <br>
+          <span>mia</span><br>
+          Jaer, det forstår jeg godt.. <br>
+          <span>josefin</span><br>
+          Men jeg læser faktisk en kursus nu også ved siden af. <br>
+          M<span>mia</span><br>
+          Nå, hvad er det for noget?<br>
+          <span>josefin</span><br>
+          En filosofi kursus. <br>
+          <span>mia</span><br>
+          Ja, spændende. <br>
+          <span>josefin</span><br>
+          Fordi at jeg bare kan mærke, at min hjerne skal noget mere. End og bare.. for jeg ved at jeg i fremtiden kommer jeg også til og ville gøre noget andet og så vil jeg ikke at min hjerneceller skal være døde fordi jeg har siddet og lavet en masse packageing design. Du ved.. <br>
+          <span>mia</span><br>
+          Og så når vi går gang med sådan her projekt her. Så starter jeg altid med og sån, du ved, læse artikler, finde teori og historisk og jeg bliver helt sådan, jeg bliver helt høj på og sidde og læse, at føler faktisk, at man bliver klogere. Altså det gør man jo også ved at sidde og arbejde med det her, men man føler også hurtigt, at man bare bliver en zombie, der bare sidder og kigger på ting. Og at man ikke rigtig får noget sådan input udefra.. eller jeg ved ikke.<br>
+          <span>josefin</span><br>
+          Ja.. <br>
+          <span>mia</span><br>
+          Det er som om at man sådan.. <br>
+          <span>josefin</span><br>
+          Altså lige her på skolen, eller når du er inde i et projekt. <br>
+          <span>mia</span><br>
+          Nej.. ja når jeg er inde i et projekt. Og så på skolen så, i de tidligere semestre har vi selvfølgelig også haft forelæsninger, men vi har jo næsten ikke haft nogle forelæsninger det her år. Øhm.. Det er jo lidt fedt, men man savner det virkelig når man ikke har det. Er det gået op for mig. <br>
+          <span>josefin</span><br>
+          Jaja, altså. det er virkelig fedt at man har så meget frihed, til at skabe sine egne ting, men har også brug for input altså.. det er så nederen og være den som selv skal skabe.. Eller være motoren hele tiden, altså.. det synes jeg også er en skyldighed af skolen og komme med input, altså en uddannelse ik, altså.. for ellers kan man jo ligeså godt lade være, og bare bruge youtube altså.. <br>
+          <span>mia</span><br>
+          Jaja.. nej men præcis. <br>
+          <span>josefin</span><br>
+          (Latter) <br>
+          <span>mia</span><br>
+          Jaer, nej med det har du helt ret i. Men hvor tager du der filosofi kursus? <br>
+          <span>josefin</span><br>
+          På Söderturm <br>
+          <span>mia</span><br>
+          Hvor er det henne? Er det i sverige?<br>
+          <span>josefin</span><br>
+          Ja. altså det er en högskola, en universitet. Men det er fjern.. man behøver ikke møde op.<br>
+          <span>mia</span><br>
+          Ahhhh. Det er online-kursus. Og er det godt? <br>
+          <span>josefin</span><br>
+          Ja, men det er så svært.. (latter)<br>
+          <span>mia</span><br>
+          Er det rigtig?<br>
+          <span>josefin</span><br>
+          Det er fordi vi læser originaltekster. <br>
+          <span>mia</span><br>
+          Ah.. <br>
+          <span>josefin</span><br>
+          Og så skal vi ligesom skrive en analyse af dem. Og nogle er fine nok, altså sådan de lidt nyere. Judith Butler, Chris steva altså sån nogen feministiske filosoffer, men vi har også læst, nu har jeg læst Chak La Kan. Og.. Le ve nas. <br>
+          <span>mia</span><br>
+          Jeg ved slet ikke hvem nogen af de her er.. (Latter)<br>
+          <span>josefin</span><br>
+          Okay, La Kan, han er psykoanalytiker, den største efter Freud, så han har ligesom taget over hans arv. Og han skriver ligesom på en sån måde, at han bevidst også prøver at få en til at tænke ud over boksen. Du ved så her, ej med det er så psyko, eh.. Og jeg har brugt.. Altså på Le VeNas, så brugte jeg altså 5 uger, altså på at prøve og forstå en tekst på 4 sider. Altså forstår du?<br>
+          <span>mia</span><br>
+          Ja. jaja. <br>
+          <span>josefin</span><br>
+          Man får det så dårlig.. Men sen.. når man vel forstår de: ahh kan det være det her, så er det så nice känsla alså. <br>
+          <span>mia</span><br>
+          Jaer. og er det så ikke som regel ikke også noget, som på en eller måde er ret basalt egentlig, men det er sån stadig, eller sån.. <br>
+          <span>josefin</span><br>
+          Ja, jo det kan det faktisk være. <br><br>
+          <span>mia</span><br>
+          Eller noget som man alligevel kan relatere til. <br>
+          <span>josefin</span><br>
+          Jo, men det er jo fordi man selv har fundet ud af, eller sån: ahh det er sådan her, jeg kan relatere det til mig selv. Altså så bliver det.. <br>
+          <span>mia</span><br>
+          Så det er det man skal finde ud af, hvordan man kan, ja.. Spændende<br>
+          <span>josefin</span><br>
+          Ja. Det er meget spændende fordi, ham der La Kan, han snakker om sån her Mirrorstage og om hvordan vores ego og hur vi ligesom finder os selv, ved ligesom at spejle os selv i andre eller i et spejl. Og mit afgangsprojekt handlede om selfies. (Latter). Så lidt i forlængelse med det, synes jeg det er fedt. <br>
+          <span>mia</span><br>
+          Jaer. det er meget sjovt. Det er også fedt når man kan se noget man selv har lavet i noget andet. <br>
+          <span>josefin</span><br>
+          Jaer. Og hvordan jeg ville kunne bruge det i fremtiden. <br>
+          <span>mia</span><br>
+          Mhmm. Nå ej, det lyder da som om du har gang i nogle gode ting.<br>
+          <span>josefin</span><br>
+          Ja. Det tænker jeg. (Latter)<br>
+          <span>mia</span><br>
+          Dagene går i hvert fald. <br>
+          <span>josefin</span><br>
+          Ja, ej det går så hurtigt. Det er som om tiden gik langsommere når jeg var her. Men ja, det heller ikke særlig godt det der med at være så stresset hele tiden. Det har faktisk været lidt hårdt.. (Lidt Latter). <br>
+          <span>mia</span><br>
+          Ja, det kan jeg godt forstå. <br>
+          <span>josefin</span><br>
+          Jaer. Men det vejer op, at jeg lærer ting hele tiden gennem og være der.<br>
+          <span>mia</span><br>
+          Jaer. <br>
+          <span>josefin</span><br>
+          Bare sån, når jeg gik på skolen, jeg tænkte slet ikke i de der termer af kunden og skabe nogen.. <br>
+          <span>mia</span><br>
+          Nej, det gør man jo ikke rigtig.. <br>
+          <span>josefin</span><br>
+          nogen kundebasis eller sån noget der. Men jeg ved, at jeg har nogle venner som, dem det ligesom kører for, som er freelance nu. De har ligesom startet det imens de gik i skolen.<br>
+          <span>mia</span><br>
+          Jaer. <br>
+          <span>josefin</span><br>
+          Så fik de der her kunder ligesom.. Det gjorde jeg ikke. Så for mig handlede det også bare om..<br>
+          <span>mia</span><br>
+          Og starte et sted..?<br>
+          <span>josefin</span><br>
+          Ja, og vide hvad findes der i den her by som man kan arbejde med. Altså hvem behøver en bog, hvem behøver en hjemmeside, alt sån noget. <br>
+          <span>mia</span><br>
+          Ja, altså..<br>
+          <span>josefin</span><br>
+          Ja.. <br>
+          <span>mia</span><br>
+          Det er jo også bare det der netværk som på en eller måde skal dannes ik.. Det synes jeg virkelig også er overvældende. <br>
+          <span>josefin</span><br>
+          Ja. og alle mine venner er typ designere, altså så de har jo ikke brug for noget (Latter).<br>
+          <span>mia</span><br>
+          Nej… (Latter) Nejnej, men der jo rigtig nok, så er det lidt svært… Men er det noget du kan mærke nu med den danske design branche, er det meget indspist det hele?<br>
+          <span>josefin</span><br>
+          Ja, det er sygt indspist!<br>
+          <span>mia</span><br>
+          Det er svært og sådan komme ind. <br>
+          <span>josefin</span><br>
+          Der er jo ikke særlig stor forskel på den svenske og den danske, den er lige så indspist der synes jeg. Ja.. og det er ikke nødvendigvis den bedste der får opgaven. Det er sådan vennekulturer. <br>
+          <span>mia</span><br>
+          Jaja.. præcis. Men sådan vil det jo altid være.. Sådan er det med mange ting ik.. Men det er måske i særlig grad inde i det her miljø, på en eller anden måde, føler jeg.. Man bare kan mærke at dem der råber højst de kommer længst. <br>
+          <span>josefin</span><br>
+          Ja, men det handler jo om det. Altså og kunne sælge sig selv. <br>
+          <span>mia</span><br>
+          Er det noget du, sån føler du er blevet bedre til efter du er blevet færdig her, eller synes du allerede da du gik på skolen at det var noget der.. <br>
+          <span>josefin</span><br>
+          Nej, da jeg gik på skolen, tror jeg, jeg synes at man var sådan lidt: jeg er jo ikke færdig, altså der var man jo sån: ej! får jeg lov til at lave den her opgave?? (Latter) Men nu her, nu er jeg mere selvsikker. Jeg ved ligesom at: nej jeg skal have penge for det her. Altså sån. <br>
+        </contenteditable>
+      </div>
+
+      <!-- GRAPH -->
+
+      <div id="draggable20" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål1_elev.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable21" class="draggable">
+         <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål2_elev.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable22" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål3_elev.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable23" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål4_elev.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable24" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål6_elev.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable25" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål7_elev.png">
+          </img>
+          </a>
+      </div>
+
+      <div id="draggable26" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål8_elev.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable27" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img class="surveyElev" src="img/spørgsmål9_elev.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable28" class="draggable"> <a ondblclick="dbclick2()">
+        <img id="surveyLærer" src="img/spørgsmål1_lærer.png">
+        </img>
+      </div>
+
+      <div id="draggable29" class="draggable">
+        <a ondblclick="dbclick2()">
+          <img id="surveyLærer" src="img/spørgsmål2_lærer.png">
+          </img>
+        </a>
+      </div>
+
+      <div id="draggable30" class="draggable"> <a ondblclick="dbclick2()">
+        <img id="surveyLærer" src="img/spørgsmål3_lærer.png">
+        </img></a>
+      </div>
+
+      <div id="draggable31" class="draggable"> <a ondblclick="dbclick2()">
+        <img id="surveyLærer" src="img/spørgsmål4_lærer.png">
+        </img></a>
+      </div>
+
+      <div id="draggable32" class="draggable"> <a ondblclick="dbclick2()">
+        <img id="surveyLærer" src="img/spørgsmål5_lærer.png">
+        </img></a>
+      </div>
+
+      <div id="draggable33" class="draggable"> <a ondblclick="dbclick2()">
+        <img id="surveyLærer" src="img/spørgsmål6_lærer.png">
+        </img></a>
+      </div>
+
+      <div id="draggable34" class="draggable"> <a ondblclick="dbclick2()">
+        <img id="surveyLærer" src="img/spørgsmål7_lærer.png">
+        </img></a>
+      </div>
+
+      <div id="draggable35" class="draggable"> <a ondblclick="dbclick2()">
+        <img id="surveyLærer" src="img/spørgsmål9_lærer.png">
+        </img></a>
+      </div>
+
+      <!-- PICTURE -->
+
+      <div id="draggable36" class="draggable">
+        <img class="job" src="img/ithelps.png">
+        </img>
+      </div>
+
+      <div id="draggable37" class="draggable"> <a  href="">
+        <img id="mapping" src="img/mapping.png">
+        </img></a>
+      </div>
+
+      <!-- <div id="draggable38" class="draggable"> <a  ondblclick="dbclick3()">
+        <img class="cap" src="img/cap.png">
+        </img></a>
+      </div>
+
+      <div id="draggable39" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="cap" src="img/cap2.png">
+        </img></a>
+      </div> -->
+
+      <!-- OPPORTUNITIES -->
+
+      <div id="draggable40" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="job" src="img/job1.png">
+        </img></a>
+      </div>
+
+      <div id="draggable41" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="job" src="img/job2.png">
+        </img></a>
+      </div>
+
+      <div id="draggable42" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="job" src="img/job3.png">
+        </img></a>
+      </div>
+
+      <div id="draggable43" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="job" src="img/job4.png">
+        </img></a>
+      </div>
+
+      <div id="draggable44" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="job" src="img/job5.png">
+        </img></a>
+      </div>
+
+      <div id="draggable45" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="job" src="img/job6.png">
+        </img></a>
+      </div>
+
+      <div id="draggable46" class="draggable" > <a ondblclick="dbclick3()">
+        <img class="job" src="img/job7.png">
+        </img></a>
+      </div>
+
+
+      <div id="draggable47" class="draggable">
+        <img class="googleStor" src="img/google1.png">
+        </img>
+      </div>
+
+      <div id="draggable48" class="draggable">
+        <img class="googleLille" src="img/google2.png">
+        </img>
+      </div>
+
+      <div id="draggable49" class="draggable">
+        <img class="googleMellem" src="img/google3.png">
+        </img>
+      </div>
+
+      <div id="draggable50" class="draggable">
+        <img class="googleStor" src="img/google4.png">
+        </img>
+      </div>
+
+      <div id="draggable51" class="draggable">
+        <img class="googleStor" src="img/google5.png">
+        </img>
+      </div>
+
+      <div id="draggable52" class="draggable">
+        <img class="googleLille" src="img/google6.png">
+        </img>
+      </div>
+
+      <div id="draggable53" class="draggable">
+        <img class="googleStor" src="img/google7.png">
+        </img>
+      </div>
+
+      <div id="draggable54" class="draggable">
+        <img class="googleStor" src="img/google8.png">
+        </img>
+      </div>
+
+      <div id="draggable55" class="draggable">
+        <img class="googleMellem" src="img/google9.png">
+        </img>
+      </div>
+
+      <div id="draggable56" class="draggable">
+        <img class="googleMellem" src="img/google10.png">
+        </img>
+      </div>
+
+      <div id="draggable57" class="draggable">
+        <img class="googleMellem" src="img/google11.png">
+        </img>
+      </div>
+
+      <div id="draggable58" class="draggable">
+        <img class="googleMellem" src="img/google12.png">
+        </img>
+      </div>
+
+      <div id="draggable59" class="draggable">
+        <img class="googleStor" src="img/google13.png">
+        </img>
+      </div>
+
+      <div id="draggable60" class="draggable">
+        <img class="googleLille" src="img/google14.png">
+        </img>
+      </div>
+
+      <div id="draggable61" class="draggable">
+        <img class="googleMellem" src="img/google15.png">
+        </img>
+      </div>
+
+    <!-- FAKTA -->
+
+      <!-- <div id="draggable62" class="draggable">
+        <img class="faktaBox" src="img/fakta1_ny.png">
+        </img>
+      </div>
+
+      <div id="draggable63" class="draggable">
+        <img class="faktaBox" src="img/fakta2.png">
+        </img>
+      </div> -->
+
+    <!-- CITAT -->
+
+    <!-- <div id="draggable64" class="draggable">
+      <img class="citat" src="img/citat_1.png">
+      </img>
+    </div> -->
+
+    <div id="draggable65" class="draggable"> <a ondblclick="dbclick1()">
+      <contenteditable="true" id="advice1" class="advice" rows="4" cols="10" readonly>
+        Ingen <span>generaliserende</span> råd herfra. Men jeg oplever, at en del
+        studerende ikke kan/vil sige, hvad de egentlig er <span>interesserede</span> i,
+        hvad de er <span>nysgerrige</span> omkring, og det er et problem, men ikke nogen overraskelse,
+        <span>omstændighederne</span> taget i betragtning.
+      </contenteditable>
     </div>
 
-  <div> <a id="draggable5" class="draggable" ondblclick="dbclick1()">
-    <textarea id="samtale" rows="8" cols="70" readonly>
-        Tine
-        Det er jo, man kan sige i den analyse og de tanker du gør dig, i forhold til hvad du nu vil, altså den usikkerhed eller den, altså du bevæger dig lidt rundt på en platform her.
-        Mia
-        Præcis.
-        Tine
-        Der tænker jeg jo, at der er rigtig meget godt og hente i at måske, bruge og kigge på den type opgave du har lavet. Organisere den i, lidt lige som en opslagstavle, at du ligesom tematiserer det. Og bygger din, altså hvis du nu tænker at bygge en website op, lidt ligesom et portfolio, digital portfolio, hvad er det for nogle.. måske tendenser som viser sig, når du lægger tingene op. Som du måske ikke kan få øje på, når du bare går rundt og tænker dig om. Det var min første tanke.
-        Mia
-        Det var også, et eller andet sted, det jeg håber jeg kan få ud af det, fordi det er jo også, når man så arbejder med det, så tænker man endnu mere over det.. Man kan ikke nødvendigvis få svarene samlet. Men jeg håber måske, at når jeg skal sætte mig ned og lave det, at det på en eller anden måde går op for mig, eller jaer, jeg ved det ikke helt. Det er sådan, det er også lidt en del af sådan et forvirrende projekt.
-        Tine
-        Ja,ja.
-        Mia
-        Øhm.. men ja, jeg ville egentlig gerne, sådan høre dig lidt mere sådan specifikt, om sån designbranchen, nu til dags, om du kan fortælle, bare sådan generelt, hvad man måske kan forvente, eller hvad man skal være opmærksom på, når man skal ud og finde et job.
-        Tine
-        Altså helt generelt?
-        Mia
-        Ja, helt generelt.
-        Tine
-        På tværs af det hele, vil jeg sige at man skal være rigtig dygtig til noget og så skal man have rigtig godt styr på sine, hvad skal man sige, samarbejdskompetencer, fordi øhm, selvom i arbejder meget gruppearbejde her på stedet, så vil man når man kommer ud på en arbejdsplads som designer skulle forholde sig til nogle præmisser, der bliver opgaverne  meget bundet, altså både tidsmæssigt, med at man måske får 24 timer til at aflevere et eller andet, men også nogle rammer, for hvad det er man skal løse. Så jeg tænker at det er rigtig vigtigt, at man er rigtig dygtig, men også at man er i stand til at samarbejde. Og fagligt dygtig, tænker jeg. Ikke sådan, at man skal være super specialist, men som grafiker, skal man jo kunne arbejde med typografi, skrift og layout. Altså om jeg så må sige, enten til digital eller analoge formater. Afhængig af hvad det er for en arbejdsplads man havner på.
-        Mia
-        Og det er vel allesammen nogle kompetencer, det er meningen vi ligesom skal få her.
-        Tine
-        Ja, det vil jeg mene. Vi prøver i hvert fald på at…
-        Mia
-        Er der nogen kompetencer, som du tror, vi på en eller anden måde, ja optjener her på den her uddannelse, som vi måske ikke rigtig selv er klar over, eller som vi tager for givet, når vi skal ud på arbejdsmarkedet? Altså at man måske et eller andet sted, kommer til at undersælge sig selv, eller tænke, sådan: ej det, der job kan jeg ikke, fordi jeg kommer herfra, jeg kan kun tegne eller sån.
-        Tine
-        Ikke, altså umiddelbart vil jeg sige, at det er ikke noget der er indlejret i selve uddannelsen. Men jeg kan opleve, i de generationer vi har i øjeblikket en stor usikkerhed overfor livet. Altså det faglige, professionelle liv efter uddannelsen. Og.. Det kan godt være at jeg selv havde det sådan for mange år siden, men jeg kan ikke rigtig huske det mere. Og måske er det sådan at det er en præmis, at når man er færdig med sin uddannelse og man står der og man skal ud og have sit første arbejde eller sit andet eller tredje arbejde, at man er, usikker på om man skal slå til og hvad man vil med det og om det sjovt  og spændende og udfordrende osv. Og der tænker jeg bare, at man er nød til at springe ud i det. Og det arbejder vi med, i stigende grad, at også at arbejde med at i kan præsentere, og pitche og alt mulig andet. Og så er det også en præmis, at når man kommer ud på arbejdsmarkedet, at man på en eller anden måde alligevel starter forfra. Ikke forfra forfra, men forfra med at, finde sig selv i et professionelt arbejdsliv.
-        Mia
-        Jaer. Føler du sådan, at man måske skal give slip nogle ting, af det man ligesom har her ude fra og at man er meget sådan, altså det er meget ens eget arbejde og opgaver og tanker. Man skal ligesom være bedre til at..
-        Tine
-        Ja, ja, ja, ja, jaer. Fordi du, du vil stå i det der, du har brugt meget tid på dig selv her ik. I 5 år. Og når du kommer der ud på arbejdsmarkedet, kommer du bruge tid på at arbejde sammen med nogle andre mennekser og i for sig også rette ind efter nogle andres krav ik. Og det, eller de præmisser for en eller anden opgave løsning.
-        Mia
-        Så man kommer til, at gå på kompromis.
-        Tine
-        Netop. det skal man jo lære at være i. og kunne ha. ja.
-        Mia
-        Jaer.. Tror du at, altså sådan med jobmuligheder, det sådan lidt sådan en ting, som jeg, altså jeg kender selvfølgelig til de klassiske, art director, illustrator, de der ting, som man jo tænker man kan blive, men forestiller mig bare, at der sikkert også er en meget bredere vifte der ude, som vi slet ikke, egentlig er klar over.
-        Tine
-        Der er mange andre. Man kan være grafisk facilitator. Altså det er jo noget af det nye. Kan man sige, at der mange steder hvor, i den offentlige sektor for eksempel. Hvor man har folk der faciliterer projektprocesser eller afklaringer af løsninger inden for et eller andet felt. Ved at så at sige at tegne løsningerne frem, mens folk arbejder. Det er jo noget en grafiker ville kunne lave. Der er også mange steder, og det er særligt i måske den offentlige sektor, hvor du kan arbejde som konceptudvikler. Det er ikke sikkert at du selv, den der eksekverer koncepterne, men du vil udvikle koncepter for, hvad skal vi sige, ny skiltning til bycykler, eller hvad fanden ved jeg, for Københavns kommune.
-        Mia
-        Så det er mere sådan idegenerering?
-        Tine
-        Ja, ja. Eller konceptudvikling, hvor du altså arbejder, ideen godt langt frem, men ikke nødvendigvis eksekverer den.
-        Mia
-        Nej.. det er i hvert fald bare nogle ting jeg også har tænkt over, fordi at jeg sådan tænker meget over mine muligheder og hvad jeg kan blive. Jeg tænker bare tit, der må være noget mere. Og det finder man jo også ud af.
-        Tine
-        Jaer, for du er jo ikke ligesom færdig.
-        Mia
-        Nej, nej.
-        Tine
-        Fyldt ud, så at sige. Når du går ud herfra.
-        Mia
-        Nej, det er rigtigt. Nej, på nuværende tidspunkt er jeg også sådan, nu tager jeg et års pause for ligesom at se, øhm hvilken retning jeg synes jeg skal gå og så..
-        Tine
-        Så du tager, et års studie pause og arbejder?
-        Mia
-        Øhmm.. jeg har ikke helt fundet ud af det endnu.. altså jeg vil gerne finde noget praktik måske.
-        Tine
-        Jaer, altså jeg synes det ville være super godt, hvis du fik dig et studiejob og jeg spammer jer med studiejobs i øjeblikket. Og praktikpladser. Det er bare med at hapse nogle af dem. Fordi det der med, og have et studiejob eller, og eller have praktik er jo et virkelig vigtigt element i din uddannelse, i forhold til at afklare hvad du vil.
-        Mia
-        Jaer, jamen det, jeg tror også bare jeg skal prøve nogle ting af, se hvad der fungerer øhmm.. ja. hvad havde jeg ellers. mmm… (stilhed..) Jo så var der noget i forhold til om, vi snakkede om kompetencer før, men har du en fornemmelse af, at der er nogle arbejdsgivere derude, som mangler nogle kompetencer fra os, eller savner noget vi måske burde kunne, eller som måske ville gavne os, hvis vi også havde det med i baggagen.
-        Tine
-        Altså, det bliver jeg nok nødt til, at sige ja til. Men det er jo fordi, at der jo kun så og så mange timer i døgnet og i virkeligheden hvis man kigger på hvordan uddannelsen har flyttet sig igennem de sidste 20 år. Så har i jo meget mindre tegning i dag, end man havde for 20 år siden. Og det at kunne tegne, altså ikke bare tegne det man ser, men også at kunne tegne det man forestiller sig til en koncept udvikling eller ide skitse udvikling. Det er noget som i ikke alle sammen kan helt på det niveau, som jeg i og for sig godt kunne tænke mig at i kunne. Men det ville kræve at i enten var hardcore på tegneuddannelsen i et eller to år inden i kom her. Hele tiden, som i hver da, 24/7 ik? Eller at vi havde en helt anden prioritering i jeres undervisning. Og det er den der, balance gang, som altid vil være til stede på en uddannelse institution i forhold til hvad vi vurderer markedet udbeder sig. Hos jer.
-        Mia
-        Hos os.
-        Tine
-        Og hvad vi mener i skal kunne. Altså det er jo sådan en forhandling kan du sige, der foregår over tid hvor ting flytter sig, nogle parametre.
-        Mia
-        Nu har vi jo brugt ret meget tid på også, at komme mere ind i business strategy. Også og sådan, det må jo næsten også være noget som de sådan efterspørger.
-        Tine
-        Det gør de også. Men de, de siger jo vores, når vi mødes med vores aftagere panel og dialogpaneler. Så er der jo groft sagt, den ene halvdel, der sidder og siger at de skal kraftædme kunne tegne og de skal kunne tegne så de kan ideudvikle osv. Og den anden halvdel siger, jamen de skal jo kunne sælge deres idéer, altså. Så det er hele tiden sådan  en forhandling. Og i så er en slags prøvekaniner.
-        Mia
-        Haha.. Ja.. Er der sådan.. øhmm. Er der nogle tydelig diskurs for hvad folk ender med at lave, efter de er færdig på kandidaten er det meget selvstændige folk bliver, eller er det meget bredt det hele, har du nogen sådan ide om det?
-        Tine
-        Jeg vil sige at der er en stor procentdel der går ud og bliver ansat. På større eller mindre bureauer. Og ofte er de jo allerede i gang, kan man sige ansættelsesmæssigt, inden de bliver færdige. Sådan med studiejobs.
-        Mia
-        Så de fortsætter..
-        Tine
-        Ja på en måde ikke. Og det er også en skide god måde at komme ind på arbejdsmarkedet. Øhmm. Så er der, jeg vil sige, en tendens til at folk skifter. I er jo en generation, der er meget mere troløse, end den generation jeg selv kommer fra, hvor man traditionelt har længere ansættelsesforhold. Nu om dage, der er man måske i et par år, og så skifter man, efter et halvt eller 2 år, så skifter man arbejdsplads. Man pendler på en måde, eller flyder rundt på arbejdsmarkedet.
-        Mia
-        Men så det er, det er mest på private bureauer og sådan lidt mere kunstneriske steder eller er det også..
-        Tine
-        Det kan være meget kunstneriske steder, det kan være mere hard core business orienteret steder, det kan være store og små tegnestuer, det kan også være arkitekt tegnestuer, det kan også være offentlige arbejdpladser, ministerier, organisationer, interesseorganisationer, vi kan snakke om alzheimer foreningen, mellemfolkeligsamvirke eller et eller andet i den retning. Og så er der, jeg vil tro måske i hvert fald en tredjedel der går ud og enten starter deres egen virksomhed op eller starter op i en gruppe. Vi har også lavet nogle designbureauer her i tidernes løb.
-        Mia
-        Som er starter op her på skolen?
-        Tine
-        Som er startet op her ja.
-        Mia
-        Nåh. det er meget interessant.
-        Tine
-        Dem er der nogle stykker af.
-        Mia
-        Altså hvor skolen ligesom har været indenover eller er det bare sådan eleverne selv?
-        Tine
-        Baum und Pferdgarden er født på den her skole. Hvad hedder de.. de der type, de hedder e-types er født her på stedet. Osv. Sådan kan vi blive ved…
-        Mia
-        Så det kommer også bare lidt hen af vejen..
-        Tine
-        Så der er flere steder det går hen. Altså man kan jo også blive ansat, på eksperimentariet for eksempel, i deres grafiske afdeling eller national museets kommunikationsafdeling eller.. der er mange muligheder.
-        Mia
-        Der er mange muligheder.
-        Tine
-        Men jeg anbefaler jer at gå ud og få et arbejde, rigtig meget.
-        Mia
-        Og det bare, sådan, altså jeg tror også..
-        Tine
-        Studierelevant arbejde.
-        Mia
-        Og jeg ved ikke, om det er bare mig, eller om det er sådan en generel ting at man er sådan ahh, jeg ved ikke lige om jeg gider at arbejde indenfor det offentlige.. er det bare bedre at kaste sig ud i et eller andet? Så længe det er studierelevant? Selvom man lige tænker, ej det er ikke kunstnerisk nok for mig, eller..
-        Tine
-        Ja, fordi man kan ligesom sige, det du kan jo komme med, dine fordømme kan jo blive udfordret. Du kan jo komme til at sidde der og tænke: hold kæft hvor er det spændende det her. Hvor er det sjovt at lave noget der er får betydning for så mange flere mennekser, end lige netop dem der køber den, den er pakke et eller andet ik?
-        Mia
-        Jaer, jaer.
-        Tine
-        Og så kan man sige. Den der erfaring, arbejdserfaring er jo vigtig også både i forhold til hvad der er fagligt spændende, men også for dig at vende dig til at sige agtig.
-        Mia
-        Føler du, at det er en ting, at elever måske har lidt for høje sådan forventinger til, eller hvad kan man sige for specifikke krav til deres fremtidige jobs.
-        Tine
-        Ja, ja.
-        Mia
-        Og i forhold til, hvad der er til rådighed?
-        Tine
-        Ja. Og der kan også være, hvis man nu skulle være meget meget uartig, en slags forkælelse. I forhold til hvad det vil sige, som som.. Men jeg synes ikke det er generelt, men der kan godt være nogle lommer eller eksempler på at der er nogen, der tænker ej nej nej, det jeg skal kun lave det her lille stykke herhenne af. Der er meget andet. Og så kan man jo, så er der jo også nogen der går ud og underviser. Jeppe Pendrum, der tog afgang her for et par år siden nu, på viskom, han laver, han er freelancer, og har også sin virksomhed, men så underviser han også. Tingene kan jo skrues sammen på mange måder.
-        Mia
-        Man kan lave lidt ved siden af hinanden også. Og det er selvfølgelig også vigtigt at huske, at der ikke er nogen der udelukker det andet.
-        Tine
-        Nej ikke nødvendigvis. Og det kan også være man starter et sted og så er man der, og så ender man herover og tænker, her bliver jeg et stykke tid for her er fedt. Det spiller det her.
-        Mia
-        Jaer, ja.. Du siger mange gode ting.
-        Tine
-        Det var godt.
-        Mia
-        Øhm.. Jeg havde bare en, et par sidste ting. Øhmm.. det var sådan mere, måske mere i forhold til designbranchen. Jeg tænker sådan, når man som designer. Om du tror det er vigtigt at man har en eller anden bestemt, sådan.. om der er nogle krav til ens personlighed, at man er sådan meget selvsikker eller åh.. eller at man er karakteristisk for at man ligesom kan stråle igennem og blive anerkendt. Altså at man har en eller anden særlig.. Er det nogen du sådan oplever..
-        Tine
-        Altså vi kan jo godt, tror jeg, blive enige om at vi lever jo i en verden hvor man indimellem skal råbe meget højt for overhovedet blive hørt. Øh, og det er jo klart at hvis du skal ud og søge et arbejde, så skal du jo, du skal jo være i stand til at og sælge dig selv så meget over på den anden side af bordet at vedkomne eller de mennekser du sidder til samtale med ansætter dig. Men når det er sagt, så vil jeg sige at selvsikkerhed og selvstændighed er jo to ting som ikke udelukker hinanden og når du skal ud og arbejde, så skal du kunne agere selvstændigt, indenfor de der rammer du får udstukket. Og det vil sige, der, der vil jeg så parre selvsikkerheden med nysgerrighed, øhm.. hvad skal vi sige.. kvalitetssans, timing og forståelse af hvad det er for en opgave du er blevet sat til at løse. Og ikke nødvendigvis at holde på din egen ret, hvis du kan forstå hvad jeg mener.
-        Mia
-        ja.. jeg tror det er fordi jeg tænker meget over, sådan, altså de sådan grafiske designere , de store, anerkendte grafisk designere, de er som regel meget.. men de er måske også bare noget man bliver anerkendt, ligesom får den her udståling af at man er mega selvsikker, og den her lidt specielle karakter, som gør at man er noget særlig.
-        Tine
-        Nogen har den der.. Og nogen har også rigtig meget tendens til som en eller tarzan, og slå sig på brystet og råbe jeg er den største, elefant i buret. Og det bliver man jo ikke en bedre designer af. Og nogen gange.. Og så er der nogen der råber højere, end hvad de egentlig er berrettiget til, kan man sige det på den måde..
-        Mia
-        Ja, ja.. Det er også, for at nå til toppen, er det vel også mange forskellige ting der spiller ind. Som held og..
-        Tine
-        Jo, og timing. Sans for at ramme. Held er jo altså ikke helt ueffen…
-        Mia
-        Altså at man møder de rigtige mennekser ..
-        Tine
-        På det rigtige tidspunkt. Men også at du er lydhør overfor de muligheder der dukker op.
-        Mia
-        Ja.
-        Tine
-        Øhm.. og ikke afviser dem på forhånd.
-        Mia
-        Jaer. Så mere åben egentlig.
-        Tine
-        Ja, nysgerrig.
-        Mia
-        Nysgerrig. jaer. Nå men som det sidste, øhm.. Bare hvis.. nu har du jo sagt mange gode ting, men hvis du ligesom skulle pointere et godt råd, som jeg kunne tage med videre, men den sådan, det sted jeg er lige nu, hvad kunne det så være?
-        Tine
-        Jeg tror jeg vil sige til dig at jeg synes at det er meget meget værdifuldt og være nysgerrig på hvad det er livet, det der grafiker liv, byder på af muligheder, og gå ud og prøv dem af. Du skal ikke være bange. For at fejle eller ikke at slå til, eller et eller andet, fordi det er alt sammen erfaringer som du kan bruge til noget på et tidspunkt.
-    </textarea>
-  </div>
+    <div id="draggable66" class="draggable"> <a ondblclick="dbclick1()">
+      <contenteditable="true" id="advice2" class="advice" rows="4" cols="10" readonly>
+        Be<span> open minded</span>, be ready to work, be willing to collaborate and take feedback,
+        select the field within design you would like to focus on, partcipate in internships,
+        communicate with others welll, be willing to donate your time and <span>energy</span> into something.
+        Do not say no when asked to partake in something. Be <span>generous</span> with your time.
+        <span>Focus</span> on topics that interest. Vary your time between different projects.
+        Be nice to everyone. Be friendly and have manners with others it will go along way.
+        Build bridges and network. Always be <span>curious</span>. Be <span>confident</span>. Never stop learning.
+        Leave plenty of room for creative growth and development. <span>Inspire</span> yourself often and inspire others.
+      </contenteditable>
+    </div>
 
-  <!-- <div id="draggable6" class="draggable">
-    <video autoplay muted loop id="myVideo2">
-    <source src="img/9.april.mp4" type="video/mp4">
-    </video>
-  </div> -->
+    <div id="draggable67" class="draggable">
+      <contenteditable id="advice3" class="advice" readonly>
+        Vær <span>fokuseret,</span> arbejd med <span>hjerte</span>
+        og overbevisning - og social/miljømæssig<span>ansvarlig</span>.
+      </contenteditable>
+    </div>
 
-  <div id="draggable7" class="draggable">
-    <img id="swirly" src="img/swirly3_2.jpg">
-    </img>
-  </div>
+    <div id="draggable68" class="draggable">
+      <contenteditable id="advice4" class="advice" readonly>
+        <span>W</span>ork <span>H</span>ard. <span>H</span>ave <span>F</span>un. <span>B</span>e <span>B</span>old.
+      </contenteditable>
+    </div>
 
-  <div id="draggable8" class="draggable">
-    <img id="ithelps" src="img/ithelps.png">
-    </img>
-  </div>
+    <div id="draggable69" class="draggable">
+      <contenteditable id="advice5" class="advice" readonly>
+        Vær rigtig  <span>god</span> til noget <span>specifikt,</span> og hav et <span>bredt</span> udsyn.
+      </contenteditable>
+    </div>
 
-  <div> <a id="draggable9" class="draggable" href="">
-    <img id="mapping" src="img/mapping.png">
-    </img></a>
-  </div>
+    <div id="draggable70" class="draggable">
+      <contenteditable id="advice6" class="advice" readonly>
+        Man bliver <span>aldrig</span> færdig med at <span>lære.</span>
+      </contenteditable>
+    </div>
 
-  </div>
+    <div id="draggable71" class="draggable">
+      <contenteditable id="advice7" class="advice" readonly>
+        Bevar din <span>selvtillid</span> mens du er på dagpenge -
+        manglende selvtillid er måske den største <span>trussel</span> mod at finde et arbejde.
+        Og stop aldrig med at lave projekter, tegninger, lære programmer!
+        Er du arb. løs så se dig selv som <span>selvstændig</span> designer der arb på
+        dine egne ting mens du <span>venter</span> på den rigtige arbejdsgiver.
+      </contenteditable>
+    </div>
 
-  <div id="draggable10" class="draggable">
-    <img id="spørgsmål6" src="img/spørgsmål6.1.png">
-    </img>
-  </div>
+    <div id="draggable72" class="draggable">
+      <contenteditable id="advice8" class="advice" readonly>
+        Kom i gang med at <span>afprøve</span> hvad du kan, vær nysgerrig åben,
+        og <span>opsøgende</span> - det ene job kan føre til det næste. Nogle gange
+        skal man gå nogle omveje.......verden venter på <span>dig</span> !
+      </contenteditable>
+    </div>
 
-  <div id="draggable11" class="draggable">
-    <img id="spørgsmål2" src="img/spørgsmål2.1.png">
-    </img>
-  </div>
+    <div id="draggable73" class="draggable">
+      <contenteditable id="advice9" class="advice" readonly>
+        <strong> Oplever du mange studerende, som er fortvivlede omkring hvilken retning de skal gå efter KADK? </strong><br><br>
+        - Nej, men det virker som mange er interesserede i at holde alle døre åbne.<br><br>
+        - All the students that take initiative and ask for my help directly,
+          I have always been able to place or help them with internships,
+          jobs, projects and letters for recommendations.
+      </contenteditable>
+    </div>
 
-  <div> <a id="draggable12" class="draggable" ondblclick="dbclick2()">
-    <img id="spørgsmål7" src="img/spørgsmål7.3.png">
-    </img>
-  </div>
+    <div id="draggable74" class="draggable">
+      <contenteditable id="advice10" class="advice" readonly>
+        <strong> Hvor mange muligheder ser du, at man har med en uddannelse i visuel kommunikation fra KADK? </strong><br><br>
+        - Uddannelsen, glem den. Men STUDIET, dit studie, det er dét, der er det vigtige.
+        Du får lokaler, faciliteter, medstuderende og nogen gange okay undervisere
+        stillet til din disposition. Men det er DIG, der skal sammensætte din uddannelse,
+        så du kan indfri dine drømme, når du er færdig. Kombinér gerne studier på designskolen
+        med ophold på andre uddannelser, udlandsophold osv! Især lige nu, hvor uddannelsen og
+        skolen har svært ved at finde sig selv(!) Der er muligheder!.
+      </contenteditable>
+    </div>
 
-  <div id="draggable13" class="draggable">
-    <video autoplay muted loop class="myVideo">
-    <source src="img/2.maj.mp4" type="video/mp4">
-    </video>
-  </div>
+    <div id="draggable75" class="draggable">
+      <contenteditable id="advice11" class="advice" readonly>
+        <strong> Hvilken slags designer mener du, at der er mest brug for? </strong><br><br>
+        - En, der kulturelt bevist, som har indgående forståelse og nysgerrighed indenfor designområder.<br><br>
+        - Du mangler: En, der er problemorienteret og i stand til både at identificere, specificere designbehovet
+        og at udvikle og producere designproduktet. Med andre ord: der er nok af grydeklare kyllinger, som kan det
+        tekniske, men vi har brug for designere, der kan tænke selv og være i øjenhøjde med andre højtuddannede.<br><br>
+        - Der er heldigvis brug for rigtig mange forskellige slags designere.
+      </contenteditable>
+    </div>
 
-  <div id="draggable14" class="draggable">
-    <textarea id="samtale" rows="4" cols="50" readonly>
-      Mia
-      Øhm.. altså det er lidt i forlængelse med det spørgesskema jeg også havde lavet..
-      Elias
-      Jaer.
-      Mia
-      Hvor jeg også spørger lidt ind til sån, ja designbranchen generelt, det er jo så mest i København ik.
-      Elias
-      Jo.
-      Mia
-      Øhm.. hvad man sån kan forvente og også mere hvilke muligheder man har med den uddannelse som vi får her.
-      Elias
-      Ja.
-      Mia
-      Øhm.. fordi, jeg ved ik. Jeg har lidt sån, det er sån en meget generelt ting at folk måske  er lidt mere sån, eller har nogle specifikke rammer for om de vil være: illustrator, art directors, eller, åh.. hvad hedder det.. lave type og der er de her sån meget specielle retninger..
-      Elias
-      Kasser.
-      Mia
-      Præcis, men at jeg også bare forestiller mig, eller jeg ved, at der må findes flere muligheder. Øhmm..
-      Elias
-      Jaer.
-      Mia
-      Og hvad de muligheder er? ..
-      Elias
-      Ja, det er selvfølgelig.. Det er et godt spørgsmål. Men jeg tror i virkeligheden. Altså ideelt set tænker jeg, det vi gerne vil med den bachelor uddannelse er, hvad hedder det, er ligesom at få trukket jer rundt til nogle forskellige aspekter af hvad man kan komme til at arbejde med indenfor visuelt design primært ik.
-      Mia
-      Jo.
-      Elias
-      Så der stadig er den faglighed med. Jeg tror det ene svar jeg svar jeg skrev, var det der med, hvad det vigtigeste som designer, det er jo vigtigt, alt det der med at netværke og kunne præsentere sig så, det er jo også vigtigt, som designer ik. Og skal man ligesom få ting igennem, at kunne forstå sine kunder, der har et mere kommercielt sigt og forstå hvem de er. For hvis de ikke er med ideen, så kommer det bare ikke nogen steder hen vel. Øh. Så det er bare det vi også prøver med designmetoder, at man får forskellige måder at tale med folk på og forskellige måder at forstå forskellige kunder ik.. Øh, og med det.. bare lige for at komme tilbage til spørgsmålet så, hvad hedder det, så ideelt set er det jo virkeligheden at den her bachelor gerne skulle forbedrede jer til at: Okay, der er forskellige retninger man kan gå. Man kan skabe værdi på en kunstnerisk måde eller hvordan skaber jeg værdi ik? Eller hvordan kan jeg gå ud og stille spørgsmål på en kunstnerisk måde til noget kommercielt og hjælpe folk med det. Øhm. Men den er jo ikke tænkt sådan, at i ligesom skal blive en bestemt profil. Tværtimod at det gerne skulle give jer nogle forskellige retninger, som i så selv studerer videre og sætter sammen på en måde, som i synes er interessant og relevant.. at beskæftige jer med. Øhm.. Og og så altså et helt overordnet kort svar er jo så, hvis i kan gøre det, så er der et job til jer.
-      Mia
-      Mhmm.
-      Elias
-      For så har du… Hvis du ligesom ved at du er relevant for andre. Så spørger du så selvfølgelig, hvad synes de så er relevant ude på bureauerne? Hvad er det for nogle typer er der der ik. Og der tror jeg, jeg svarede i det sidste spørgsmål, altså det jeg ser, og det er jo bare sådan, det er at du skal være god til noget. Det nytter ikke noget.. altså jeg synes der er nogle træk herude, fra nogle steder i ledelsen for at man ligesom skal kunne lidt af hvert og det er også rigtig nok på en måde, at du, hvad det nu hedder, det er også, det er heller ikke sundt at være sådan helt indsporet kun på en ting..
-      Mia
-      Nej..
-      Elias
-      Men men, det er godt at være god, rigtig god til noget, og så måske være sådan lidt bred, bred i sit udsyn. Øhm.. Fordi altsåå, altså det det tit, det er jo tit, med mindre man sidder som en-mands-pers..eller altså hvad hedder det, så får du nogle roller, altså såå i de der set-up. At du fx den der er god til at lave lay-outet eller den der god til at få det op på web altså ikke. Det betyder ikke at man ikke kan løfte begge ting, men fx hvis man nu er god til noget digitalt eller hvis du nu er god til strategi, så er det måske ikke dig der laver web, fordi der er nogen der bedre til at implementere det, til de der sammensætninger ik. Men det betyder jo ikke at du ikke skal vide noget om det, men men men, hvis man kun er halvbagt på alle områder, så er det bare ikke sådan.. i hvert fald når jeg ser rundt, så er det ikke lækkert.. fordi hvorfor, vi har en der er bedre til web, hvorfor skulle du så lave web.
-      Mia
-      Jaer.
-      Elias
-      Vi har en der er bedre til at sætte ting op, hvorfor skulle du gøre det, vi har en der er bedre til at illustrere, hvorfor skulle det så være dig, der laver illustrationer.. forstå mig ret ikk.
-      Mia
-      Jaja.
-      Elias
-      Så hvad det nu hedder, så det er lidt det.. Jeg tror stadig på den der, at man er rigtig god til noget..
-      Mia
-      Så de der kasser er stadig vigtige et eller andet sted? Eller sån..
-      Elias
-      Ja, det er de jo, for man kan jo tænke på altså, der er jo, der er jo.. det synes jeg, de er væsentlig i forhold til, at det ville være naturlig at man et eller andet sted.. det kan jo godt være du er heldig kommer et eller andet sted hen hvor man laver tingene på en anden måde.. men det er hvertfald ikke den virkelighed jeg oplever.
-      Mia
-      Nej..
-      Elias
-      Men det kommer jo selvfølgelig også an på hvilken virkelighed man skaber. Vil du ud og ansættes, eller vil du selv ud og lave noget. Fordi du synes.. Det er jo også.. man kan sige det er jo også det, det handler om.. eller, vil du især gerne være på det strategiske plan eller vil du.. hvad, hvad er det du gerne vil ud og gøre. Det er i virkeligheden også gerne det der skulle hjælpe dig med denne uddannelse er, at sige: jamen hvad vil jeg med det her? I stedet for hvad vil andre med mig? Øhm.. Ideelt set og det er gerne den, kan man sige i forhold til mere tekniske grafiske uddannelser, hvor man bare bliver uddannet til blive ansat..
-      Mia
-      Jaja..
-      Elias
-      Altså skulle det være meget holdbart, skulle du jo på sigt, gerne være den der ender med at ansætte andre..
-      Mia
-      (Latter)
-      Elias
-      Altså forstår du hvad jeg mener..
-      Mia
-      Jaja.
-      Altså at få sat en eller anden.. Men det er jo selvfølgelig en meget vild ambition når folk der lige er kommet ud af en skole og det er jo selvfølgelig ikke sådan det fungerer.. Men det er i hvert fald gerne det mindset man skulle komme ud med.. Øh..
-      Mia
-      Men hvad så hvis man, ikke sådan rigtig føler sig indenfor en kasse. Er det noget der sån kommer med tiden eller skal man helst vide det..
-      Elias
-      Andre skal nok finde ud af at sætte dig i dem så.. Altså jeg kom også, jeg kom ud fra arkitektskolen med primært at jeg gerne ville lave noget skriftdesign, men jeg også på meget sådan wayfinding og visuelt identiteter og sådan noget ik.. Og så arbejde jeg på Kontrapunkt, hvor jeg faktisk primært arbejdede, altså jeg sad også og lavede identiteter og sådan noget, men primært var det skrift. Og så bliver man langsomt malet op i det hjørne. Så det man laver.. det bliver jo meget defineret. En ting er hvad du laver her på skolen, noget andet er, du bliver rigtig meget defineret af hvilke kunder du får nå du kommer ud i den anden ende. Det er det der kommer til at tegne det. Fordi når: “du har lavet det for den, kan du ikke også lave noget lignende for os, ala” Det er sådanne tinge der griber om sig tit ik..
-      Mia
-      Så man planlægger det ikke altid selv.
-      Elias
-      Nej, nej, man kan jo sige, det er jo meget tilfældigt, man kan jo også sige det der med. Hvor du bliver ansat.. Jamen altså har de overhovedet brug for nogen, også bliver du måske ansat et andet sted, hvor det måske ikke er det du havde forventet, men så.. så kommer du til at lave den type opgave, og det er så den type opgave der kommer i dit portefolio, så er det, det du ligesom har at vise frem. Altså forstå mig ret, det er sådan en veksling mellem.. man kan selvfølgelig godt opsøge det og man kan også godt sige nej til ting, men det er spørgsmålet hvor kontrolerende vil du være i forhold til det. Så du bliver jo meget  formet af også af hvad for nogle kunder du får..
-      Mia
-      Men så er det også noget, det måske først skal komme, når man er ude og søge jobs eller sån.. fordi det er i hvert fald sådan jeg har det lige nu, at jeg ikke ved hvilken kasse jeg hører til og så ved jeg måske ikke rigtig hvilken retning jeg skal gå eller hvilke jobs jeg skal søge eller også så, hvem vil have mig, fordi jeg ikke selv ved hvad jeg kan tilbyde..
-      Elias
-      Jamen, det er det.
-      Mia
-      Ehm.. men men ja. det ved jeg ikke, om det bare handler om, at man kaste sig ud i et eller andet og se om..
-      Elias
-      Jeg synes det er en blanding ik.. lidt altså.. både at man har nogle interesser og så også må se hvad der kommer, men altså du skal selvfølgelig.. det er jo meget individuelt kan man sige af afvejning. eller hvis man bare nu kigger på.. jeg synes jo at kontrapunkt er enormt dårligt, både fordi de jo er fanget i at de har lavet nogle store opgaver, som fx Danske Bank og sådan noget.. i hvert fald den gang jeg sad derinde, jeg sad derinde 10 år efter, så var det tit at kunden spurgte, nå men kan vi ikke bare få noget der ligner Danske Bank agtigt ik..
-      Mia
-      (Latter)
-      Elias
-      Så altså folk bliver fanget i deres successer. Altså at ligesom så, er det, det kunderne spørger om: kan vi ikke få noget derhen af ik. Øhm.. hvor fx, modsat se sådan nogle som hvass og hannibal, de har meget deres egen stil, det er ligesom det de sælger.
-      Mia
-      Jaer.
-      Elias
-      Det sælger så en stil, øh.. også og det er jo to forskellige måder at gøre det på. hvad kan man sige, hvor kontrapunkt er mere : løb efter kunden og deres ønsker, mens de næsten bare sælger en stil: vi laver det her, og det synes nogen er fedt og så køber de det. Øh.. så det er to forskellige måder, hvor man bliver fanget i en stil eller et ønske. Og så kan man være meget mere.. Altså det det det, det er jo en meget individuelt afregning, når man kommer ud, hvor meget vil man bare facilitere andre, synes det er fedt.
-      Mia
-      Jaer.
-      Elias
-      Det er fint nu laver jeg noget helt andet her, fordi det er det de gerne vil have. Eller hvor meget.. altså jeg synes, jeg laver ret meget blandet ting, men jeg har hele tiden sådan noget med, der er ting jeg ikke gør. Jeg arbejder ikke gratis og hvis der ikke er en ordentlig pris for tingene, så gider jeg ikke at gøre det.
-      Mia
-      Mh.mh.
-      Elias
-      Og jeg gider ikke at gøre ting, som jeg synes er helt håbløst æstetisk. Altså hvis de kommer med en eller anden skitse, og det ser dårligt ud, jeg vil ligesom gerne sikre at kvaliteten er ok. og hvis det ikke kan det, så gør jeg det ikke… eller kun hvis der er mange penge i det.. (latter) forstå mig ret.
-      Mia
-      (Latter)
-      Elias
-      Men, men det er ikke sådan at jeg har et udtryk andet end at jeg har sådan set, at jeg prøver så vidt muligt gøre tingene, altså gøre verden lidt gladere og se på. Altså jeg hader den der helt stramme, du ved sådan ehh. hvor design bliver sådan en spændetrøje man lægger ned over ting ik. Men så så, der kan man have sin egen personlige ting, og så synes man det er rigtig dejligt når man ligesom har fået noget med i det. andre gange så får man ikke så meget med..så er det bare en opgave ik..
-      Mia
-      Jaer. Så, man som designer danner ligesom også sine egen sån regelsæt for hvad, hvilke ting.. man sån
-      Elias
-      Ja, hvad man vil ik og ligesom være med til. og det kan man selvfølgelig sige der, det er jo, øhmm. folk har det forskelligt med det.
-      Mia
-      Ja.
-      Elias
-      Altså nu er jeg måske også i en anden situation fordi jeg også har tre unger, så du ved tid er virkelig virkelig noget der bare er presset ik. men når jeg får sådan, altså der er tit dem der siger: “ej men kan du ikke bare tage det halve i timen? og så er det til gengæld rigtig mange timer.” Men altså hvis jeg ligesom kan lave det samme på den halve tid, hvorfor fanden skulle jeg så sidde og lave det her.. altså, du ved forstå mig ret.
-      Mia
-      (Latter)Mhm.
-      Elias
-      Altså det er jo ligesom, så vil jeg hellere måske være sammen med mine unger, med mindre jeg virkelig er presset på pengepungen ik.
-      Mia
-      Ja.
-      Elias
-      Så det er sådan.. jeg er jo ikke interesseret i at arbejde meget, jeg er interesseret i at tjene meget, altså (Latter) forstå mig ret.
-      Mia
-      (Latter) jaja.
-      Elias
-      Men det kan jo også være sådan en afregning, som hvis man er ny og man gerne vil ud og gøre sig.. altså for mig, jeg reklamerer ikke for mig selv, jeg taler kun ud fra min egen, og folk har jo forskellige måder at gøre det på ik. jeg reklamerer ikke så meget for mig selv. jeg tænker at det bedste jeg kan gøre er bare at gøre mine opgaver, gøre dem så folk er så glade, gøre det på tid og gøre det ordentlig ik. Og levere en god løsning og hvis kvaliteten er høj, så skal de nok fortælle det videre til andre og sådan noget ik. Så ligesom give en god oplevelse på den måde. Øhm.. og der kan en god oplevelse godt være det der med, også at have en vis integritet, og være sådan: det kan godt være det, men det bliver ikke godt, altså prøv lige at høre efter hvad jeg siger her, og prøve at insistere på fagligheden.
-      Mia
-      Jaer.
-      Elias
-      Øhm.. og så.
-      Mia
-      Det er vel også noget der kommer med erfaring, at man bygger de her ligesom rammer for hvad man vil og hvad man ikke vil og..
-      Elias
-      Det er jo det. Der er så mange ting, og du skal heller ikke være blind for.. altså bare det der med, at jeg har arbejdet på kontrapunkt, det er noget jeg bruger stadigvæk når jeg sådan skriver ting rundt, fordi det sådan, okay, på de er store bureauer ik, der er rigtig mange kunder derude, det kommer jo også an på, hvilke kunder, men der er rigtig mange kunder, de har ikke en skid forstand på design, altså det de vælger efter, de køber kendte mærker eller de store bureauer fordi det er der alle andre køber og så er man ligesom homesafe ik. i forhold til en eller ledelse, der nå okay: jeg købte det her bureau, de plejer jo altid og levere og se hvor mange priser de har vundet også sådan noget ik. Det er sådan det rigtig meget fungerer fra kundensside. Har de vundet priser? bum bum bum ik. Så hvis man ligesom kan få det der, ligesom autoritetsstempel, som fx at have været ansat på et bureau eller sådan noget ik.
-      Mia
-      Jaer.
-      Elias
-      Det kan bare.. det det kan måske også bruges sådan lidt strategisk. Så så så, hvis man ligesom tænker på den måde: okay de her skal have tillid til at den opgave bliver løst, hvis de kigger på mit portefolio, så ved de ikke.. de kan simpelthen ikke se forskel på godt eller dårligt, men de kan se jeg har været ansat der og det er nok godt. altså du ved, sådan kan man jo..
-      Mia
-      Ej, men det er meget interessant.
-      Elias
-      Ja, så det er nogen gange det der med, hvad der kvalificerer en, er nogen gange. Et helt andet sådan ret absurd eksempel på hvad der sådan kan kvalificere. Det var min svigerfar han er partner i et landskabssarkitekt firma, hvor han har siddet i, der har han siddet i det der, hvad hedder det, kvalificeringsudvalg, hvor der ligesom skulle kvalificeres hvilke folk der skulle inviteres med til pitchen, øhm, og ligesom vurdere i det. Og du ved når sådan noget kommer ud, altså så har de tit sådan noget udvalgsmateriale på nogle større opgaver, og så siger man: nå.. nå ja, men øhm kreativløsning det tæller 30%, øhmm økonomi tæller 20%, referencer, altså hvor mange har man løst lignende opgaver før, tæller måske også 20% og så er der et eller andet, andet du ik. Altså, et eller andet, sådan nogle skaler som de sidder måler på, og så bare krydser af. Og der havde de så siddet med en eller anden, hvor der var to forskellige kadidater, hvor den ene havde et større projekt ala lignende, hvor det var et sygehus, med alt mulig spændende, og den anden havde lavet to parkeringspladser, og det var den anden der vandt, fordi de havde havde to projekter i et. Og det er bare sådan lidt, prøv at se omfanget at den her opgave, det er jo meget meget større, det her er jo bare to parkeringspladser også sådan ik. Men nej der er to og det er bare helt bureaukratisk, den der måde det bliver valgt på ik. Og det er bare for at sige, at det nogen gange på kunden side, er der bare, der, folk de tænker slet ikke.. altså vores succesparametre er jo det vi ligesom kan se som kvalitet i ting er ikke det samme. de kører efter nogle helt andre regneark ik.
-      Mia
-      Jaer..
-      Elias
-      Og det er også..
-      Mia
-      Meget overfladisk.
-      Elias
-      Ja, og det er jo ligesom, det det vi ligesom gerne vil ind i, eller i hvert fald så i bare er klar over, at sådan er det.. nogen steder og der er selvfølgelig også andre kunder, som kulturkunder, som måske er sådan nogle som er.. men de kan så svære at rykke på andre steder, de vil bare alle sammen være op på (?) eller sådan noget ik. Det er jo ligesom grundlæggende, så så, så.. men i hvert fald ligesom at forstå at at, hvad vi tænker kvalitet ofte, hvordan vi er skolet, hvordan vi ser også selv, det er ikke nødvendigvis sådan andre ser os. Jeg tror også der sådan en meget stor forforståelse af, at designere bare er sådan nogle der sidder og laver form. Så alt det andet strategiske og indtægtsmæssige, som vi også prøver at lære herude, det ligger hos nogle andre, inden vi overhovedet bliver koblet på, ofte på en opgave ik..
-      Mia
-      Mhm..
-      Elias
-      Øhm. så.
-      Mia
-      Men det er alligevel noget de gerne vil have, at man kan eller ligesom..
-      Elias
-      Jojo.
-      Mia
-      Har en idé om.
-      Elias
-      Og det er jo også det.. det er jo også lidt svært at sige, hvad med ude på bureauerne. Fordi det kommer også an på hvor stort bureauet er. Hvor brede opgaver du kommer til at lave, og bare arbejdskulturen ik. Var du med hos 15nul8? i New York?
-      Mia
-      Ehm.. hvem af dem, var det ?
-      Elias
-      Det var det danske bureau. I New York.
-      Mia
-      Nej, jeg var hos Hello Monday.
-      Elias
-      Nej, undskyld, det var Hello Monday, ja selvfølgelig. På Hello Monday, jaja.
-      Der havde de jo sådan, en meget meget flad struktur.
-      Mia
-      Ja.
-      Elias
-      I deres måde og arbejde på. Og det er ikke det samme. Altså hos kontrapunkt, der var det meget det strategiske arbejde, det var ikke så meget designere. Jeg fik i hvert fald ikke det indtryk og det har jeg stadig, når jeg taler med folk. Det strategiske arbejde lå i høj grad hos nogen projektledere. Som inden er ude og tale med kunden og så kommer de tilbage deres gennemtyggede feedback til designerne og sådan noget ik. Der var det meget mere sådan lavdelt.
-      Mia
-      Det har en helt sådan fødekæde det skal igennem.
-      Elias
-      Jaer, og der skal du virkelig kæmpe for ligesom at sandsynliggøre at du kan lave strategi og sådan noget. Hvis det er er det man gerne vil ik. Det er ikke for at sige, det ikke er noget der er relevant derude, det er jo mega relevant, også hvis du som mindre person ik.
-      Mia
-      Men der vil de måske have nogen, med en anden uddannelse end den vi får her.
-      Elias
-      Ja, men det er det.. Nej ikke nødvendigvis, jeg tror bare du skal sandsynliggøre at du kan det. Øhm. at du kan tale med dem ik. Og jeg ved ikke.. jeg kan ikke rigtig finde ud af, for der ligger også en helt masse strategiske ting på de der fællesfag. Jeg kan ikke finde ud af, hvor meget man egentlig bliver i stand til at tale med CBSere og sådan noget, på de fag eller hvad der ligesom ligger der ik. Men det er jo ligesom, dem fra CBS de har et lingo og vi har et andet. Og det er jo og få det til at mødes og sådan noget ik. Og med den forforståelse der er af designere: det kan godt være du siger du kan strategi, men du sidder bare og leger med legoklodser.
-      Mia
-      (Latter)
-      Elias
-      Så er det jo bare svært at bryde igennem ik.. og ligesom at få ændret den opfattelse.
-      Mia
-      Jaer..
-      Elias
-      Men det er også meget. Det er mega forskelligt, altså det er sådan noget. Jeg synes det er forskelligt fra opgave til opgave med hvad du ligesom. Det er meget tit man skal kæmpe. Jeg sidder lige med en opgave, det har været så utrolig sindssygt. Det er nok også det mest vanvittige.. det har taget et helt år og forhandle kontrakten. Det har virkelig bare trukket tænder ud.
-      Mia
-      Shit.
-      Elias
-      Det er kommunen, hvor jeg laver noget wayfinding og skiltning til også sådan noget ik. Og skrift til deres skilte. Men det har taget et år. Altså, og så kommer der sådan noget, på grund af måden man bygger udbud op på, og hvor store budgetterne er. Så har der også været nogle andre aktører der har været inde og lave nogle workshops og sådan noget. Hvor de ligesom har prøvet at tage en rolle hvor det egentlig var dem der lavede konceptet, og så var det bare mig der sad og satte form på og sådan noget ik. Så man skal bare hele tiden slås og du skal slås mega meget, for ligesom at få afgrænset og fortalt hvad din rolle er og hvad du kan ik.
-      Mia
-      Jaer.
-      Elias
-      Det, hvad hedder det, skal man bare være indstillet på. Øh.. men så er der også andre, jeg kan love dig for, hvad du ik.. nu kommer det måske lidt ved siden af det, men man skal bare være opmærksom på hele tiden, man skal ikke være paranoid, man skal hele tiden være opmærksom på alle mulige ting.. altså da jeg lavede DR’s logo, øh.. der hvad det hedder, der fik jeg bare sådan en brief. Dels skulle jeg bare rette lidt op på det gamle de havde. Ligesom lave en strammere version, af det. Og så ville de bare gerne se mit byd på et strammere DR. Øhm.. og så lavede jeg med en masse variationer, og sagde sådan; okay, helt ultimativt så skulle i bare have sådan en monolinijer, hvor der stod DR. Den skulle være helt renset for værdi, fordi DR ligesom skal kunne rumme det hele , den skal ligesom ikke have nogen kulturel slagside på nogen måde eller sån.. I virkeligheden skulle de slet ikke have et logo. Fordi folk er tvunget til at.. altså du får bøder, hvis du ikke betaler for DR.
-      Mia
-      (Latter)
-      Elias
-      Altså hvorfor skal du have et logo? ik. Forstå mig ret. Så hvad det hedder, øh.. Og det synes jeg var rigtig fedt. Der pressede jeg ligesom længere ud end de ligesom.. og så tog man sådan en slider tilbage indtil man ligesom havde, okay hvor er der ligesom stadig noget af DNA’et fra det gamle og som stadig sån så vidt muligt renset og sådan noget ik. Og det var også en måde at være meget strategisk på, og ligesom hvad er det egentlig i kommunikerer overhovedet med jeres logo. Og begynde ligesom at arbejde med form på den måde. Og det er jo ikke sån, det er jo ikke den dybe tallerken, men det er jo bare ligesom; er i overhovedet klar over hvilke signaler i gerne vil sende.. og have den diskussion med dem..øhm.
-      Mia
-      Jaer, så det var måske også lidt en rolle du tog på dig selv..
-      Elias
-      Ja,ja,ja. Præcis
-      Mia
-      For det var ikke noget de sån bad dig om nødvendigvis.
-      Elias
-      Nej, de bad mig ikke.. og så kommer det også bare af opgaven at man tager den rolle.. og siger; prøv lige at se jer selv hvem er i og sådan noget, hvad er det egentlig i skal signalere ik.
-      Mia
-      Nej, jaer, så man skal heller ikke være bang..
-      Elias
-      Du skal ikke være bange, og du skal ligesom, hvis du ligsom synes; okay det kan godt være de har bedt mig om at lave den her form, men det sejler jo det her, og de.. hvad det hedder, der er sådan et udtryk der hedder, at putte læbestift på en gorilla ik..
-      Mia
-      (Latter)
-      Elias
-      og hvad det du hedder.. jeg sidder bare og sminke noget, som bare overhovedet ikke hænger sammen. eller fortæller den forkerte historie fordi deres historie er forkert.. eller sådan det passer ikke med det de gør eller hvad det er. så kan man jo godt prøve at undersøge. eller prøve af, at udfordre det.
-      Mia
-      Tage lidt mere ansvar..
-      Elias
-      Ja, nemlig. Altså ja, det er det andet jeg vil sige. Det er også med den uddannelse i får her.. det lyder så luftigt, at sige at i virkeligheden skal komme ud.. men det er meget vigtigt at i kommer ud og ligesom.. uden at være arrogante, men også ligesom.. der er ikke nogen der forærer noget. man skal ligesom selv ud og og, gøre det ik. og skabe det. uden at lyder sån helt, altså det lyder måske lidt deprimerende, men det er bare for at sige.. man kan ikke bare læne sig tilbage og tro at folk bare synes man er dejlig. altså hvad det nu hedder, at det bare kommer til en.. man bliver nødt til at selv at skabe det på en eller anden måde og skabe det.. det er jo meget forskelligt.. der er jo nogen der bare elsker bare at sidde på bureauer og arbejde 50 timer og sådan ik. det gør jeg overhovedet ikke, jeg prøver at skabe noget hvor jeg måske, bare giver så meget kvalitet for pengene, at jeg kan arbejde mindre. og så have tid til andre ting. øh.. og det er jo forskelligt, hvad det er for et arbejdsliv og hvad man egentlig gerne vil med verdenen og sådan noget ik. og hvis, hvis det sådan helt grundlæggende hvis du ligesom skal tænke over det, skal du tænke: okay, design det er et værktøj, hvor god er jeg til det værktøj, nogle værktøjer er måske bedre end andre.. og hvad vil jeg med det værktøj når jeg kommer ud på den anden side.. så så, så har jeg det lidt sådan, så skal de nok gå, altså hvad det nu hedder.. på den måde er jeg ikke så bange for, at i ikke, at i ikke kommer derhen hvor i gerne vil. man skal bare være bevidst om det.
-      Mia
-      Jaer.
-      Elias
-      For eller er der nogen andre, der definerer dig og maler dig op i et hjørne og sætter dig derhen ik. Øh.. og det, det er ikke nemt. men altså bare.. jeg er heller ikke sådan.. jeg tænker ikke at med det uddannelse i har her, så er i ikke ladt i stikken, men i er ligesom overladt til jer selv øhmm.. på den måde er det, er det jer selv der på en måde skal skabe det bagefter ik.
-      Mia
-      Det føler jeg.. det er i hvert fald også det.. jeg føler, det er det der godt kan virke lidt frustrerende øhm..
-      Elias
-      Man kan se det som en mulighed..
-      Mia
-      Jaer
-      Elias
-      Du har mulighed for at gøre det du vil, og ik være frustreret over ikke få stukket en retning ud.
-      Mia
-      Præcis..
-      Elias
-      Det tror jeg. Jeg havde det på samme måde, da jeg studerende på arkitektskolen. Og der var jeg efter, altså min, der havde vi allerede et stop efter 2. år eller hvis man dumpede skulle man gå et år om..
-      Mia
-      Var det herude du gik?
-      Elias
-      Ja, men på arkitektskolen.
-      Mia
-      Ja.
-      Elias
-      Øhmm.. og jeg var simpelthen så frustreret, jeg vidste slet ikke, kunne ikke finde ud af, hvad fanden det gik ud. Øh.. jeg tror jeg tabte mig sådan 7 kilo, eller sådan noget på et halvt år. bare sådan helt stresset, jeg har kun spist bananer og kaffe eller et eller andet ik..
-      Mia
-      åh gud..
-      Elias
-      Var sådan helt ude og skide. Og så gik det op for mig, sådan lige før jeg afleverede, at sådan: det handler jo bare om, hva fanden, jeg kan jo gøre med det hvad jeg vil.. og så ligesom hvad er det så jeg vil. og så skiftede jeg over på en anden afdeling, og sådan noget. det var en enorm befrielse. synes jeg. åhh.. og så studerende det, og så blive dygtig til det ik.
-      Mia
-      Mhmm.
-      Elias
-      Og det er jo lidt her, så længe du kan det og kan argumentere for hvorfor du gør som du gør - så inden for skolens rammer ik. når du så møder en virkelighed, så kan det godt være de siger: ja det er rigtig fint, men det har vi slet ikke råd til. Vi vil gerne have du gør det her. så kan man jo så sige ja eller nej ik.
-      Mia
-      Så vil der selvfølgelig være mere man skal gå på kompromis med.
-      Elias
-      Helt sikker. man kommer helt sikkert til at sluge nogle kameler ik. og det er jo forskelligt fra person til person hvad man synes der er kameler, der skal sluges ik.
-      Mia
-      Jo.
-      Elias
-      Øhm..
-      Mia
-      Men også altså.. jamen også hvor høje krav man også har, til det man gerne vil eller sån..
-      Elias
-      Jaer.. men jeg tænker hvis du, altså nu ved jeg ikke lige hvad der lige præcis interesser dig. Men det var en mega fed opgave, du havde fx på 5. semester der ik. Med ligesom at gå ind og arbejde med en eller anden form for kampagne. Og hvis det ligesom er det. eller anden form for servicedesign. eller sådan noget aktivistisk design. så er der helt sikkert et marked for det. derude. og så kan man så tænke: okay, hvordan kan jeg så bruge det, på eller anden måde hvor du også kan tjene penge og skabe værdig for folk. det kunne fx være og lave workshops med kommuner, hvad fanden ved jeg. eller hvad det nu kunne være eller ligesom sætte sådan nogle ting i stand ik.. fordi det er nok der, i del den fasen det ligger, hvor mman kan sige det er en form for undersøgelse eller.. og så hvis du så synes, ej det er jo også irriterende kun at lave undersøgelser, og så er der nogle andre ligger form på senere. Men så må du ligesom bare skabe, den niche hvor du siger, jamen jeg laver både det hvor jeg går ind og arbejder aktivistisk i starten og så sætter noget form på det, og får det.. og “jeg kan levere hele pakken!” ik?
-      Mia
-      Jaer (latter)
-      Elias
-      jeg kan både lave strategi og sådan.. ik. det skal du bare ud og overbevise folk om ik. men jeg tænker, det er jo, hvad det hedder, på en måde, det er ikke sværere, og jeg ved godt, at det samtidig er skide svært ik.. men bare og finde ud af hvad er det man gerne vil og så få sandsynliggjort overfor andre at det kan give dem noget godt, kan gøre noget godt for dem ik.
-      Mia
-      Helt sikkert. Ja jeg tror også.. jeg synes det er vildt svært, det der med, at man også har forstillet sig, at man måske ville nogen ting og man måske ville i en lidt kunstnerisk retning og man måske finder ud af: okay, måske er det ikke det jeg er god til.. eller hvad er jeg så god til og ligesom og pointere det. for sig selv også bare ik. øhm..
-      Elias
-      Og det er jo tit.. man er jo ikke kun interesseret i en ting vel.
-      Mia
-      Nej, præcis..
-      Elias
-      Men hvad er det man bliver god til.. altså jeg vil sige jeg er heller ikke særlig god til web. jeg synes det er pisse interessant, men jeg var ikke særlig god til at programmere, selvom jeg synes det er rigtig fedt og sådan. men det er bare sådan, man kan ikke være god til det hele.
-      Mia
-      Nej..
-      Elias
-      Men.. det er også tit. det der med, hvis du skal ud og sælge ting.. jeg ved godt var jeg synes der er.. og skrifttyper er heller ikke sådan noget der er nemt at sælge..fordi det jo sådan.. eller det er både og. det er normalt, man kan næsten sige hvad som helst til folk, fordi de fleste ikke har forstand på det. men omvendt er det sådan: hvorfor skal vi bruge penge på det? på en skrift agtig ik?
-      Mia
-      Jaer..
-      Elias
-      Øhm.. men så kan man nogen gange bruge, okay æstetisk og historie fortællende argumenter, som man måske selv synes er de vigtige ligesom ik. det er bare ikke altid det fungerer. så kan man altid komme tilbage til. okay prøv at se her. en specialtegnet skrift vil koste.. det koster måske 300000 tusinde at få lavet det eller sådan noget ik.. men hvis i.. hvor meget bruger i på licenser på jeres webfonts? og så sidder de og kigger.. hvis det er sådan nogle store kunder, de bruger måske 1 million om året, de næste 2-3 år eller sådan noget ik. det tæller jo på kliks og sådan noget ik.
-      Mia
-      WOWW.. (latter)
-      Elias
-      Og så kan de pludselig godt se, okay det sgu måske en meget god ide at have deres egen. så skal man skal bare tale til pengepungen ik. så så, så nogen gang bliver man nødt til at bruge nogle argumenter, som de kan forstå.. i forhold til dem, som man selv synes er de vigtigeste..
-      Mia
-      Jo, helt sikkert..
-      Elias
-      Eh.. jeg sidder med en anden opgave lige nu her. og det var faktisk, hvor der var bare en af de skrifttyper de brugte ik, de bruger flere, hvor de var oppe på over 1 million henover et bar år eller sådan noget ik.
-      Mia
-      Wow.. det er vildt
-      Elias
-      Jaer. så det vil sige, så er det jo skide billigt.. hvis man kigger på hvor mange penge de så ikke sparer ik.
-      Mia
-      Jo. men det er jo så også lige og vide, at man kan hive i den, hive i den skuffe og sige..
-      Elias
-      Ja, og det er jo det. Det er sådan noget man finder ud af. Jeg har heller ikke vist alt fra starten. og hvor man lægger sin løn henne og er sådan noget der har taget langt tid at få styr på det ik. så det er skide svært. det er meget mere, at man finder ud af tingene undervejs ik. øhm.. og jeg har bestemt heller ikke alle svar for hvad man ligesom kan gøre. der er helt sikker nicher derude, som jeg slet ikke har indsigt i, hvordan det fungerer og sådan ik. men i de bureauer jeg kigger på, og dem jeg kender rundt omkring, der vil jeg bare sige, altså der handler det både om at kunne præsentere og ligesom være professionel, men det handler også om at være dygtig, altså sådan helt.. og det er jo egentlig meget befriende. altså.. (latter) og så er der jo alt mulig.. det tror jeg også jeg skrev. så prøver jeg så vidt muligt at holde mig fri af alt branchefnidderet og.. det gider jeg ikke rigtig være en del af.. altså hvem går og laver hvad. det prøver jeg faktisk at hold mig lidt fri af. eller bare sådan.. så laver jeg bare det jeg godt kan lide ik.
-      Mia
-      Så man kan ligesom godt holde sig lidt på siddelinjen også.. og stadig..
-      Elias
-      Ja, det synes jeg. men det jo måske. man kan godt sige, du får jo ikke. selvfølgelig hvis man.. jeg arbejder jo meget som underleverandør for bureauer. hvor jeg får nogle opgaver igennem andre grafiker der. men i virkeligheden. du skal jo kende en masse cbs’er for at få opgaver ik.
-      Mia
-      (Latter)
-      Elias
-      Så de ved ik, ej der er sgu en der kan tegne logoer. eller hvad det nu kunne være ik.
-      Mia
-      (latter) åh.. jeg skulle have holdt kontakten, med dem jeg gik sammen med på CBS.
-      Elias
-      Ja, præcis. (Latter) Det kan godt være det er for sent.. Du kan bare lige dukke op til to fredagsbarer.
-      Mia
-      (Latter) Jaer.. Nå, men jeg ved ikke hvordan du står til med tid. men jeg føler i hvert fald at du har sagt nogle gode ting.
-      Elias
-      Jaer, jeg tror måske jeg må til at smutte derudaf.
-      Mia
-      Men det var mega fedt Elias, tusinde tak.
-      Elias
-      Jaer, det var godt. Så må du må bare sige til hvis der lige er noget andet, du tænker..
-    </textarea>
-  </div>
+    <div id="draggable76" class="draggable">
+      <contenteditable id="advice12" class="advice" readonly>
+        <strong> Efter din mening; hvad er de 3 vigtigeste kvaliteter, en designer bør besidde? </strong><br><br>
+        - FORMÅL + FUNKTIONALITET mangler på listen, det er jo kerneområder.<br><br>
+        - Det er virkelig svært kun at vælge 3 af de ovenstående. Mange af dem er vigtige
+        egenskaber uanset branche (f.eks. velformuleret, struktureret, gode samarbejdsevner),
+        så de to ovenstående går mest på det som jeg mener bør udmærke designere frem for
+        andre beslægtede fag: at kunne vurdere kvalitet og at kunne udfordre status quo
+        på et nysgerrigt / fordomsfrit / velfunderet grundlag. Ud over de ovenstående to, så er empati supervigtig.<br><br>
+        - Gode valgmuligheder! Ydmyghed er heller ikke dårlig. Især nyuddannede må gerne
+        være uimponerede over deres ældre fagfælder, men det er godt at forholde sig ydmygt
+        til opgaven – at vide, at man kan vide mere. Det gælder alle, hvad enten man er nyuddannet eller "erfaren".<br><br>
+        - Et godt øje, ha udviklet en arbejds- metode/ faglig styrke, god til at lytte og være analytisk og god energi.
+      </contenteditable>
+    </div>
 
-  <div id="draggable15" class="draggable">
-      <video autoplay muted loop class="myVideo">
-      <source src="img/9.april.mp4" type="video/mp4">
-      </video>
-  </div>
+    <div id="draggable77" class="draggable">
+      <contenteditable id="advice13" class="advice" readonly>
+        <strong> Hvad er din oplevelse af designbranchen, som den ser ud nu? (vælg gerne flere) </strong><br><br>
+        - The best time ever to be in the visual design field.<br><br>
+        - Lidt af det hele:-) Det mest karakteristisk at form og æstetik er kvaliteter som ikke altid er tilstede i løsninger.<br><br>
+        - Måske og navlebeskuende og overfladisk. Alt efter hvor man kigger hen kan man sætte et af de ovenstående mærkater på branchen.
+        Jeg prøver så vidt muligt at holde mig fri af branchen (især branchefnidderet), og lave projekter som jeg synes er fede,
+        uden at skele til hvad andre laver eller synes om mit arbejde.<br><br>
+        - Konkurrence er der. Men det vigtigste er den kæmpe forandring der sker inden for visuel kommunikation og medier i øjeblikket.
+        Branchen er generelt konservativ og holder på gamle faglige dyder. Det er et stort problem - for designerne selv især, –
+        for kunder og samarbejdspartnere går andre veje, hvis vi ikke fornyer os. MEN jeg oplever samtidig masser af kreativitet
+        og gode mennesker i feltet :-)<br><br>
+        - Tror ikke jeg kan sætte én oplevelse på HELE designbranchen - det er en KÆMPE branche :-) jeg arb. i spil branchen og
+        den er virkelig afslappet og social.<br><br>
+        - Jeg arbejder inden for film og tv branchen, det handler om netværk og at et job kan føre til et andet.<br><br>
+        - ...
+      </contenteditable>
+    </div>
 
-  <div> <a id="draggable16" class="draggable" ondblclick="dbclick3()">
-    <img id="cap" src="img/cap.png">
-    </img>
-  </div>
+    <div id="draggable78" class="draggable">
+      <contenteditable id="advice14" class="advice" readonly>
+        <strong> Vidste du hvad du skulle, da du var nyuddannet? </strong><br><br>
+        - Jeg var klar på hvad jeg gerne ville lave, og var så heldig at blive kontaktet af Kontrapunkt
+        umiddelbart efter min afgang. Så det er måske i virkeligheden en blanding af at være klar og tage hvad der byder sig.<br><br>
+        - Nok midt imellem de to første. Jeg prøvede vist ikke dem alle af, men jeg var åben i forhold til mulighederne.
+      </contenteditable>
+    </div>
 
-  <div id="draggable17" class="draggable">
-      <video autoplay muted loop class="myVideo">
-      <source src="img/9.april.2.mp4" type="video/mp4">
-      </video>
-  </div>
+    <div id="draggable79" class="draggable">
+      <img id="citat1" class="citat" src="img/citat_1.png">
+      </img>
+    </div>
 
-  <div id="draggable18" class="draggable">
-      <video autoplay muted loop class="myVideo">
-      <source src="img/11.april.mp4" type="video/mp4">
-      </video>
-  </div>
+    <div id="draggable80" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_2.png">
+      </img>
+    </div>
 
-  <div> <a id="draggable19" class="draggable" ondblclick="dbclick3()">
-    <img id="cap2" src="img/cap2.png">
-    </img>
-  </div>
+    <div id="draggable81" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_3.png">
+      </img>
+    </div>
 
-  <div id="draggable20" class="draggable">
-    <img id="google1" src="img/google1.png">
-    </img>
-  </div>
+    <div id="draggable82" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_4.png">
+      </img>
+    </div>
 
-  <div id="draggable21" class="draggable">
-    <img id="google3" src="img/google3.png">
-    </img>
-  </div>
+    <div id="draggable83" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_5.png">
+      </img>
+    </div>
 
-  <div id="draggable22" class="draggable">
-    <img id="google4" src="img/google4.png">
-    </img>
-  </div>
+    <div id="draggable84" class="draggable">
+      <img id="citat1" class="citat" src="img/citat_6.png">
+      </img>
+    </div>
 
-  <div id="draggable23" class="draggable">
-    <img id="google5" src="img/google5.png">
-    </img>
-  </div>
+    <div id="draggable85" class="draggable">
+      <img id="citat1" class="citat" src="img/citat_7.png">
+      </img>
+    </div>
 
-  <div id="draggable24" class="draggable">
-    <img id="google6" src="img/google6.png">
-    </img>
-  </div>
+    <div id="draggable86" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_8.png">
+      </img>
+    </div>
 
-  <div id="draggable25" class="draggable">
-    <img id="google7" src="img/google7.png">
-    </img>
-  </div>
+    <div id="draggable87" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_9.png">
+      </img>
+    </div>
 
-  <div id="draggable26" class="draggable">
-    <img id="google8" src="img/google8.png">
-    </img>
-  </div>
+    <div id="draggable88" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_10.png">
+      </img>
+    </div>
 
-  <div id="draggable27" class="draggable">
-    <img id="google9" src="img/google9.png">
-    </img>
-  </div>
+    <div id="draggable89" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_11.png">
+      </img>
+    </div>
 
-  <div id="draggable28" class="draggable">
-    <img id="google10" src="img/google10.png">
-    </img>
-  </div>
+    <div id="draggable90" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_12.png">
+      </img>
+    </div>
 
-  <!-- <div id="draggable29" class="draggable">
-      <video autoplay muted loop class="myVideo">
-      <source src="img/22.maj.mp4" type="video/mp4">
-      </video>
-  </div> -->
+    <div id="draggable91" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_13.png">
+      </img>
+    </div>
 
-  <div id="draggable30" class="draggable">
-      <video autoplay muted loop class="myVideo">
-      <source src="img/15.maj.mp4" type="video/mp4">
-      </video>
-  </div>
+    <div id="draggable92" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_14.png">
+      </img>
+    </div>
 
-  <div id="draggable31" class="draggable">
-      <video autoplay muted loop class="myVideo">
-      <source src="img/22.maj.mp4" type="video/mp4">
-      </video>
+    <div id="draggable93" class="draggable">
+      <img id="citat2-5" class="citat" src="img/citat_15.png">
+      </img>
+    </div>
+
+    <div id="draggable94" class="draggable">
+      <img id="citat1" class="citat" src="img/citat_16.png">
+      </img>
+    </div>
+
+    <div id="draggable95" class="draggable">
+      <img id="citat1" class="citat" src="img/citat_17.png">
+      </img>
+    </div>
+
+    <div id="draggable96" class="draggable">
+      <img id="citat1" class="citat" src="img/citat_18.png">
+      </img>
+    </div>
+
+    <div id="draggable97" class="draggable">
+      <img id="citat1" class="citat" src="img/job8.png">
+      </img>
+    </div>
+
+    <div id="draggable98" class="draggable">
+      <img id="citat1" class="citat" src="img/job9.png">
+      </img>
+    </div>
+
+    <div id="draggable99" class="draggable">
+      <img id="citat2-5" class="citat" src="img/job10.png">
+      </img>
+    </div>
+
+    <div id="draggable100" class="draggable">
+      <img id="citat1" class="citat" src="img/job11.png">
+      </img>
+    </div>
+
+    <div id="draggable101" class="draggable">
+      <img id="citatlille" class="citat" src="img/citat_6.2.png">
+      </img>
+    </div>
+
+    <div id="draggable102" class="draggable">
+      <img id="citatlille" class="citat" src="img/citat_6.3.png">
+      </img>
+    </div>
+
+    <div id="draggable103" class="draggable">
+      <img id="citatlille" class="citat" src="img/citat_7.2.png">
+      </img>
+    </div>
+
   </div>
 
 </body>
