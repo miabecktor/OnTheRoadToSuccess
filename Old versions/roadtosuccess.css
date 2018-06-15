@@ -1,0 +1,343 @@
+.draggable {
+      width: 90px;
+      height: 90px;
+      padding: 0.5em;
+      float: left;
+      margin: 0 10px 10px 0;
+      background: none; /* older browsers */
+      background: none; /* newer browsers */
+      padding: 5px;
+      cursor: move;
+      visibility: visible;
+      --dropshadow: 5px 5px 5px gray;
+      --border-radius: 5px;
+      --border: double 2px rgb(230, 230, 230);
+  }
+
+
+  .button{
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    /* width: 100%;
+    height: 150px; */
+    /* padding-left: 40px;
+    padding-top: 60px;
+    box-shadow: 0 0 10px white; */
+    /* background: rgba(230, 230, 230, 0.5);
+    opacity: 70% !important; */
+
+    font-family: Snell Roundhand;
+    z-index: 100;
+    cursor: move;
+  }
+
+  .myVideo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index:1;
+  }
+
+.myVideo:hover{
+    width:270px;
+    height:480px;
+    z-index: 1;
+  }
+
+  .job{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index:1;
+  }
+
+.job:hover{
+    width:400px;
+    height:500px;
+    z-index: 1;
+  }
+
+  /* #google1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  #google1:hover{
+      width:935px;
+      height:79px;
+  }
+
+  #google2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  #google2:hover{
+    width:425px;
+    height:80px;
+  }
+
+  #google3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+
+  }
+
+  #google3:hover{
+    width:636px;
+    height:60px;
+  }
+
+  #google4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  #google4:hover{
+    width:790px;
+    height:72px;
+  }
+
+  #google5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  #google5:hover{
+    width:873px;
+    height:60px;
+  } */
+
+  .googleLille{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  .googleLille:hover{
+    width:322px;
+    height:40px;
+  }
+
+  .googleMellem{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  .googleMellem:hover{
+    width:670px;
+    height:67px;
+  }
+
+  .googleStor{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 3;
+  }
+
+  .googleStor:hover{
+    width:910px;
+    height:90px;
+  }
+
+  #samtale{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-family: palatino;
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 12pt;
+    padding: 20px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    cursor: move;
+    overflow-y: scroll;
+    resize: none;
+    z-index: 1;
+  }
+
+  #samtale:hover{
+      width:400px;
+      height:700px;
+      border-radius: var(--border-radius);
+      border: var(--border);
+    }
+
+  #mapping{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 2;
+  }
+
+  #surveyElev{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 2;
+  }
+
+  #surveyElev:hover{
+      width:300px;
+      height:250px;
+      border-radius: var(--border-radius);
+      border: var(--border);
+    }
+
+    #surveyLærer{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      box-shadow: var(--dropshadow);
+      border-radius: var(--border-radius);
+      border: var(--border);
+      z-index: 2;
+    }
+
+    #surveyLærer:hover{
+        width:450px;
+        height:300px;
+        border-radius: var(--border-radius);
+        border: var(--border);
+      }
+
+  #spørgsmål{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    cursor: move;
+    overflow-y: scroll;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+    z-index: 9;
+  }
+
+  #cap{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    z-index: 10;
+    top: 200px;
+    left: 300px;
+  }
+  #cap:hover{
+      width:400px;
+      height:335px;
+    }
+
+    #cap2{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      box-shadow: var(--dropshadow);
+      border-radius: var(--border-radius);
+      border: var(--border);
+      z-index: 10;
+    }
+    #cap2:hover{
+        width:400px;
+        height:335px;
+      }
+
+  #DESIGNER{
+    position: absolute;
+    top: -200px;
+    left: 100px;
+    width: 500px;
+    height: 300px;
+    z-index: 1000;
+  }
+
+  #OPPORTUNITIES{
+  position: absolute;
+  top: 527px;
+  left: 1701px;
+  width: 600px;
+  height: 200px;
+  z-index: 1000;
+}
+
+  }
+
+  body,
+  html {
+      margin: 0;
+      padding: 0;
+
+  }
+
+  body {
+    background-color: white;
+    border: 20px solid grey;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2300px;
+    height: 2000px;
+    margin-right: 0px;
+  }

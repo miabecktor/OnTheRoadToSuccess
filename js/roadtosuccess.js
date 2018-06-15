@@ -24,6 +24,29 @@
 //  }
 
 // <-- TOGGLE OPPORTUNITIES -->
+$(document).ready(function(){
+    console.log("scrolling");
+    $(window).scroll(function(){
+      $('.footer').css('left', 20 - $(this).scrollLeft());
+      $('.sidebar').css('top', 20 - $(this).scrollTop());
+    });
+  });
+
+  $(document).ready(function(){
+    var elems = $('.vl');
+    for (i = 0; i < elems.length; i++) {
+      var el = elems[i];
+      el.style.left =(i+1)*370-1+"px";
+    }
+  });
+  $(document).ready(function(){
+    var elems = $('.hl');
+    for (i = 0; i < elems.length; i++) {
+
+      var el = elems[i];
+      el.style.top =(i+1) * 370-1+"px";
+    }
+  });
 
  $(document).ready(function(){
     $("button").click(function(){
