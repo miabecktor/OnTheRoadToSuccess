@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Mia Becktor">
+  <style> body {padding: 0; margin: 0;} </style>
+  <script src="p5/p5.min.js"></script>
+  <script src="p5/addons/p5.dom.min.js"></script>
+  <script src="p5/addons/p5.sound.min.js"></script>
+  <script src="p5/sketch.js"></script>
+
 
   <title>Mia Becktor</title>
 
@@ -20,6 +26,8 @@
 </head>
 
 <body>
+  <div id="draggable146" class="draggable"></div>
+
   <div class="content">
     <div class="vl"></div>
     <div class="vl"></div>
@@ -40,19 +48,17 @@
     <div class="buttons">
       <!-- <img id="gif" class="sidebar-item" src="img/ontheroadtosuccess_2.gif"></img> -->
 
-      <a href="#" class="button1">
+      <!-- <a href="#" class="button1">
         <button onclick="resetPos()">
         RESET</button> </a>
 
-      <!-- <a href="#" class="button1">
+      <a href="#" class="button1">
         <img id="DESIGNER" src="img/DESIGNER.gif" onclick="randPos()">
         </img> </a>
 
       <button href="#" class="button1">
         <img id="OPPORTUNITIES" src="img/OPPORTUNITIES.gif">
       </img> </button> -->
-
-      <a id=#samtalemedtine href="#samtaleTine1"> test </a>
 
       <!-- <button>Toggle</button> -->
 
@@ -74,6 +80,7 @@
         <button onclick="hiddenfunction('samtale')">
         dive where the water is deep</button></a> -->
     </div>
+
     <!-- VIDEO-->
       <div id="draggable1" class="draggable">
           <video   muted loop class="myVideo">
@@ -144,6 +151,30 @@
       <div id="draggable12" class="draggable">
           <video   muted loop class="myVideo">
           <source src="img/18.april.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable114" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/6.juni.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable115" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/6.juni_4.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable116" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/13.juni.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div id="draggable117" class="draggable">
+          <video   muted loop class="myVideo">
+          <source src="img/13.juni_2.mp4" type="video/mp4">
           </video>
       </div>
 
@@ -1233,245 +1264,221 @@
 
       <div id="draggable20" class="draggable">
         <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål1_elev.png">
+          <img class="mellemBox" id="survey" src="img/spørgsmål1_elev.png">
           </img>
         </a>
       </div>
 
       <div id="draggable21" class="draggable">
          <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål2_elev.png">
+          <img class="mellemBox" id="survey"src="img/spørgsmål2_elev.png">
           </img>
         </a>
       </div>
 
       <div id="draggable22" class="draggable">
         <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål3_elev.png">
+          <img class="mellemBox" id="survey"src="img/spørgsmål3_elev.png">
           </img>
         </a>
       </div>
 
       <div id="draggable23" class="draggable">
         <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål4_elev.png">
+          <img class="mellemBox" id="survey"src="img/spørgsmål4_elev.png">
           </img>
         </a>
       </div>
 
       <div id="draggable24" class="draggable">
         <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål6_elev.png">
+          <img class="mellemBox" id="survey"src="img/spørgsmål6_elev.png">
           </img>
         </a>
       </div>
 
       <div id="draggable25" class="draggable">
         <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål7_elev.png">
+          <img class="mellemBox" id="survey" src="img/spørgsmål7_elev.png">
           </img>
           </a>
       </div>
 
       <div id="draggable26" class="draggable">
         <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål8_elev.png">
+          <img class="mellemBox" id="survey" src="img/spørgsmål8_elev.png">
           </img>
         </a>
       </div>
 
       <div id="draggable27" class="draggable">
         <a ondblclick="dbclick2()">
-          <img class="surveyElev" src="img/spørgsmål9_elev.png">
+          <img class="mellemBox" id="survey" src="img/spørgsmål9_elev.png">
           </img>
         </a>
       </div>
 
       <div id="draggable28" class="draggable">
         <a ondblclick="dbclick2()">
-          <img id="surveyLærer" src="img/spørgsmål1_lærer.png">
+          <img class="mellemBox" id="survey" src="img/spørgsmål1_lærer.png">
           </img>
         </a>
       </div>
 
       <div id="draggable29" class="draggable">
         <a ondblclick="dbclick2()">
-          <img id="surveyLærer" src="img/spørgsmål2_lærer.png">
+          <img class="mellemBox" id="survey" src="img/spørgsmål2_lærer.png">
           </img>
         </a>
       </div>
 
       <div id="draggable30" class="draggable">
         <a ondblclick="dbclick2()">
-          <img id="surveyLærer" src="img/spørgsmål3_lærer.png">
+          <img class="mellemBox" id="survey" src="img/spørgsmål3_lærer.png">
           </img>
         </a>
       </div>
 
       <div id="draggable31" class="draggable">
         <a ondblclick="dbclick2()">
-          <img id="surveyLærer" src="img/spørgsmål4_lærer.png"></img>
+          <img class="mellemBox" id="survey" src="img/spørgsmål4_lærer.png"></img>
         </a>
       </div>
 
       <div id="draggable32" class="draggable">
         <a ondblclick="dbclick2()">
-        <img id="surveyLærer" src="img/spørgsmål5_lærer.png">
+        <img class="mellemBox" id="survey" src="img/spørgsmål5_lærer.png">
         </img></a>
       </div>
 
-      <div id="draggable33" class="draggable"> <a ondblclick="dbclick2()">
-        <img id="surveyLærer" src="img/spørgsmål6_lærer.png">
-        </img></a>
+      <div id="draggable33" class="draggable">
+          <img class="mellemBox" id="survey" src="img/spørgsmål6_lærer.png">
+          </img>
       </div>
 
       <div id="draggable34" class="draggable">
-        <a ondblclick="dbclick2()">
-          <img id="surveyLærer" src="img/spørgsmål7_lærer.png">
-          </img>
-        </a>
+          <img class="mellemBox" id="survey" src="img/spørgsmål7_lærer.png"></img>
       </div>
 
       <div id="draggable35" class="draggable">
-        <a ondblclick="dbclick2()">
-          <img id="surveyLærer" src="img/spørgsmål9_lærer.png">
-          </img>
-        </a>
+          <img class="mellemBox" id="survey" src="img/spørgsmål9_lærer.png"></img>
       </div>
 
       <div id="draggable36" class="draggable">
-        <img class="job" src="img/ithelps.png">
+        <img class="mellemBox" id="job" src="img/ithelps.png"></img>
+      </div>
+
+      <div id="draggable37" class="draggable">
+        <img class="mellemBox" id="job" src="img/mapping.png"></img>
+      </div>
+
+      <div id="draggable40" class="draggable" >
+          <img class="mellemBox" id="job" src="img/job1.png"></img>
+      </div>
+
+      <div id="draggable41" class="draggable" >
+        <img class="mellemBox" id="job" src="img/job2.png">
         </img>
       </div>
 
-      <div id="draggable37" class="draggable"> <a  href="">
-        <img id="mapping" src="img/mapping.png">
-        </img></a>
-      </div>
-      <div id="draggable40" class="draggable" >
-        <a ondblclick="dbclick3()">
-          <img class="job" src="img/job1.png">
-          </img>
-        </a>
+      <div id="draggable42" class="draggable" >
+        <img class="mellemBox" id="job" src="img/job3.png"></img>
       </div>
 
-      <div id="draggable41" class="draggable" > <a ondblclick="dbclick3()">
-        <img class="job" src="img/job2.png">
-        </img></a>
+      <div id="draggable43" class="draggable" >
+        <img class="mellemBox" id="job" src="img/job4.png"></img>
       </div>
 
-      <div id="draggable42" class="draggable" > <a ondblclick="dbclick3()">
-        <img class="job" src="img/job3.png">
-        </img></a>
+      <div id="draggable44" class="draggable" >
+        <img class="mellemBox" id="job" src="img/job5.png"></img>
       </div>
 
-      <div id="draggable43" class="draggable" > <a ondblclick="dbclick3()">
-        <img class="job" src="img/job4.png">
-        </img></a>
+      <div id="draggable45" class="draggable" >
+        <img class="mellemBox" id="job" src="img/job6.png"></img>
       </div>
 
-      <div id="draggable44" class="draggable" > <a ondblclick="dbclick3()">
-        <img class="job" src="img/job5.png">
-        </img></a>
+      <div id="draggable46" class="draggable" >
+        <img class="mellemBox" id="job" src="img/job7.png"></img>
       </div>
 
-      <div id="draggable45" class="draggable" > <a ondblclick="dbclick3()">
-        <img class="job" src="img/job6.png">
-        </img></a>
-      </div>
-
-      <div id="draggable46" class="draggable" > <a ondblclick="dbclick3()">
-        <img class="job" src="img/job7.png">
-        </img></a>
-      </div>
-
+      <!-- CITATER -->
 
       <div id="draggable47" class="draggable">
-        <img class="googleStor" src="img/google1.png">
-        </img>
+        <img id="googleStor" class="lilleBox" src="img/google1.png"></img>
       </div>
 
       <div id="draggable48" class="draggable">
-        <img class="googleLille" src="img/google2.png">
-        </img>
+        <img id="googleLille" class="lilleBox" src="img/google2.png"></img>
       </div>
 
       <div id="draggable49" class="draggable">
-        <img class="googleMellem" src="img/google3.png">
-        </img>
+        <img id="googleMellem" class="lilleBox" src="img/google3.png"></img>
       </div>
 
       <div id="draggable50" class="draggable">
-        <img class="googleStor" src="img/google4.png">
-        </img>
+        <img id="googleMellem" class="lilleBox" src="img/google4.png"></img>
       </div>
 
       <div id="draggable51" class="draggable">
-        <img class="googleStor" src="img/google5.png">
-        </img>
+        <img id="googleStor" class="lilleBox" src="img/google5.png"></img>
       </div>
 
       <div id="draggable52" class="draggable">
-        <img class="googleLille" src="img/google6.png">
-        </img>
+        <img id="googleLille" class="lilleBox" src="img/google6.png"></img>
       </div>
 
       <div id="draggable53" class="draggable">
-        <img class="googleStor" src="img/google7.png">
-        </img>
+        <img id="googleStor" class="lilleBox" src="img/google7.png"></img>
       </div>
 
       <div id="draggable54" class="draggable">
-        <img class="googleStor" src="img/google8.png">
-        </img>
+        <img id="googleStor" class="lilleBox" src="img/google8.png"></img>
       </div>
 
       <div id="draggable55" class="draggable">
-        <img class="googleMellem" src="img/google9.png">
-        </img>
+        <img id="googleMellem" class="lilleBox" src="img/google9.png"></img>
       </div>
 
       <div id="draggable56" class="draggable">
-        <img class="googleMellem" src="img/google10.png">
-        </img>
+        <img id="googleMellem" class="lilleBox" src="img/google10.png"></img>
       </div>
 
       <div id="draggable57" class="draggable">
-        <img class="googleMellem" src="img/google11.png">
-        </img>
+        <img id="googleMellem" class="lilleBox" src="img/google11.png"></img>
       </div>
 
       <div id="draggable58" class="draggable">
-        <img class="googleMellem" src="img/google12.png">
-        </img>
+        <img id="googleMellem" class="lilleBox" src="img/google12.png"></img>
       </div>
 
       <div id="draggable59" class="draggable">
-        <img class="googleStor" src="img/google13.png">
-        </img>
+        <img id="googleStor" class="lilleBox" src="img/google13.png"></img>
       </div>
 
       <div id="draggable60" class="draggable">
-        <img class="googleLille" src="img/google14.png">
-        </img>
+        <img id="googleLille" class="lilleBox" src="img/google14.png"></img>
       </div>
 
       <div id="draggable61" class="draggable">
-        <img class="googleMellem" src="img/google15.png">
-        </img>
+        <img id="googleMellem" class="lilleBox" src="img/google15.png"></img>
       </div>
 
-      <div id="draggable65" class="draggable"> <a ondblclick="dbclick1()">
-        <contenteditable="true" id="advice1" class="advice" rows="4" cols="10" readonly>
-          Ingen <span>generaliserende</span> råd herfra. Men jeg oplever, at en del
-          studerende ikke kan/vil sige, hvad de egentlig er <span>interesserede</span> i,
-          hvad de er <span>nysgerrige</span> omkring, og det er et problem, men ikke nogen overraskelse,
-          <span>omstændighederne</span> taget i betragtning.
-        </contenteditable></a>
+      <!-- SURVEY ADVICE -->
+
+      <div id="draggable65" class="draggable">
+        <a ondblclick="dbclick1()">
+          <contenteditable="true" id="advice1" class="advice" rows="4" cols="10" readonly>
+            Ingen <span>generaliserende</span> råd herfra. Men jeg oplever, at en del
+            studerende ikke kan/vil sige, hvad de egentlig er <span>interesserede</span> i,
+            hvad de er <span>nysgerrige</span> omkring, og det er et problem, men ikke nogen overraskelse,
+            <span>omstændighederne</span> taget i betragtning.
+          </contenteditable>
+        </a>
       </div>
 
-      <div id="draggable66" class="draggable"> <a ondblclick="dbclick1()">
-        <contenteditable="true" id="advice2" class="advice" rows="4" cols="10" readonly>
+      <div id="draggable66" class="draggable">
+          <a ondblclick="dbclick1()">
+            <contenteditable="true" id="advice2" class="advice" rows="4" cols="10" readonly>
           Be<span> open minded</span>, be ready to work, be willing to collaborate and take feedback,
           select the field within design you would like to focus on, partcipate in internships,
           communicate with others welll, be willing to donate your time and <span>energy</span> into something.
@@ -1480,7 +1487,8 @@
           Be nice to everyone. Be friendly and have manners with others it will go along way.
           Build bridges and network. Always be <span>curious</span>. Be <span>confident</span>. Never stop learning.
           Leave plenty of room for creative growth and development. <span>Inspire</span> yourself often and inspire others.
-        </contenteditable></a>
+            </contenteditable>
+          </a>
       </div>
 
       <div id="draggable67" class="draggable">
@@ -1603,183 +1611,399 @@
         </contenteditable>
       </div>
 
+      <div id="draggable129" class="draggable">
+        <contenteditable id="advice15" class="advice" readonly>
+          Nej, men det virker som <span>mange</span> er interesserede i at holde alle døre <span>åbne</span>.
+        </contenteditable>
+      </div>
+
+      <div id="draggable130" class="draggable">
+        <contenteditable id="advice16" class="advice" readonly>
+          All the students that take <span>initiative</span> and ask for my help directly,
+          I have always been able to place or <span>help</span> them with internships,
+          jobs, projects and letters for recommendations.
+        </contenteditable>
+      </div>
+
+      <div id="draggable131" class="draggable">
+        <contenteditable id="advice17" class="advice" readonly>
+          Uddannelsen, glem den. Men <span>STUDIET</span>, dit studie, det er dét, der er det vigtige.
+          Du får lokaler, faciliteter, medstuderende og nogen gange okay undervisere
+          stillet til din disposition. Men det er <span>DIG</span>, der skal sammensætte din uddannelse,
+          så du kan indfridine drømme, når du er færdig. Kombinér gerne studier på designskolen
+          med ophold på andre uddannelser, udlandsophold osv! Især lige nu, hvor uddannelsen og
+          skolen har svært ved at finde sig selv(!) Der er muligheder!.
+        </contenteditable>
+      </div>
+
+      <div id="draggable132" class="draggable">
+        <contenteditable id="advice18" class="advice" readonly>
+          En, der <span>kulturelt bevist</span>, som har indgående forståelse og nysgerrighed indenfor designområder.
+        </contenteditable>
+      </div>
+
+      <div id="draggable133" class="draggable">
+        <contenteditable id="advice19" class="advice" readonly>
+          En, der er <span>problemorienteret</span> og i stand til både at identificere, specificere designbehovet
+          og at udvikle og producere designproduktet. Med andre ord: der er nok af <span>grydeklare kyllinger</span>, som kan det
+          tekniske, men vi har brug for designere, der kan tænke selv og være i <span>øjenhøjde</span> med andre højtuddannede.
+        </contenteditable>
+      </div>
+
+      <div id="draggable134" class="draggable">
+        <contenteditable id="advice20" class="advice" readonly>
+          Der er heldigvis brug for rigtig mange <span>forskellige</span> slags designere.
+        </contenteditable>
+      </div>
+
+      <div id="draggable135" class="draggable">
+        <contenteditable id="advice21" class="advice" readonly>
+          <span>FORMÅL + FUNKTIONALITET</span> mangler på listen, det er jo kerneområder.
+        </contenteditable>
+      </div>
+
+      <div id="draggable136" class="draggable">
+        <contenteditable id="advice22" class="advice" readonly>
+          Det er virkelig svært kun at vælge <span>3</span> af de ovenstående. Mange af dem er vigtige
+          egenskaber uanset branche (f.eks. velformuleret, struktureret, gode samarbejdsevner),
+          så de to ovenstående går mest på det som jeg mener bør <span>udmærke</span> designere frem for
+          andre beslægtede fag: at kunne vurdere kvalitet og at kunne udfordre status quo
+          på et nysgerrigt / fordomsfrit / velfunderet grundlag. Ud over de ovenstående to, så er <span>empati</span> supervigtig.
+        </contenteditable>
+      </div>
+
+      <div id="draggable137" class="draggable">
+        <contenteditable id="advice23" class="advice" readonly>
+          Gode valgmuligheder!  <span>ydmyghed</span> er heller ikke dårlig. Især nyuddannede må gerne
+          være <span>uimponerede</span> over deres ældre fagfælder, men det er godt at forholde sig ydmygt
+          til opgaven – at vide, at man kan <span>vide mere</span>. Det gælder alle, hvad enten man er nyuddannet eller "erfaren".
+        </contenteditable>
+      </div>
+
+      <div id="draggable138" class="draggable">
+        <contenteditable id="advice24" class="advice" readonly>
+          Et godt øje, ha udviklet en arbejds - metode/ faglig styrke, god til at <span>lytte</span> og være analytisk og <span>god energi</span>.
+        </contenteditable>
+      </div>
+
+      <div id="draggable139" class="draggable">
+        <contenteditable id="advice25" class="advice" readonly>
+          The <span>best time ever</span> to be in the visual design field.
+        </contenteditable>
+      </div>
+
+      <div id="draggable140" class="draggable">
+        <contenteditable id="advice26" class="advice" readonly>
+          Lidt af det hele:-) Det mest karakteristisk at form og <span>æstetik</span> er kvaliteter som ikke altid er tilstede i <span>løsninger</span>.
+        </contenteditable>
+      </div>
+
+      <div id="draggable141" class="draggable">
+        <contenteditable id="advice27" class="advice" readonly>
+          Måske og <span>navlebeskuende</span> og overfladisk. Alt efter hvor man kigger hen kan man sætte et af de ovenstående mærkater på branchen.
+          Jeg prøver så vidt muligt at holde mig <span>fri</span> af branchen (især branchefnidderet), og lave projekter som jeg synes er fede,
+          uden at skele til hvad andre laver eller synes om mit arbejde.
+        </contenteditable>
+      </div>
+
+      <div id="draggable142" class="draggable">
+        <contenteditable id="advice28" class="advice" readonly>
+          Konkurrence er der. Men det vigtigste er den kæmpe forandring der sker inden for visuel kommunikation og medier i øjeblikket.
+          Branchen er generelt <span>konservativ</span> og holder på gamle faglige dyder. Det er et stort problem - for designerne selv især, –
+          for kunder og samarbejdspartnere går andre veje, hvis vi ikke <span>fornyer os</span>. MEN jeg oplever samtidig masser af kreativitet
+          og gode mennesker i feltet :-)
+        </contenteditable>
+      </div>
+
+      <div id="draggable143" class="draggable">
+        <contenteditable id="advice29" class="advice" readonly>
+          Tror ikke jeg kan sætte én oplevelse på <span>HELE</span> designbranchen - det er en <span>KÆMPE</span> branche :-) jeg arb. i spil branchen og
+          den er virkelig afslappet og social.
+        </contenteditable>
+      </div>
+
+      <div id="draggable144" class="draggable">
+        <contenteditable id="advice30" class="advice" readonly>
+          Jeg arbejder inden for film og tv branchen, det handler om <span>netværk</span> og at et job kan føre til et andet.
+        </contenteditable>
+      </div>
+
+      <div id="draggable145" class="draggable">
+        <contenteditable id="advice31" class="advice" readonly>
+          ...
+        </contenteditable>
+      </div>
+
+      <!-- CITATER -->
+
       <div id="draggable79" class="draggable">
-        <img id="citat1" class="citat" src="img/citat_1.png">
+        <img id="citatMellem" class="mellemBox" src="img/citat_1.png">
         </img>
       </div>
 
       <div id="draggable80" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_2.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_2.png">
         </img>
       </div>
 
       <div id="draggable81" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_3.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_3.png">
         </img>
       </div>
 
       <div id="draggable82" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_4.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_4.png">
         </img>
       </div>
 
       <div id="draggable83" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_5.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_5.png">
         </img>
       </div>
 
       <div id="draggable84" class="draggable">
-        <img id="citat1" class="citat" src="img/citat_6.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_6.png">
         </img>
       </div>
 
       <div id="draggable85" class="draggable">
-        <img id="citat1" class="citat" src="img/citat_7.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_7.png">
         </img>
       </div>
 
       <div id="draggable86" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_8.png">
+        <img id="googleMellem" class="mellemBox" src="img/citat_8.png">
         </img>
       </div>
 
       <div id="draggable87" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_9.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_9.png">
         </img>
       </div>
 
       <div id="draggable88" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_10.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_10.png">
         </img>
       </div>
 
       <div id="draggable89" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_11.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_11.png">
         </img>
       </div>
 
       <div id="draggable90" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_12.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_12.png">
         </img>
       </div>
 
       <div id="draggable91" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_13.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_13.png">
         </img>
       </div>
 
       <div id="draggable92" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_14.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_14.png">
         </img>
       </div>
 
       <div id="draggable93" class="draggable">
-        <img id="citat2-5" class="citat" src="img/citat_15.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_15.png">
         </img>
       </div>
 
       <div id="draggable94" class="draggable">
-        <img id="citat1" class="citat" src="img/citat_16.png">
+        <img id="citatMellem" class="mellemBox" src="img/citat_16.png">
         </img>
       </div>
 
       <div id="draggable95" class="draggable">
-        <img id="citat1" class="citat" src="img/citat_17.png">
+        <img id="citatMellem" class="mellemBox" src="img/citat_17.png">
         </img>
       </div>
 
       <div id="draggable96" class="draggable">
-        <img id="citat1" class="citat" src="img/citat_18.png">
+        <img id="citatStor" class="mellemBox" src="img/citat_18.png">
         </img>
       </div>
 
       <div id="draggable97" class="draggable">
-        <img id="citat1" class="citat" src="img/job8.png">
+        <img id="exploystor" class="mellemBox" src="img/job8.png">
         </img>
       </div>
 
       <div id="draggable98" class="draggable">
-        <img id="citat1" class="citat" src="img/job9.png">
+        <img id="citatMellem" class="mellemBox" src="img/job9.png">
         </img>
       </div>
 
       <div id="draggable99" class="draggable">
-        <img id="citat2-5" class="citat" src="img/job10.png">
+        <img id="googleMellem" class="mellemBox" src="img/job10.png">
         </img>
       </div>
 
       <div id="draggable100" class="draggable">
-        <img id="citat1" class="citat" src="img/job11.png">
+        <img id="citatMellem" class="mellemBox" src="img/job11.png">
         </img>
       </div>
 
       <div id="draggable101" class="draggable">
-        <img id="citatlille" class="citat" src="img/citat_6.2.png">
+        <img id="googleLille" class="lilleBox" src="img/citat_6.2.png">
         </img>
       </div>
 
       <div id="draggable102" class="draggable">
-        <img id="citatlille" class="citat" src="img/citat_6.3.png">
+        <img id="googleLille" class="lilleBox" src="img/citat_6.3.png">
         </img>
       </div>
 
       <div id="draggable103" class="draggable">
-        <img id="citatlille" class="citat" src="img/citat_7.2.png">
+        <img id="googleLille" class="lilleBox" src="img/citat_7.2.png">
         </img>
       </div>
+
+      <div id="draggable107" class="draggable">
+        <img id="googleMellem" class="mellemBox" src="img/fakta1.png">
+        </img>
+      </div>
+
+      <div id="draggable108" class="draggable">
+        <img id="googleMellem" class="mellemBox" src="img/fakta2.png">
+        </img>
+      </div>
+
+      <div id="draggable109" class="draggable">
+        <img id="googleMellem" class="mellemBox" src="img/fakta3.png">
+        </img>
+      </div>
+
+      <div id="draggable110" class="draggable">
+        <img id="citatStor" class="mellemBox" src="img/fakta4.png">
+        </img>
+      </div>
+
+      <div id="draggable111" class="draggable">
+        <img id="googleLille" class="lilleBox" src="img/fakta5.png">
+        </img>
+      </div>
+
+      <div id="draggable112" class="draggable">
+        <img id="citatStor" class="mellemBox" src="img/fakta6.png">
+        </img>
+      </div>
+
+      <div id="draggable113" class="draggable">
+        <img id="citatStor" class="mellemBox" src="img/fakta7.png">
+        </img>
+      </div>
+
+      <div id="draggable118" class="draggable">
+        <img id="citatStor" class="mellemBox" src="img/fakta8.png">
+        </img>
+      </div>
+
+      <div id="draggable119" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy1.png">
+        </img>
+      </div>
+
+      <div id="draggable120" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy2.png">
+        </img>
+      </div>
+
+      <div id="draggable121" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy3.png">
+        </img>
+      </div>
+
+      <div id="draggable122" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy4.png">
+        </img>
+      </div>
+
+      <div id="draggable123" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy5.png">
+        </img>
+      </div>
+
+      <div id="draggable124" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy6.png">
+        </img>
+      </div>
+
+      <div id="draggable125" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy7.png">
+        </img>
+      </div>
+
+      <div id="draggable126" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy8.png">
+        </img>
+      </div>
+
+      <div id="draggable127" class="draggable">
+        <img id="exploy" class="mellemBox" src="img/exploy9.png">
+        </img>
+      </div>
+
+      <div id="draggable128" class="draggable">
+        <img id="exploystor" class="mellemBox" src="img/exploystor.png">
+        </img>
+      </div>
+
       <div class="footer">
         <div class="nopadding row">
            <div class="nopadding col text-center">
-             1
+             <img class="tal" src="img/1.png"></img>
            </div>
            <div class="nopadding col text-center">
-             2
+             <img class="tal" src="img/2.png"></img>
            </div>
            <div class="nopadding col text-center">
-             3
+             <img class="tal" src="img/3.png"></img>
            </div>
            <div class="nopadding col text-center">
-            4
+            <img class="tal" src="img/4.png"></img>
           </div>
           <div class="nopadding col text-center">
-            5
+            <img class="tal" src="img/5.png"></img>
           </div>
           <div class="nopadding col text-center">
-            6
+            <img class="tal" src="img/6.png"></img>
           </div>
           <div class="nopadding col text-center">
-            7
+            <img class="tal" src="img/7.png"></img>
           </div>
           <div class="nopadding col text-center">
-            8
+            <img class="tal" src="img/8.png"></img>
           </div>
          </div>
       </div>
       <div class="sidebar">
         <div class="col">
            <div class="rowitem row text-center">
-             1
+             <img class="bogstaver" src="img/a.gif"></img>
            </div>
            <div class="rowitem row text-center">
-             2
+             <img class="bogstaver" src="img/b.gif"></img>
            </div>
            <div class="rowitem row text-center">
-             3
+             <img class="bogstaver" src="img/c.gif"></img>
            </div>
            <div class="rowitem row text-center">
-            4
+            <img class="bogstaver" src="img/d.png"></img>
           </div>
           <div class="rowitem row text-center">
-            5
+            <img class="bogstaver" src="img/e.png"></img>
           </div>
           <div class="rowitem row text-center">
-            6
+            <img class="bogstaver" src="img/f.png"></img>
           </div>
           <div class="rowitem row text-center">
-            7
+            <img class="bogstaver" src="img/g.png"></img>
           </div>
           <div class="rowitem row text-center">
-            8
+            <img class="bogstaver" src="img/h.png"></img>
           </div>
          </div>
       </div>

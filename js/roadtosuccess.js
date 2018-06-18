@@ -24,6 +24,7 @@
 //  }
 
 // <-- TOGGLE OPPORTUNITIES -->
+
 $(document).ready(function(){
     console.log("scrolling");
     $(window).scroll(function(){
