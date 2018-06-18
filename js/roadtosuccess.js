@@ -41,12 +41,18 @@ function slideTo_h(x, y, time, decelRate, interval, dateTime) {
 }
 
 function goToPos() {
+    var speed = 500;
     input = document.getElementById('myInput').value;
     var elem = $("#"+input);
     var rect = getOffset(elem);
-    var leftSide = rect.left;
-    var topSide = rect.top;
-    slideTo(leftSide,topSide, 200);
+    var w = window.innerWidth/2;
+    var cElem = elem[0].children[0];
+    var wElem = cElem.offsetWidth/2;
+    var hElem = cElem.offsetHeight/2;
+    var h = window.innerHeight/2;
+    var leftSide = +wElem-w+rect.left;
+    var topSide = +hElem-h+rect.top;
+    slideTo(leftSide,topSide, speed);
     elem.fadeOut(500).fadeIn(500).fadeOut(500).fadeIn(500).fadeOut(500).fadeIn(500);
 };
 // <-- TOGGLE OPPORTUNITIES -->
