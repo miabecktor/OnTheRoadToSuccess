@@ -1,28 +1,54 @@
+// Get the input field
+var input = document.getElementById("myInput");
 
-// function scaleJobs(name){
-//   var elems = document.getElementsByClassName(name);
-//   var i;
-//   for (i = 0; i < elems.length; i++) {
-//     var x = elems[i]
-//     if (x.style.height == '500px' && x.style.width =="400px"){
-//       x.style.height = '100px';
-//       x.style.width = '100px';
-//     }
-//     else{
-//       x.style.height = '500px';
-//       x.style.width = '400px';
-//     }
-//   }
-// }
-//
-// function transistion(samtaleTine1){
-// var x = document.getElementById("samtaleTine1");
-//    x.style.transistion = 'all 2s';
-//    x.style.height = '700px';
-//    x.style.width = '400px';
-//    x.style.border = "10px orange";
-//  }
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  event.preventDefault();
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Trigger the button element with a click
+    document.getElementById("goToPosBtn").click();
+  }
+});
+function getOffset(el) {
+  el = el[0].getBoundingClientRect();
+  return {
+    left: el.left + window.scrollX,
+    top: el.top + window.scrollY
+  }
+}
 
+function slideTo(x, y, time, decelRate, interval) {
+	if (!decelRate)
+		decelRate = 1;
+	if (!interval)
+		interval = 25;
+	slideTo_h(x, y, time * decelRate, decelRate, interval, (new Date()).getTime());
+}
+
+function slideTo_h(x, y, time, decelRate, interval, dateTime) {
+	if (time <= 0) {
+		window.scrollTo(x, y);
+		return;
+	}
+	var delay = interval + dateTime - (new Date()).getTime();
+	setTimeout(function() { slideTo_h(x, y, time - interval * decelRate, decelRate, interval, dateTime + interval); }, (delay > 0 ? delay : 0));
+	var m = interval / time;
+	var rateX = (x - (document.documentElement.scrollLeft || document.body.scrollLeft)) * m;
+	var rateY = (y - (document.documentElement.scrollTop || document.body.scrollTop)) * m;
+	window.scrollBy(rateX, rateY);
+}
+
+function goToPos() {
+    input = document.getElementById('myInput').value;
+    var elem = $("#"+input);
+    var rect = getOffset(elem);
+    var leftSide = rect.left;
+    var topSide = rect.top;
+    slideTo(leftSide,topSide, 200);
+    elem.fadeOut(500).fadeIn(500).fadeOut(500).fadeIn(500).fadeOut(500).fadeIn(500);
+};
 // <-- TOGGLE OPPORTUNITIES -->
 
 $(document).ready(function(){
@@ -50,7 +76,7 @@ $(document).ready(function(){
   });
 
  $(document).ready(function(){
-    $("button").click(function(){
+    $("button1").click(function(){
       $('.myVideo').fadeToggle();
       $('.samtale').fadeToggle(2000);
       $('.surveyElev').fadeToggle();
@@ -155,9 +181,9 @@ var clicked = false,
             positions[this.id] = ui.position
             localStorage.positions = JSON.stringify(positions)
         }
-    });
-  }
-});
+      });
+    }
+  });
 
   $.dragScroll = function(options) {
     var settings = $.extend({

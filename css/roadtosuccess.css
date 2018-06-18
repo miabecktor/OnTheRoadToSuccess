@@ -8,8 +8,8 @@
 } */
 
 #draggable1{
-  top: 495px;
-  left: 518px;
+  top: 41px;
+  left: 2449px;
 }
 
 #draggable2{
@@ -38,8 +38,8 @@
 }
 
 #draggable7{
-  top: 825px;
-  left: 1521px;
+  top: 2481px;
+  left: 1037px;
 }
 
 #draggable8{
@@ -63,8 +63,8 @@
 }
 
 #draggable12{
-  top: 2140px;
-  left: 2084px;
+  top: 684px;
+  left: 2096px;
 }
 
 #draggable13{
@@ -443,8 +443,8 @@
 }
 
 #draggable88{
-  top: 44px;
-  left: 443px;
+  top: 531px;
+  left: 466px;
 }
 
 #draggable89{
@@ -732,6 +732,216 @@
   left: 95px;
 }
 
+#draggable146{
+  top: 307px;
+  left: 19px;
+}
+
+#draggable147{
+  top: 2163px;
+  left: 1909px;
+}
+
+#draggable148{
+  top: 1057px;
+  left: 1506px;
+}
+
+#draggable149{
+  top: 2377px;
+  left: 2246px;
+}
+
+#draggable150{
+  top: 2735px;
+  left: 903px;
+}
+
+#draggable151{
+  top: 2285px;
+  left: 1903px;
+}
+
+#draggable152{
+  top: 1529px;
+  left: 2610px;
+}
+
+#draggable153{
+  top: 1361px;
+  left: 150px;
+}
+
+#draggable154{
+  top: 1733px;
+  left: 2405px;
+}
+
+#draggable155{
+  top: 2699px;
+  left: 1902px;
+}
+
+#draggable156{
+  top: 2579px;
+  left: 129px;
+}
+
+#draggable157{
+  top: 1944px;
+  left: 893px;
+}
+
+#draggable158{
+  top: 1474px;
+  left: 891px;
+}
+
+#draggable159{
+  top: 1519px;
+  left: 1634px;
+}
+
+#draggable160{
+  top: 763px;
+  left: 2244px;
+}
+
+#draggable161{
+  top: 239px;
+  left: 2319px;
+}
+
+#draggable162{
+  top: 2767px;
+  left: 1144px;
+}
+
+#draggable163{
+  top: 464px;
+  left: 596px;
+}
+
+#draggable164{
+  top: 1344px;
+  left: 971px;
+}
+
+#draggable165{
+  top: 1043px;
+  left: 1318px;
+}
+
+#draggable166{
+  top: 1579px;
+  left: 2116px;
+}
+
+#draggable167{
+  top: 462px;
+  left: 768px;
+}
+
+#draggable168{
+  top: 161px;
+  left: 576px;
+}
+
+#draggable169{
+  top: 1033px;
+  left: 2128px;
+}
+
+#draggable170{
+  top: 1460px;
+  left: 1190px;
+}
+
+#draggable171{
+  top: 598px;
+  left: 1964px;
+}
+
+#draggable172{
+  top: 168px;
+  left: 1766px;
+}
+
+#draggable173{
+  top: 653px;
+  left: 2634px;
+}
+
+#draggable174{
+  top: 254px;
+  left: 2628px;
+}
+
+#draggable175{
+  top: 2130px;
+  left: 1457px;
+}
+
+#draggable176{
+  top: 1997px;
+  left: 976px;
+}
+
+#draggable177{
+  top: 2010px;
+  left: 124px;
+}
+
+#draggable178{
+  top: 718px;
+  left: 322px;
+}
+
+#draggable179{
+  top: 810px;
+  left: 1043px;
+}
+
+#draggable180{
+  top: 314px;
+  left: 599px;
+}
+
+#draggable181{
+  top: 853px;
+  left: 1721px;
+}
+
+#draggable182{
+  top: 1886px;
+  left: 1156px;
+}
+
+#draggable183{
+  top: 411px;
+  left: 257px;
+}
+
+#draggable184{
+  top: 2158px;
+  left: 2657px;
+}
+
+#draggable185{
+  top: 636px;
+  left: 2463px;
+}
+
+#draggable186{
+  top: 1590px;
+  left: 1732px;
+}
+
+#draggable187{
+  top: 57px;
+  left: 442px;
+}
+
 .draggable {
   width: 90px;
   height: 90px;
@@ -750,12 +960,12 @@
   position: absolute;
   }
 
-  #draggable146{
+  /* #draggable146{
     padding: 50px;
     border-radius: var(--border-radius);
     border-style: dashed red;
     z-index: 300;
-  }
+  } */
 
 .button1{
     position: absolute;
@@ -778,7 +988,7 @@
 
   #googleLille:hover{
     width:350px;
-    height:40px;
+    height:50px;
     transition-delay: 0s;
     transition-property: height;
     }
@@ -910,6 +1120,27 @@
     font-size: 10pt;
     color: rgb(163, 94, 56);
     text-align: justify;
+    line-height: 12pt;
+    padding: 20px;
+    transition: var(--transistiontime);
+    box-shadow: var(--dropshadow);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    cursor: move;
+    overflow-y: scroll;
+    resize: none;
+    z-index: 1;
+    }
+
+.adviceMellem{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 230, 230);
+    font-family: palatino;
+    font-size: 10pt;
+    color: rgb(163, 94, 56);
+    text-align: left;
     line-height: 12pt;
     padding: 20px;
     transition: var(--transistiontime);
@@ -1290,6 +1521,123 @@
     overflow-y: hidden;
     }
 
+#advice32:hover{
+    width: 280px;
+    height: 380px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice33:hover{
+    width: 280px;
+    height: 315px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice34:hover{
+    width: 280px;
+    height: 170px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice35:hover{
+    width: 280px;
+    height: 300px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice36:hover{
+    width: 280px;
+    height: 635px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice37:hover{
+    width: 280px;
+    height: 915px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice38:hover{
+    width: 280px;
+    height: 430px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice39:hover{
+    width: 280px;
+    height: 400px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice40:hover{
+    width: 280px;
+    height: 380px;
+    line-height: 12pt;
+    padding: 15px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    overflow-y: hidden;
+    }
+
 .samtale{
     position: absolute;
     width: 200px;
@@ -1381,38 +1729,39 @@ body
 
 .footer{
   position:fixed;
-  bottom:100px;
+  bottom:25px;
   left:20px;
   width:2960px;
-  height:20px;
+  height:75px;
   background-color: rgba(255,0,0,0);
   z-index: 50;
 }
 .sidebar{
   position:fixed;
-  /* top:20px; */
-  padding-top: 120px;
-  right:130px;
+  top:20px;
+  right:30px;
   height:2960px;
-  width:20px;
+  width:100px;
   background-color: rgba(255,0,0,0);
   z-index: 50;
 }
 
 .rowitem{
   height: 370px;
-  line-height: 370px;
+
 }
 
 .bogstaver{
-  position: fixed;
+  display: block;
+  margin:auto;
   width: 100px;
   height: 100px;
   z-index: 100;
 }
 
 .tal{
-  position: fixed;
+  display: block;
+  margin:auto;
   width: 75px;
   height: 75px;
   z-index: 100;
@@ -1439,4 +1788,18 @@ body
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+
+#myInput {
+  position: fixed;
+  bottom: 90px;
+  right: 120px;
+
+  width: 20%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  z-index: 1000;
 }
