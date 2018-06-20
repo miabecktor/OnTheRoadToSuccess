@@ -243,13 +243,13 @@
 }
 
 #draggable48{
-  top: 2914px;
-  left: 2636px;
+  top: 2772px;
+  left: 2612px;
 }
 
 #draggable49{
-  top: 2717px;
-  left: 138px;
+  top: 2878px;
+  left: 37px;
 }
 
 #draggable50{
@@ -358,8 +358,8 @@
 }
 
 #draggable71{
-  top: 2686px;
-  left: 222px;
+  top: 2787px;
+  left: 269px;
 }
 
 #draggable72{
@@ -783,8 +783,8 @@
 }
 
 #draggable156{
-  top: 2579px;
-  left: 129px;
+  top: 2626px;
+  left: 149px;
 }
 
 #draggable157{
@@ -942,6 +942,106 @@
   left: 442px;
 }
 
+#draggable188{
+  top: 1162px;
+  left: 2047px;
+}
+
+#draggable189{
+  top: 409px;
+  left: 398px;
+}
+
+#draggable190{
+  top: 2500px;
+  left: 1940px;
+}
+
+#draggable191{
+  top: 2621px;
+  left: 412px;
+}
+
+#draggable192{
+  top: 969px;
+  left: 1713px;
+}
+
+#draggable193{
+  top: 1682px;
+  left: 668px;
+}
+
+#draggable194{
+  top: 263px;
+  left: 2684px;
+}
+
+#draggable195{
+  top: 1941px;
+  left: 1761px;
+}
+
+#draggable196{
+  top: 588px;
+  left: 802px;
+}
+
+#G5ne{
+  top: 2247px;
+  left: 1714px;
+}
+
+#draggable198{
+  top: 1143px;
+  left: 1758px;
+}
+
+#draggable199{
+  top: 2808px;
+  left: 776px;
+}
+
+#draggable200{
+  top: 1954px;
+  left: 1325px;
+}
+
+#draggable201{
+  top: 797px;
+  left: 441px;
+}
+
+#draggable202{
+  top: 404px;
+  left: 1705px;
+}
+
+#draggable203{
+  top: 2634px;
+  left: 1276px;
+}
+
+#draggable204{
+  top: 36px;
+  left: 904px;
+}
+
+#draggable205{
+  top: 1725px;
+  left: 175px;
+}
+
+#draggable206{
+  top: 2050px;
+  left: 932px;
+}
+
+#draggable207{
+  top: 2428px;
+  left: 2709px;
+}
+
 .draggable {
   width: 90px;
   height: 90px;
@@ -955,7 +1055,7 @@
   visibility: visible;
   --dropshadow: 5px 5px 5px gray;
   --border-radius: 10px;
-  --border: double 2px rgb(230, 230, 230);
+  --border: 2px rgb(230, 230, 230);
   /* --transistiontime: all 0s ease 5s; */
   position: absolute;
   }
@@ -985,6 +1085,26 @@
     border: var(--border);
     z -index: 3;
     }
+
+    #success{
+      position: absolute;
+      top:-30px;
+      left: -20px;
+      width:1500px;
+      height:1000px;
+      z-index: 3000;
+      }
+
+      #success:hover{
+        position: absolute;
+        opacity: 0;
+        transition: 3s;
+        top:-30px;
+        left: -20px;
+        width:1500px;
+        height:1000px;
+        z-index: 3000;
+        }
 
   #googleLille:hover{
     width:350px;
@@ -1039,6 +1159,15 @@
     transition-property: height;
     transition-duration: var(--transistiontime);
     }
+
+#kasket:hover{
+  width:450px;
+  height:400px;
+  z-index: 1;
+  transition-delay: 0s;
+  transition-property: height;
+  transition-duration: var(--transistiontime);
+  }
 
   #survey:hover{
     width:500px;
@@ -1121,13 +1250,13 @@
     color: rgb(163, 94, 56);
     text-align: justify;
     line-height: 12pt;
-    padding: 20px;
+    padding: 15px;
     transition: var(--transistiontime);
     box-shadow: var(--dropshadow);
     border-radius: var(--border-radius);
     border: var(--border);
     cursor: move;
-    overflow-y: scroll;
+    overflow: hidden;
     resize: none;
     z-index: 1;
     }
@@ -1142,499 +1271,446 @@
     color: rgb(163, 94, 56);
     text-align: left;
     line-height: 12pt;
-    padding: 20px;
+    padding: 15px;
     transition: var(--transistiontime);
     box-shadow: var(--dropshadow);
     border-radius: var(--border-radius);
     border: var(--border);
     cursor: move;
-    overflow-y: scroll;
+    overflow: hidden;
     resize: none;
     z-index: 1;
     }
 
 #advice1:hover{
     width:300px;
-    height:150px;
+    height:135px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
+    overflow-y: hidden;
     }
 
 #advice2:hover{
     width:300px;
-    height:330px;
+    height:315px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
+    overflow-y: hidden;
     }
 
 #advice3:hover{
     width:250px;
-    height:95px;
+    height:80px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
+    overflow-y: hidden;
     }
 
 #advice4:hover{
     width:260px;
     height:45px;
-    line-height: 10pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
-    overflow: none;
+    overflow: hidden;
     }
 
 #advice5:hover{
     width:375px;
     height:50px;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice6:hover{
     width:265px;
     height:45px;
-    line-height: 9pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice7:hover{
     width:300px;
-    height:170px;
-    line-height: 11.5pt;
+    height:165px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
+    overflow-y: hidden;
     }
 
 #advice8:hover{
     width: 420px;
     height: 92px;
-    line-height: 11pt;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice9:hover{
     width: 420px;
     height: 190px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice10:hover{
     width: 340px;
     height: 265px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice11:hover{
     width: 360px;
     height: 280px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice12:hover{
     width: 260px;
     height: 585px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice13:hover{
     width: 350px;
     height: 615px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice14:hover{
     width: 230px;
     height: 278px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     }
 
 #advice15:hover{
     width: 270px;
     height: 65px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice16:hover{
     width: 270px;
     height: 110px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice17:hover{
     width: 340px;
     height: 190px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice18:hover{
     width: 280px;
     height: 75px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice19:hover{
     width: 310px;
     height: 150px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice20:hover{
     width: 240px;
     height: 60px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice21:hover{
     width: 310px;
     height: 60px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice22:hover{
     width: 345px;
     height: 180px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice23:hover{
     width: 320px;
     height: 130px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice24:hover{
     width: 330px;
     height: 80px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice25:hover{
     width: 190px;
     height: 60px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice26:hover{
     width: 300px;
     height: 80px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice27:hover{
     width: 325px;
     height: 140px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice28:hover{
     width: 320px;
     height: 175px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice29:hover{
     width: 260px;
     height: 110px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice30:hover{
     width: 300px;
     height: 75px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice32:hover{
     width: 280px;
     height: 380px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice33:hover{
     width: 280px;
     height: 315px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice34:hover{
     width: 280px;
     height: 170px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice35:hover{
     width: 280px;
     height: 300px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice36:hover{
     width: 280px;
     height: 635px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice37:hover{
     width: 280px;
     height: 915px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice38:hover{
     width: 280px;
     height: 430px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice39:hover{
     width: 280px;
     height: 400px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
     overflow-y: hidden;
     }
 
 #advice40:hover{
     width: 280px;
     height: 380px;
-    line-height: 12pt;
-    padding: 15px;
     transition-delay: 0s;
     transition-property: height;
     transition-duration: var(--transistiontime);
-    border-radius: var(--border-radius);
-    border: var(--border);
+    overflow-y: hidden;
+    }
+
+#advice41:hover{
+    width: 280px;
+    height: 125px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice42:hover{
+    width: 280px;
+    height: 80px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice43:hover{
+    width: 300px;
+    height: 300px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice44:hover{
+    width: 280px;
+    height: 320px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice45:hover{
+    width: 280px;
+    height: 320px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice46:hover{
+    width: 280px;
+    height: 300px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice47:hover{
+    width: 280px;
+    height: 245px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice48:hover{
+    width: 280px;
+    height: 335px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice49:hover{
+    width: 280px;
+    height: 300px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
+    overflow-y: hidden;
+    }
+
+#advice50:hover{
+    width: 280px;
+    height: 300px;
+    transition-delay: 0s;
+    transition-property: height;
+    transition-duration: var(--transistiontime);
     overflow-y: hidden;
     }
 
@@ -1654,7 +1730,7 @@
     border-radius: var(--border-radius);
     border: var(--border);
     cursor: move;
-    overflow-y: scroll;
+    overflow: auto;
     resize: none;
     z-index: 1;
     }
@@ -1721,8 +1797,7 @@ body
     user-select: none;
     width: 3000px;
     height: 3000px;
-    overflow-x: auto;
-    overflow-y: auto;
+    overflow: auto;
     margin-right: none;
     padding: none;
   }
@@ -1732,16 +1807,16 @@ body
   bottom:25px;
   left:20px;
   width:2960px;
-  height:75px;
+  height:150px;
   background-color: rgba(255,0,0,0);
   z-index: 50;
 }
 .sidebar{
   position:fixed;
   top:20px;
-  right:30px;
+  right:10px;
   height:2960px;
-  width:100px;
+  width:150px;
   background-color: rgba(255,0,0,0);
   z-index: 50;
 }
@@ -1754,16 +1829,16 @@ body
 .bogstaver{
   display: block;
   margin:auto;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   z-index: 100;
 }
 
 .tal{
   display: block;
   margin:auto;
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
   z-index: 100;
 }
 
@@ -1793,13 +1868,18 @@ body
 
 #myInput {
   position: fixed;
-  bottom: 90px;
-  right: 120px;
-
-  width: 20%; /* Full-width */
+  top: 40px;
+  right: 155px;
+  width: 25%; /* Full-width */
   font-size: 16px; /* Increase font-size */
+  font-family: Snell Roundhand;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
   padding: 12px 12px 12px 12px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
+  border: 3px solid rgb(163, 94, 56); /* Add a grey border */
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
   margin-bottom: 12px; /* Add some space below the input */
   z-index: 1000;
 }

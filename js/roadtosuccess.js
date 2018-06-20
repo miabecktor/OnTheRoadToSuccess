@@ -82,15 +82,8 @@ $(document).ready(function(){
   });
 
  $(document).ready(function(){
-    $("button1").click(function(){
-      $('.myVideo').fadeToggle();
-      $('.samtale').fadeToggle(2000);
-      $('.surveyElev').fadeToggle();
-      $("#surveyLærer").fadeToggle();
-      $('.cap').fadeToggle();
-      $('.googleLille').fadeToggle();
-      $('.googleMellem').fadeToggle();
-      $('.googleStor').fadeToggle();
+    $("success").hover(function(){
+      $("#success").fadeToggle(2000);
   });
 });
 
