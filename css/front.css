@@ -1,0 +1,97 @@
+body{
+  background-color: rgb(230, 230, 230);
+}
+
+#gif{
+  position: absolute;
+  width: 950px;
+  top: 50px;
+  left: 220px;
+  z-index: 200;
+}
+
+#seek{
+  position: absolute;
+  font-family: Snell Roundhand;
+  font-weight: bold;
+  color: rgb(163, 94, 56);
+  font-size: 14pt;
+  text-align: center;
+  top: 100px;
+  left: 620px;
+}
+
+#beskrivelse{
+  position: absolute;
+  width: 223px;
+  font-family: Snell Roundhand;
+  color: rgb(163, 94, 56);
+  font-size: 14pt;
+  text-align: justify;
+  top: 330px;
+  left: 960px;
+}
+
+#kompas{
+  position: absolute;
+  width: 415px;
+  height: 415px;
+  top: 30px;
+  left: 120px;
+}
+
+#download{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  top: 30px;
+  left: 920px;
+  transform: rotate(-90deg);
+}
+
+#downloadgif{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  top: 30px;
+  left: 1000px;
+}
+
+#howto{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  top: 460px;
+  left: 70px;
+}
+
+#streg{
+  position: absolute;
+  width: 200px;
+  height: 350px;
+  top: 295px;
+  left: 360px;
+}
+
+#pil{
+  position: absolute;
+  width: 220px;
+  top: 40px;
+  left: 1200px;
+}
+
+button{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    left: 650px;
+    font-size: 12pt;
+    color: rgb(163, 94, 56);
+    outline: none !important;
+    border: 2px rgb(230, 230, 230);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+    font-family: Snell Roundhand;
+    z-index: 100;
+    }
