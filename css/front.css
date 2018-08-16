@@ -69,25 +69,18 @@ body{
 
 #howto{
   position: absolute;
-  width: 400px;
-  height: 250px;
-  top: 460px;
-  left: 70px;
+  width: 600px;
+  height: 300px;
+  top: 445px;
+  left: -30px;
 }
 
 #streg{
   position: absolute;
-  width: 200px;
-  height: 350px;
+  width: 220px;
+  height: 370px;
   top: 295px;
   left: 360px;
-}
-
-#pil{
-  position: absolute;
-  width: 220px;
-  top: 40px;
-  left: 1200px;
 }
 
 button{
