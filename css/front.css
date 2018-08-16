@@ -3,8 +3,8 @@ body{
 }
 
 #wrapper{
-    width:75%;
-    height: 80%;
+    width:95%;
+    height: 100%;
     position: absolute;
     transform: translate(-50%, -50%);
     left:50%;
@@ -59,13 +59,6 @@ body{
   transform: rotate(-90deg);
 }
 
-#downloadgif{
-  position: absolute;
-  width: 400px;
-  height: 250px;
-  top: 30px;
-  left: 1000px;
-}
 
 #howto{
   position: absolute;
