@@ -2,6 +2,13 @@ body{
   background-color: rgb(230, 230, 230);
 }
 
+#wrapper{
+    width:75%;
+    height: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+}
 
 #gif{
   position: absolute;
