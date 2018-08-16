@@ -3,8 +3,8 @@ body{
 }
 
 #wrapper{
-    width:95%;
-    height: 100%;
+    width:75%;
+    height: 80%;
     position: absolute;
     transform: translate(-50%, -50%);
     left:50%;
