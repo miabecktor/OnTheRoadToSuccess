@@ -1164,6 +1164,7 @@ button{
     position: absolute;
     width: 100px;
     height: 100px;
+    opacity: 0%;
     object-fit: fill;
     transition: var(--transistiontime);
     box-shadow: var(--dropshadow);
@@ -1184,6 +1185,7 @@ button{
 #kasket:hover{
   width:450px;
   height:400px;
+  opacity: 100%;
   z-index: 1;
   transition-delay: 0s;
   transition-property: height;

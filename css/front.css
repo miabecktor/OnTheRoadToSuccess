@@ -2,15 +2,6 @@ body{
   background-color: rgb(230, 230, 230);
 }
 
-#wrapper{
-    width:75%;
-    height: 80%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left:50%;
-    top:50%;
-}
-
 
 #gif{
   position: absolute;
@@ -59,35 +50,21 @@ body{
   transform: rotate(-90deg);
 }
 
-#downloadgif{
-  position: absolute;
-  width: 400px;
-  height: 250px;
-  top: 30px;
-  left: 1000px;
-}
 
 #howto{
   position: absolute;
-  width: 400px;
-  height: 250px;
-  top: 460px;
-  left: 70px;
+  width: 600px;
+  height: 300px;
+  top: 445px;
+  left: -30px;
 }
 
 #streg{
   position: absolute;
-  width: 200px;
-  height: 350px;
+  width: 220px;
+  height: 370px;
   top: 295px;
   left: 360px;
-}
-
-#pil{
-  position: absolute;
-  width: 220px;
-  top: 40px;
-  left: 1200px;
 }
 
 button{
